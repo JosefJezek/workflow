@@ -5,12 +5,13 @@ My personal workflow and tools for AI-assisted development.
 ## Table of Contents
 
 - [Spec-Driven Development Workflow](#spec-driven-development-workflow)
-- [AI Agent Skills](#ai-agent-skills)
-- [Docs as Agent Skills](#docs-as-agent-skills)
 - [AI Models](#ai-models)
+- [Claude Code](#claude-code)
 - [Terminal tools](#terminal-tools)
 - [Code editor and extensions](#code-editor-and-extensions)
 - [AI Proxy](#ai-proxy)
+- [AI Agent Skills](#ai-agent-skills)
+- [Docs as Agent Skills](#docs-as-agent-skills)
 
 ## Spec-Driven Development Workflow
 
@@ -60,11 +61,51 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 /speckit.implement
 ```
 
+## AI Models
+
+- Claude Opus for specification-driven development.
+- Claude Sonnet for general coding tasks.
+
+## Claude Code
+
+[Claude Code](https://github.com/anthropics/claude-code#readme) is CLI tool to interact with Claude models from the terminal.
+
+### Plugins
+
+- https://github.com/anthropics/claude-code/tree/main/plugins
+
+## Terminal tools
+
+- [Ghostty](https://github.com/ghostty/ghostty#readme)
+- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
+- [Starship](https://github.com/starship/starship#readme)
+- [Bun](https://github.com/oven-sh/bun#readme)
+
+## Code editor and extensions
+
+- [VS Code](https://github.com/microsoft/vscode#readme)
+  - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+    - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
+  - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+  - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
+
+## AI Proxy
+
+Proxy server to manage requests and costs.
+
+- [9Router](https://github.com/decolua/9router#readme)
+- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
+
 ## AI Agent Skills
 
 [Agent skills](https://agentskills.io) extend AI capabilities with specialized knowledge, workflows, or tool integrations.
 
 - [skillsdirectory.com](https://www.skillsdirectory.com)
+
+<details>
+<summary>Click to expand list of agent skills</summary>
 
 ### [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)
 
@@ -126,11 +167,24 @@ agent-browser install
 bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
 ```
 
+</details>
+
 ## Docs as Agent Skills
 
 [Repomix](https://github.com/yamadashy/repomix#readme) can convert documentation into agent skills for enhanced AI interaction.
 
+<details>
+<summary>Click to expand list of agent skills</summary>
+
 ```sh
+# Base UI Docs
+# https://github.com/mui/base-ui/tree/master/docs
+bunx repomix --remote mui/base-ui --include docs --skill-generate docs-base-ui
+
+# Better Auth Docs
+# https://github.com/better-auth/better-auth/tree/canary/docs
+bunx repomix --remote better-auth/better-auth --include docs --skill-generate docs-better-auth
+
 # Claude Code Action Docs
 # https://github.com/anthropics/claude-code-action/tree/main/docs
 bunx repomix --remote anthropics/claude-code-action --include docs --skill-generate docs-claude-code-action
@@ -138,6 +192,10 @@ bunx repomix --remote anthropics/claude-code-action --include docs --skill-gener
 # React Docs
 # https://github.com/reactjs/react.dev/tree/main/src/content
 bunx repomix --remote reactjs/react.dev --include src/content --skill-generate docs-react
+
+# React Error Boundary Docs
+# https://github.com/bvaughn/react-error-boundary/tree/main/public/generated
+bunx repomix --remote bvaughn/react-error-boundary --include public/generated --skill-generate docs-react-error-boundary
 
 # React Testing Library Docs
 # https://github.com/testing-library/testing-library-docs/tree/main/docs/react-testing-library
@@ -158,6 +216,18 @@ bunx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-ge
 # Tailwind Variants Docs
 # https://github.com/heroui-inc/tailwind-variants-docs/tree/main/pages/docs
 bunx repomix --remote heroui-inc/tailwind-variants-docs --include pages/docs --skill-generate docs-tailwind-variants
+
+# TanStack Form Docs
+# https://github.com/TanStack/form/tree/main/docs
+bunx repomix --remote TanStack/form --include docs --skill-generate docs-tanstack-form
+
+# TanStack Query Docs
+# https://github.com/TanStack/query/tree/main/docs
+bunx repomix --remote TanStack/query --include docs --skill-generate docs-tanstack-query
+
+# TanStack Router Docs
+# https://github.com/TanStack/router/tree/main/docs/router
+bunx repomix --remote TanStack/router --include docs/router --skill-generate docs-tanstack-router
 
 # TypeScript Docs
 # https://github.com/microsoft/TypeScript-Website/tree/v2/packages/documentation/copy/en
@@ -180,32 +250,4 @@ bunx repomix --remote colinhacks/zod --include packages/docs --skill-generate do
 bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustand
 ```
 
-## AI Models
-
-- Claude Opus for specification-driven development.
-- Claude Sonnet for general coding tasks.
-
-## Terminal tools
-
-- [Ghostty](https://github.com/ghostty/ghostty#readme)
-- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
-- [Starship](https://github.com/starship/starship#readme)
-- [Bun](https://github.com/oven-sh/bun#readme)
-- [Claude Code](https://github.com/anthropics/claude-code#readme)
-
-## Code editor and extensions
-
-- [VS Code](https://github.com/microsoft/vscode#readme)
-  - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-    - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
-  - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-  - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
-  - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
-
-## AI Proxy
-
-Proxy server to manage requests and costs.
-
-- [9Router](https://github.com/decolua/9router#readme)
-- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
+</details>
