@@ -2,6 +2,16 @@
 
 My personal workflow and tools for AI-assisted development.
 
+## Table of Contents
+
+- [Spec-Driven Development Workflow](#spec-driven-development-workflow)
+- [AI Agent Skills](#ai-agent-skills)
+- [Docs as Agent Skills](#docs-as-agent-skills)
+- [AI Models](#ai-models)
+- [Terminal tools](#terminal-tools)
+- [Code editor and extensions](#code-editor-and-extensions)
+- [AI Proxy](#ai-proxy)
+
 ## Spec-Driven Development Workflow
 
 I use Spec Kit for structured, specification-driven development with AI assistance.
