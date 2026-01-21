@@ -12,12 +12,21 @@ My personal workflow and tools for AI-assisted development.
 - [AI Proxy](#ai-proxy)
 - [AI Agent Skills](#ai-agent-skills)
 - [Docs as Agent Skills](#docs-as-agent-skills)
+- [Best Practices References](#best-practices-references)
 
 ## Spec-Driven Development Workflow
 
 I use Spec Kit for structured, specification-driven development with AI assistance.
 
 [Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
+
+[Specification-Driven Development](https://github.com/github/spec-kit/blob/main/spec-driven.md) (SDD) is a development methodology that emphasizes creating detailed specifications before writing code. It ensures that the final product meets the defined requirements and behaves as expected.
+
+### Test-Driven Development
+
+I combine Spec Kit with Test-Driven Development (TDD) to ensure code quality and correctness.
+
+### Workflow Steps
 
 <details>
 <summary>Click to expand workflow details</summary>
@@ -70,6 +79,10 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 - Claude Opus for specification-driven development.
 - Claude Sonnet for general coding tasks.
+
+### Comparisons
+
+- [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
 ## Claude Code
 
@@ -182,6 +195,10 @@ bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
 <summary>Click to expand list of agent skills</summary>
 
 ```sh
+# AI SDK Docs
+# https://github.com/vercel/ai/tree/main/content
+bunx repomix --remote vercel/ai --include content --skill-generate docs-ai-sdk
+
 # Base UI Docs
 # https://github.com/mui/base-ui/tree/master/docs
 bunx repomix --remote mui/base-ui --include docs --skill-generate docs-base-ui
@@ -193,6 +210,18 @@ bunx repomix --remote better-auth/better-auth --include docs --skill-generate do
 # Claude Code Action Docs
 # https://github.com/anthropics/claude-code-action/tree/main/docs
 bunx repomix --remote anthropics/claude-code-action --include docs --skill-generate docs-claude-code-action
+
+# Cloudflare Docs
+# https://github.com/cloudflare/cloudflare-docs/tree/production/src/content/docs
+bunx repomix --remote cloudflare/cloudflare-docs --include src/content/docs --skill-generate docs-cloudflare
+
+# Drizzle ORM Docs
+# https://github.com/drizzle-team/drizzle-orm-docs/tree/main/src/content/docs
+bunx repomix --remote drizzle-team/drizzle-orm-docs --include src/content/docs --skill-generate docs-drizzle-orm
+
+# Motion React Examples
+# https://github.com/motiondivision/motion/tree/main/dev/react/src/examples
+bunx repomix --remote motiondivision/motion --include dev/react/src/examples --skill-generate docs-motion-react-examples
 
 # React Docs
 # https://github.com/reactjs/react.dev/tree/main/src/content
@@ -222,17 +251,45 @@ bunx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-ge
 # https://github.com/heroui-inc/tailwind-variants-docs/tree/main/pages/docs
 bunx repomix --remote heroui-inc/tailwind-variants-docs --include pages/docs --skill-generate docs-tailwind-variants
 
+# TanStack DB Docs
+# https://github.com/TanStack/db/tree/main/docs
+bunx repomix --remote TanStack/db --include docs --skill-generate docs-tanstack-db
+
 # TanStack Form Docs
 # https://github.com/TanStack/form/tree/main/docs
 bunx repomix --remote TanStack/form --include docs --skill-generate docs-tanstack-form
+
+# TanStack Pacer Docs
+# https://github.com/TanStack/pacer/tree/main/docs
+bunx repomix --remote TanStack/pacer --include docs --skill-generate docs-tanstack-pacer
 
 # TanStack Query Docs
 # https://github.com/TanStack/query/tree/main/docs
 bunx repomix --remote TanStack/query --include docs --skill-generate docs-tanstack-query
 
+# TanStack Ranger Docs
+# https://github.com/TanStack/ranger/tree/main/docs
+bunx repomix --remote TanStack/ranger --include docs --skill-generate docs-tanstack-ranger
+
 # TanStack Router Docs
 # https://github.com/TanStack/router/tree/main/docs/router
 bunx repomix --remote TanStack/router --include docs/router --skill-generate docs-tanstack-router
+
+# TanStack Start Docs
+# https://github.com/TanStack/router/tree/main/docs/start
+bunx repomix --remote TanStack/router --include docs/start --skill-generate docs-tanstack-start
+
+# TanStack Table Docs
+# https://github.com/TanStack/table/tree/main/docs
+bunx repomix --remote TanStack/table --include docs --skill-generate docs-tanstack-table
+
+# TanStack Virtual Docs
+# https://github.com/TanStack/virtual/tree/main/docs
+bunx repomix --remote TanStack/virtual --include docs --skill-generate docs-tanstack-virtual
+
+# TW Animate CSS Docs
+# https://github.com/Wombosvideo/tw-animate-css/tree/main/docs
+bunx repomix --remote Wombosvideo/tw-animate-css --include docs --skill-generate docs-tw-animate-css
 
 # TypeScript Docs
 # https://github.com/microsoft/TypeScript-Website/tree/v2/packages/documentation/copy/en
@@ -256,3 +313,10 @@ bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustan
 ```
 
 </details>
+
+## Best Practices References
+
+- https://www.vibekanban.com/vibe-guide
+- https://repomix.com/guide/tips/best-practices
+- https://github.com/ykdojo/claude-code-tips
+- https://claudekit.cc/blog/vc-07-claude-code-common-mistakes-production-ready-project
