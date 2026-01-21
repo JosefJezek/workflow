@@ -125,15 +125,21 @@ Proxy server to manage requests and costs.
 <details>
 <summary>Click to expand list of agent skills</summary>
 
-### [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)
+### [agent-browser](https://github.com/vercel-labs/agent-browser#readme)
 
-Guide users through a structured workflow for co-authoring documentation.
-Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content.
-This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers.
-Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback.
 
 ```sh
-bunx add-skill anthropics/skills -y -g -s doc-coauthoring
+bun pm trust -g agent-browser
+bun add -g agent-browser
+agent-browser install
+bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
+```
+
+#### Prompt Example
+
+```txt
+Dark mode is broken, test it on http://localhost:3000 and fix it.
 ```
 
 ### [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md)
@@ -147,13 +153,15 @@ Does NOT migrate Haiku 4.5.
 bunx add-skill anthropics/claude-code -y -g -s claude-opus-4-5-migration
 ```
 
-### [skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
+### [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)
 
-Guide for creating effective skills.
-This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+Guide users through a structured workflow for co-authoring documentation.
+Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content.
+This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers.
+Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
 
 ```sh
-bunx add-skill anthropics/skills -y -g -s skill-creator
+bunx add-skill anthropics/skills -y -g -s doc-coauthoring
 ```
 
 ### [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md)
@@ -165,6 +173,21 @@ This skill should be used when writing, reviewing, or refactoring React/Next.js 
 bunx add-skill vercel-labs/agent-skills -y -g -s react-best-practices
 ```
 
+#### Prompt Example
+
+```txt
+Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
+```
+
+### [skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
+
+Guide for creating effective skills.
+This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+
+```sh
+bunx add-skill anthropics/skills -y -g -s skill-creator
+```
+
 ### [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)
 
 Review UI code for Web Interface Guidelines compliance.
@@ -172,17 +195,6 @@ Use when asked to "review my UI", "check accessibility", "audit design", "review
 
 ```sh
 bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
-```
-
-### [agent-browser](https://github.com/vercel-labs/agent-browser#readme)
-
-Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback.
-
-```sh
-bun pm trust -g agent-browser
-bun add -g agent-browser
-agent-browser install
-bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
 ```
 
 </details>
@@ -320,3 +332,4 @@ bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustan
 - https://repomix.com/guide/tips/best-practices
 - https://github.com/ykdojo/claude-code-tips
 - https://claudekit.cc/blog/vc-07-claude-code-common-mistakes-production-ready-project
+- https://x.com/bcherny/status/2007179832300581177
