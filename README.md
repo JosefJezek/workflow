@@ -2,39 +2,9 @@
 
 My personal workflow and tools for AI-assisted development.
 
-## CLI
+## Spec-Driven Development Workflow
 
-- [Ghostty](https://github.com/ghostty/ghostty#readme)
-- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
-- [Starship](https://github.com/starship/starship#readme)
-- [Bun](https://github.com/oven-sh/bun#readme)
-- [Claude Code](https://github.com/anthropics/claude-code#readme)
-
-## IDE
-
-- [VS Code](https://github.com/microsoft/vscode#readme)
-  - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-    - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
-  - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-  - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
-  - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
-
-## Proxy
-
-Proxy tool to manage requests and costs.
-
-- [9Router](https://github.com/decolua/9router#readme)
-- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
-
-## Models
-
-Models I use:
-
-- Claude Opus 4.5
-- Claude Sonnet 4.5
-
-## Spec-Driven Development
+I use Spec Kit for structured, specification-driven development with AI assistance.
 
 [Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
 
@@ -80,7 +50,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 /speckit.implement
 ```
 
-## Agent Skills
+## AI Agent Skills
 
 [Agent skills](https://agentskills.io) extend AI capabilities with specialized knowledge, workflows, or tool integrations.
 
@@ -199,3 +169,33 @@ bunx repomix --remote colinhacks/zod --include packages/docs --skill-generate do
 # https://github.com/pmndrs/zustand/tree/main/docs
 bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustand
 ```
+
+## AI Models
+
+- Claude Opus for specification-driven development.
+- Claude Sonnet for general coding tasks.
+
+## Terminal tools
+
+- [Ghostty](https://github.com/ghostty/ghostty#readme)
+- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
+- [Starship](https://github.com/starship/starship#readme)
+- [Bun](https://github.com/oven-sh/bun#readme)
+- [Claude Code](https://github.com/anthropics/claude-code#readme)
+
+## Code editor and extensions
+
+- [VS Code](https://github.com/microsoft/vscode#readme)
+  - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+    - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
+  - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+  - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
+
+## AI Proxy
+
+Proxy server to manage requests and costs.
+
+- [9Router](https://github.com/decolua/9router#readme)
+- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
