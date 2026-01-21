@@ -186,6 +186,10 @@ bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
 # https://github.com/vercel/ai/tree/main/content
 bunx repomix --remote vercel/ai --include content --skill-generate docs-ai-sdk
 
+# Alibaba Hooks Docs
+# https://github.com/alibaba/hooks/tree/master/docs
+bunx repomix --remote alibaba/hooks --include docs --skill-generate docs-ahooks
+
 # Base UI Docs
 # https://github.com/mui/base-ui/tree/master/docs
 bunx repomix --remote mui/base-ui --include docs --skill-generate docs-base-ui
@@ -221,6 +225,10 @@ bunx repomix --remote bvaughn/react-error-boundary --include public/generated --
 # React Testing Library Docs
 # https://github.com/testing-library/testing-library-docs/tree/main/docs/react-testing-library
 bunx repomix --remote testing-library/testing-library-docs --include docs/react-testing-library --skill-generate docs-react-testing-library
+
+# Rooks Docs
+# https://github.com/imbhargav5/rooks/tree/main/apps/website/content/docs
+bunx repomix --remote imbhargav5/rooks --include apps/website/content/docs --skill-generate docs-rooks
 
 # Shadcn UI Docs
 # https://github.com/shadcn-ui/ui/tree/main/apps/v4/content/docs
