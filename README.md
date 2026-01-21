@@ -103,11 +103,12 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 [VS Code](https://github.com/microsoft/vscode#readme) with [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) for consistent development environments.
 
+- [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
+
 ### Extensions
 
 - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-  - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
 - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
 - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
