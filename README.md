@@ -1,24 +1,42 @@
-# My Workflow
+# My Workflow & Tools
+
+My personal workflow and tools for AI-assisted development.
+
+## CLI
+
+- [Ghostty](https://github.com/ghostty/ghostty#readme)
+- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
+- [Starship](https://github.com/starship/starship#readme)
+- [Bun](https://github.com/oven-sh/bun#readme)
+- [Claude Code](https://github.com/anthropics/claude-code#readme)
+
+## IDE
+
+- [VS Code](https://github.com/microsoft/vscode#readme)
+  - [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+  - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+    - [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
+  - [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+  - [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+  - [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
+
+## Proxy
+
+Proxy tool to manage requests and costs.
+
+- [9Router](https://github.com/decolua/9router#readme)
+- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
 
 ## Models
+
+Models I use:
 
 - Claude Opus 4.5
 - Claude Sonnet 4.5
 
-## IDE
-
-VS Code with GitHub Copilot.
-
-## Proxy
-
-- [9Router](https://github.com/decolua/9router)
-- Antigravity - Opus, Sonnet, Gemini
-
 ## Spec-Driven Development
 
-### [Spec Kit](https://github.com/github/spec-kit)
-
-Spec Kit is a tool for creating, managing, and validating software specifications.
+[Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
 
 ### 1. Establish project principles
 
@@ -64,31 +82,16 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 ## Agent Skills
 
-### [docs-seeker](https://github.com/mrgoonie/claudekit-skills/blob/main/.claude/skills/docs-seeker/SKILL.md)
+[Agent skills](https://agentskills.io) extend AI capabilities with specialized knowledge, workflows, or tool integrations.
 
-Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel exploration.
-
-#### Use when user needs
-
-1. Latest documentation for libraries/frameworks
-2. Documentation in llms.txt format
-3. GitHub repository analysis
-4. Documentation without direct llms.txt support
-5. Multiple documentation sources in parallel
-
-#### Installation
-
-```sh
-bunx add-skill mrgoonie/claudekit-skills -y -g -s docs-seeker
-```
+- [skillsdirectory.com](https://www.skillsdirectory.com)
 
 ### [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)
 
 Guide users through a structured workflow for co-authoring documentation.
 Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content.
-This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
-
-#### Installation
+This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers.
+Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
 
 ```sh
 bunx add-skill anthropics/skills -y -g -s doc-coauthoring
@@ -98,9 +101,8 @@ bunx add-skill anthropics/skills -y -g -s doc-coauthoring
 
 Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5.
 Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5.
-Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences. Does NOT migrate Haiku 4.5.
-
-#### Installation
+Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences.
+Does NOT migrate Haiku 4.5.
 
 ```sh
 bunx add-skill anthropics/claude-code -y -g -s claude-opus-4-5-migration
@@ -111,8 +113,6 @@ bunx add-skill anthropics/claude-code -y -g -s claude-opus-4-5-migration
 Guide for creating effective skills.
 This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 
-#### Installation
-
 ```sh
 bunx add-skill anthropics/skills -y -g -s skill-creator
 ```
@@ -121,8 +121,6 @@ bunx add-skill anthropics/skills -y -g -s skill-creator
 
 React and Next.js performance optimization guidelines from Vercel Engineering.
 This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.
-
-#### Installation
 
 ```sh
 bunx add-skill vercel-labs/agent-skills -y -g -s react-best-practices
@@ -133,8 +131,71 @@ bunx add-skill vercel-labs/agent-skills -y -g -s react-best-practices
 Review UI code for Web Interface Guidelines compliance.
 Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
 
-#### Installation
-
 ```sh
 bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
+```
+
+### [agent-browser](https://github.com/vercel-labs/agent-browser#readme)
+
+Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback.
+
+```sh
+bun pm trust -g agent-browser
+bun add -g agent-browser
+agent-browser install
+bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
+```
+
+## Docs as Agent Skills
+
+[Repomix](https://github.com/yamadashy/repomix#readme) can convert documentation into agent skills for enhanced AI interaction.
+
+```sh
+# Claude Code Action Docs
+# https://github.com/anthropics/claude-code-action/tree/main/docs
+bunx repomix --remote anthropics/claude-code-action --include docs --skill-generate docs-claude-code-action
+
+# React Docs
+# https://github.com/reactjs/react.dev/tree/main/src/content
+bunx repomix --remote reactjs/react.dev --include src/content --skill-generate docs-react
+
+# React Testing Library Docs
+# https://github.com/testing-library/testing-library-docs/tree/main/docs/react-testing-library
+bunx repomix --remote testing-library/testing-library-docs --include docs/react-testing-library --skill-generate docs-react-testing-library
+
+# Shadcn UI Docs
+# https://github.com/shadcn-ui/ui/tree/main/apps/v4/content/docs
+bunx repomix --remote shadcn-ui/ui --include apps/v4/content/docs --skill-generate docs-shadcn-ui
+
+# Storybook Docs
+# https://github.com/storybookjs/storybook/tree/next/docs
+bunx repomix --remote storybookjs/storybook --include docs --skill-generate docs-storybook
+
+# Tailwind CSS Docs
+# https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs
+bunx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-generate docs-tailwind-css
+
+# Tailwind Variants Docs
+# https://github.com/heroui-inc/tailwind-variants-docs/tree/main/pages/docs
+bunx repomix --remote heroui-inc/tailwind-variants-docs --include pages/docs --skill-generate docs-tailwind-variants
+
+# TypeScript Docs
+# https://github.com/microsoft/TypeScript-Website/tree/v2/packages/documentation/copy/en
+bunx repomix --remote microsoft/TypeScript-Website --include packages/documentation/copy/en --skill-generate docs-typescript
+
+# Vite Docs
+# https://github.com/vitejs/vite/tree/main/docs
+bunx repomix --remote vitejs/vite --include docs --skill-generate docs-vite
+
+# Vitest Docs
+# https://github.com/vitest-dev/vitest/tree/main/docs
+bunx repomix --remote vitest-dev/vitest --include docs --skill-generate docs-vitest
+
+# Zod Docs
+# https://github.com/colinhacks/zod/tree/main/packages/docs
+bunx repomix --remote colinhacks/zod --include packages/docs --skill-generate docs-zod
+
+# Zustand Docs
+# https://github.com/pmndrs/zustand/tree/main/docs
+bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustand
 ```
