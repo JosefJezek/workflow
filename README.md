@@ -19,6 +19,9 @@ I use Spec Kit for structured, specification-driven development with AI assistan
 
 [Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
 
+<details>
+<summary>Click to expand workflow details</summary>
+
 ### 1. Establish project principles
 
 Launch your AI assistant in the project directory. The `/speckit.*` commands are available in the assistant.
@@ -60,6 +63,8 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 ```bash
 /speckit.implement
 ```
+
+</details>
 
 ## AI Models
 
