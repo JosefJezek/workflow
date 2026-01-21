@@ -45,7 +45,7 @@ Use the **`/speckit.specify`** command to describe what you want to build. Focus
 Use the **`/speckit.plan`** command to provide your tech stack and architecture choices.
 
 ```bash
-/speckit.plan The application uses Vite with minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
+/speckit.plan The application uses Vite with a minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
 ```
 
 ### 4. Break down into tasks
@@ -73,7 +73,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 ## Claude Code
 
-[Claude Code](https://github.com/anthropics/claude-code#readme) is CLI tool to interact with Claude models from the terminal.
+[Claude Code](https://github.com/anthropics/claude-code#readme) is a CLI tool to interact with Claude models from the terminal.
 
 ### Plugins
 
