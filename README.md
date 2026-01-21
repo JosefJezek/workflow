@@ -120,80 +120,55 @@ Proxy server to manage requests and costs.
 
 [Agent skills](https://agentskills.io) extend AI capabilities with specialized knowledge, workflows, or tool integrations.
 
+- [skills.sh](https://skills.sh)
 - [skillsdirectory.com](https://www.skillsdirectory.com)
 
 <details>
 <summary>Click to expand list of agent skills</summary>
 
-### [agent-browser](https://github.com/vercel-labs/agent-browser#readme)
-
-Headless browser automation CLI for AI agents. Fast Rust CLI with Node.js fallback.
-
 ```sh
+# agent-browser
+# https://github.com/vercel-labs/agent-browser#readme
+# Prompt: Dark mode is broken, test it on http://localhost:3000 and fix it.
 bun pm trust -g agent-browser
 bun add -g agent-browser
 agent-browser install
 bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
-```
 
-#### Prompt Example
+# better-auth-best-practices
+# https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
+# create-auth-skill
+# https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
+bunx add-skill better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
 
-```txt
-Dark mode is broken, test it on http://localhost:3000 and fix it.
-```
-
-### [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md)
-
-Migrate prompts and code from Claude Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5.
-Use when the user wants to update their codebase, prompts, or API calls to use Opus 4.5.
-Handles model string updates and prompt adjustments for known Opus 4.5 behavioral differences.
-Does NOT migrate Haiku 4.5.
-
-```sh
+# claude-opus-4-5-migration
+# https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
 bunx add-skill anthropics/claude-code -y -g -s claude-opus-4-5-migration
-```
 
-### [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)
-
-Guide users through a structured workflow for co-authoring documentation.
-Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content.
-This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers.
-Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
-
-```sh
+# doc-coauthoring
+# https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
 bunx add-skill anthropics/skills -y -g -s doc-coauthoring
-```
 
-### [react-best-practices](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md)
+# repomix-explorer
+# https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md
+# https://repomix.com/guide/repomix-explorer-skill
+# Prompts:
+# Find all authentication-related code in this repository.
+# Analyze the repository and provide an overview of its structure, key components, and any potential areas for improvement.
+# I want to implement a similar feature to what I did in my other project. ~/projects/my-other-app
+bunx add-skill yamadashy/repomix -y -g -s repomix-explorer
 
-React and Next.js performance optimization guidelines from Vercel Engineering.
-This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.
-
-```sh
-bunx add-skill vercel-labs/agent-skills -y -g -s react-best-practices
-```
-
-#### Prompt Example
-
-```txt
-Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
-```
-
-### [skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
-
-Guide for creating effective skills.
-This skill should be used when users want to create a new skill (or update an existing skill) that extends Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-
-```sh
+# skill-creator
+# https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
 bunx add-skill anthropics/skills -y -g -s skill-creator
-```
 
-### [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)
+# vercel-react-best-practices
+# https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
+# Prompt: Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
+bunx add-skill vercel-labs/agent-skills -y -g -s vercel-react-best-practices
 
-Review UI code for Web Interface Guidelines compliance.
-Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices".
-
-```sh
+# web-design-guidelines
+# https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md
 bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
 ```
 
