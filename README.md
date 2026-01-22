@@ -1,20 +1,20 @@
-# My Workflow & Tools
+# 🚀 My Workflow & Tools
 
 My personal workflow and tools for AI-assisted development.
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Spec-Driven Development Workflow](#spec-driven-development-workflow)
-- [AI Models](#ai-models)
-- [Claude Code](#claude-code)
-- [Terminal tools](#terminal-tools)
-- [Code editor and extensions](#code-editor-and-extensions)
-- [AI Proxy](#ai-proxy)
-- [AI Agent Skills](#ai-agent-skills)
-- [Docs as Agent Skills](#docs-as-agent-skills)
-- [Best Practices References](#best-practices-references)
+- [📋 Spec-Driven Development Workflow](#-spec-driven-development-workflow)
+- [🤖 AI Models](#-ai-models)
+- [💬 Claude Code](#-claude-code)
+- [⚡ Terminal tools](#-terminal-tools)
+- [✏️ Code editor](#️-code-editor)
+- [🔀 AI Proxy](#-ai-proxy)
+- [🧩 AI Agent Skills](#-ai-agent-skills)
+- [📚 Docs as Agent Skills](#-docs-as-agent-skills)
+- [✅ Best Practices References](#best-practices-references)
 
-## Spec-Driven Development Workflow
+## 📋 Spec-Driven Development Workflow
 
 I use Spec Kit for structured, specification-driven development with AI assistance.
 
@@ -22,11 +22,11 @@ I use Spec Kit for structured, specification-driven development with AI assistan
 
 [Specification-Driven Development](https://github.com/github/spec-kit/blob/main/spec-driven.md) (SDD) is a development methodology that emphasizes creating detailed specifications before writing code. It ensures that the final product meets the defined requirements and behaves as expected.
 
-### Test-Driven Development (TDD)
+### 🧪 Test-Driven Development (TDD)
 
 I combine Spec Kit with TDD to ensure code quality and correctness.
 
-### Spec files can be updated
+### 🔄 Spec files can be updated
 
 To update the spec file, you need to create a new git branch with the same prefix as the spec file folder.
 For example, to update `specs/001-login-page/spec.md`, create a branch named `001-fix-bug`.
@@ -39,12 +39,12 @@ git checkout -b 001-fix-bug
 /speckit.implement
 ```
 
-### Workflow Steps
+### 📝 Workflow Steps
 
 <details>
 <summary>Click to expand workflow details</summary>
 
-#### 1. Establish project principles
+#### 1️⃣ Establish project principles
 
 Use the **`/speckit.constitution`** command to create your project's governing principles and development guidelines that will **guide all subsequent development**.
 
@@ -64,7 +64,7 @@ Components should be pure and side-effect free where possible.
 Use TypeScript in strict mode for type safety and better developer experience.
 ```
 
-#### 2. Create the spec file
+#### 2️⃣ Create the spec file
 
 Use the **`/speckit.specify`** command to describe what you want to build.
 Focus on the **what** and **why**, not the tech stack.
@@ -91,7 +91,7 @@ The command will create new git branches for each spec file.
 /speckit.checklist
 ```
 
-#### 3. Create a technical implementation plan
+#### 3️⃣ Create a technical implementation plan
 
 Use the **`/speckit.plan`** command to provide your tech stack and architecture choices.
 
@@ -99,7 +99,7 @@ Use the **`/speckit.plan`** command to provide your tech stack and architecture 
 /speckit.plan The application uses Vite with a minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
 ```
 
-#### 4. Break down into tasks
+#### 4️⃣ Break down into tasks
 
 Use **`/speckit.tasks`** to create an actionable task list from your implementation plan.
 
@@ -113,7 +113,7 @@ Use **`/speckit.tasks`** to create an actionable task list from your implementat
 /speckit.analyze
 ```
 
-#### 5. Execute implementation
+#### 5️⃣ Execute implementation
 
 Use **`/speckit.implement`** to execute all tasks and build your feature according to the plan.
 
@@ -123,12 +123,12 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 </details>
 
-## AI Models
+## 🤖 AI Models
 
-- Claude Opus for specification-driven development.
-- Claude Sonnet for general coding tasks.
+- 🎯 Claude Opus for specification-driven development.
+- ⚡ Claude Sonnet for general coding tasks.
 
-### Comparisons
+### 📊 Comparisons
 
 - [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
@@ -141,23 +141,23 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 </details>
 
-## Claude Code
+## 💬 Claude Code
 
 [Claude Code](https://github.com/anthropics/claude-code#readme) is a CLI tool to interact with Claude models from the terminal.
 
-- [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
-- [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices)
-- [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
-- [Claude Cookbooks](https://github.com/anthropics/claude-cookbooks#readme)
-- [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code)
-- [Boris Cherny Tips](https://x.com/bcherny/status/2007179832300581177)
-- [Claude Code Tips](https://github.com/ykdojo/claude-code-tips)
+- 📖 [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
+- 💡 [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices)
+- ✍️ [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
+- 📚 [Claude Cookbooks](https://github.com/anthropics/claude-cookbooks#readme)
+- 🔧 [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code)
+- 💭 [Boris Cherny Tips](https://x.com/bcherny/status/2007179832300581177)
+- 🎯 [Claude Code Tips](https://github.com/ykdojo/claude-code-tips)
 
-### Tools
+### 🛠️ Tools
 
-- [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
+- 📊 [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
 
-### Status line
+### 📟 Status line
 
 ```sh
 /statusline set the status line to include: 
@@ -171,9 +171,9 @@ Example: my-project: add-auth | Opus | Context: {{ progress bar }} 30% (60k / 20
 
 [source](https://x.com/claudeai/status/1999209597035331739)
 
-### Plugins
+### 🔌 Plugins
 
-- [Official Claude Code plugins](https://github.com/anthropics/claude-code/tree/main/plugins)
+- 🎨 [Official Claude Code plugins](https://github.com/anthropics/claude-code/tree/main/plugins)
 
 ```sh
 claude plugin list --available --json > cc-plugins.json
@@ -251,41 +251,41 @@ claude plugin install typescript-lsp
 
 </details>
 
-## Terminal tools
+## ⚡ Terminal tools
 
-- [Ghostty](https://github.com/ghostty/ghostty#readme)
-- [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
-- [Starship](https://github.com/starship/starship#readme)
-- [Bun](https://github.com/oven-sh/bun#readme)
+- 👻 [Ghostty](https://github.com/ghostty/ghostty#readme)
+- 🐠 [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
+- 🚀 [Starship](https://github.com/starship/starship#readme)
+- 🍞 [Bun](https://github.com/oven-sh/bun#readme)
 
-## Code editor
+## ✏️ Code editor
 
 [VS Code](https://github.com/microsoft/vscode#readme) with [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) for consistent development environments.
 
-- [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
+- 🎥 [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
 
-### Extensions
+### 🧩 Extensions
 
-- [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-- [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-- [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
-- [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
+- 🤖 [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
+- 📦 [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- 🔄 [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
+- ⚙️ [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
+- 🎯 [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
 
-## AI Proxy
+## 🔀 AI Proxy
 
 Proxy server to manage requests and costs.
 
-- [9Router](https://github.com/decolua/9router#readme)
-- [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
+- 🔌 [9Router](https://github.com/decolua/9router#readme)
+- 🌌 [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
 
-## AI Agent Skills
+## 🧩 AI Agent Skills
 
 [Agent skills](https://agentskills.io) extend AI capabilities with specialized knowledge, workflows, or tool integrations.
 
-- [skills.sh](https://skills.sh)
-- [skillsdirectory.com](https://www.skillsdirectory.com)
-- [Anthropics Skills](https://github.com/anthropics/skills#readme)
+- 🎓 [skills.sh](https://skills.sh)
+- 📖 [skillsdirectory.com](https://www.skillsdirectory.com)
+- 🏛️ [Anthropics Skills](https://github.com/anthropics/skills#readme)
 
 <details>
 <summary>Click to expand list of agent skills</summary>
@@ -366,7 +366,7 @@ bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
 
 </details>
 
-## Docs as Agent Skills
+## 📚 Docs as Agent Skills
 
 [Repomix](https://github.com/yamadashy/repomix#readme) can convert documentation into agent skills for enhanced AI interaction.
 
