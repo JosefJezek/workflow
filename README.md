@@ -176,6 +176,7 @@ Proxy server to manage requests and costs.
 
 ```sh
 # agent-browser
+# Headless browser automation CLI tool for AI agents.
 # https://github.com/vercel-labs/agent-browser#readme
 # Prompt: Dark mode is broken, test it on http://localhost:3000 and fix it.
 bun pm trust -g agent-browser
@@ -183,21 +184,34 @@ bun add -g agent-browser
 agent-browser install
 bunx add-skill vercel-labs/agent-browser -y -g -s agent-browser
 
-# better-auth-best-practices
+# better-auth-best-practices and create-auth-skill
+# Better Auth integration guides.
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
-# create-auth-skill
 # https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
 bunx add-skill better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
 
 # claude-opus-4-5-migration
+# Migrate prompts and code to Opus 4.5.
 # https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
 bunx add-skill anthropics/claude-code -y -g -s claude-opus-4-5-migration
 
 # doc-coauthoring
+# Structured workflow for guiding users through collaborative document creation.
 # https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
 bunx add-skill anthropics/skills -y -g -s doc-coauthoring
 
+# find-bugs
+# Find bugs on current git branch.
+# https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/find-bugs/SKILL.md
+bunx add-skill getsentry/skills -y -g -s find-bugs
+
+# iterate-pr
+# Iterate on PR until CI passes.
+# https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/iterate-pr/SKILL.md
+bunx add-skill getsentry/skills -y -g -s iterate-pr
+
 # repomix-explorer
+# Explore and analyze code repositories.
 # https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md
 # https://repomix.com/guide/repomix-explorer-skill
 # Prompts:
@@ -207,15 +221,18 @@ bunx add-skill anthropics/skills -y -g -s doc-coauthoring
 bunx add-skill yamadashy/repomix -y -g -s repomix-explorer
 
 # skill-creator
+# Create new agent skills from templates.
 # https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
 bunx add-skill anthropics/skills -y -g -s skill-creator
 
 # vercel-react-best-practices
+# Comprehensive performance optimization guide for React and Next.js applications.
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
 # Prompt: Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
 bunx add-skill vercel-labs/agent-skills -y -g -s vercel-react-best-practices
 
 # web-design-guidelines
+# Review UI code for Web Interface Guidelines compliance.
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md
 bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
 ```
