@@ -46,19 +46,32 @@ git checkout -b 001-fix-bug
 
 #### 1. Establish project principles
 
-Use the **`/speckit.constitution`** command to create your project's governing principles and development guidelines that will guide all subsequent development.
+Use the **`/speckit.constitution`** command to create your project's governing principles and development guidelines that will **guide all subsequent development**.
 
 TDD is optional in Spec Kit, but I enforce it strictly in my projects.
 
 ```bash
-/speckit.constitution We use TDD strictly. Create principles focused on code quality, testing standards, user experience consistency, and performance requirements. This project follows a "Library-First" approach. All features must be implemented as standalone libraries first. We prefer functional programming patterns.
+/speckit.constitution
+Create principles focused on code quality, testing standards,
+user experience consistency, and performance requirements.
+This React project follows a "Library-First" approach where all features 
+are implemented as standalone, reusable components and hooks first.
+We prefer functional components with hooks over class components.
+We use Test-Driven Development strictly with React Testing Library.
+Breaking code into smaller modules is crucial - keep files around 250 lines.
+Prioritize accessibility (a11y), semantic HTML, and keyboard navigation.
+Components should be pure and side-effect free where possible.
+Use TypeScript in strict mode for type safety and better developer experience.
 ```
 
 #### 2. Create the spec file
 
-Use the **`/speckit.specify`** command to describe what you want to build. Focus on the **what** and **why**, not the tech stack.
+Use the **`/speckit.specify`** command to describe what you want to build.
+Focus on the **what** and **why**, not the tech stack.
 
 The command will create new git branches for each spec file.
+
+**Do not focus on the tech stack at this point.**
 
 ```bash
 /speckit.specify Build an application that can help me organize my photos in separate photo albums. Albums are grouped by date and can be re-organized by dragging and dropping on the main page. Albums are never in other nested albums. Within each album, photos are previewed in a tile-like interface.
