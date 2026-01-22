@@ -119,6 +119,15 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 - [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
+<details>
+<summary>Click to expand more comparisons</summary>
+
+- Sorry but in like 90% of cases GLM 4.7 (thinking!) is not even close to Opus 4.5. We are using both across multiple GH orgs tons of repos mostly larger JS and PHP codebases. The way Opus does things is just on a totally different level it actually seems aware of the consequences of every single change and catches stuff GLM skips entirely. Please dont just rely on benchmark data when saying they are on the same level for coding because thats simply not true.
+- Agreed. Over 3 hours today, Opus 4.5 helped me ship a feature I've spent 100+ hours on over the past 6 months (to no avail). The closest any other model got was GPT 5.2 and only today did I realize how terribly far off it was to the real solution. Today Opus 4.5 and I did it in 3 hours. It's the only model that seems to truly think.
+- That is absolutely true. All these clickbaits are just a waste of time. Nothing comes close to Opus 4.5 if you are a developer/ vibe-coder. I believed this nonsense once and configured GLM 4.7 in Claude Code CLI. Tried it for 2 days. Terrible! Even Codex 5.2 is far far behind Opus 4.5. All these clickbait videos need to stop!!!
+
+</details>
+
 ## Claude Code
 
 [Claude Code](https://github.com/anthropics/claude-code#readme) is a CLI tool to interact with Claude models from the terminal.
