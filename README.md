@@ -44,7 +44,7 @@ git checkout -b 001-fix-bug
 <details>
 <summary>Click to expand workflow details</summary>
 
-### 1. Establish project principles
+#### 1. Establish project principles
 
 Use the **`/speckit.constitution`** command to create your project's governing principles and development guidelines that will guide all subsequent development.
 
@@ -54,7 +54,7 @@ TDD is optional in Spec Kit, but I enforce it strictly in my projects.
 /speckit.constitution We use TDD strictly. Create principles focused on code quality, testing standards, user experience consistency, and performance requirements. This project follows a "Library-First" approach. All features must be implemented as standalone libraries first. We prefer functional programming patterns.
 ```
 
-### 2. Create the spec file
+#### 2. Create the spec file
 
 Use the **`/speckit.specify`** command to describe what you want to build. Focus on the **what** and **why**, not the tech stack.
 
@@ -64,7 +64,7 @@ The command will create new git branches for each spec file.
 /speckit.specify Build an application that can help me organize my photos in separate photo albums. Albums are grouped by date and can be re-organized by dragging and dropping on the main page. Albums are never in other nested albums. Within each album, photos are previewed in a tile-like interface.
 ```
 
-#### Clarify any ambiguities or missing details in the spec using the **`/speckit.clarify`** command
+##### Clarify any ambiguities or missing details in the spec using the **`/speckit.clarify`** command
 
 ```bash
 /speckit.clarify Focus on user-friendly design and intuitive drag-and-drop functionality. Ensure that the application is responsive and works well on both desktop and mobile devices.
@@ -72,13 +72,13 @@ The command will create new git branches for each spec file.
 /speckit.clarify Add support for common image formats like JPEG, PNG, and GIF. Include basic photo editing features such as cropping and rotating within the album view.
 ```
 
-#### Validate the specification checklist using the `/speckit.checklist` command
+##### Validate the specification checklist using the `/speckit.checklist` command
 
 ```bash
 /speckit.checklist
 ```
 
-### 3. Create a technical implementation plan
+#### 3. Create a technical implementation plan
 
 Use the **`/speckit.plan`** command to provide your tech stack and architecture choices.
 
@@ -86,7 +86,7 @@ Use the **`/speckit.plan`** command to provide your tech stack and architecture 
 /speckit.plan The application uses Vite with a minimal number of libraries. Use vanilla HTML, CSS, and JavaScript as much as possible. Images are not uploaded anywhere and metadata is stored in a local SQLite database.
 ```
 
-### 4. Break down into tasks
+#### 4. Break down into tasks
 
 Use **`/speckit.tasks`** to create an actionable task list from your implementation plan.
 
@@ -94,13 +94,13 @@ Use **`/speckit.tasks`** to create an actionable task list from your implementat
 /speckit.tasks
 ```
 
-Optionally, validate the plan with `/speckit.analyze`:
+##### Optionally, validate the plan with `/speckit.analyze`:
 
 ```bash
 /speckit.analyze
 ```
 
-### 5. Execute implementation
+#### 5. Execute implementation
 
 Use **`/speckit.implement`** to execute all tasks and build your feature according to the plan.
 
