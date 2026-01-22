@@ -355,3 +355,6 @@ bunx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustan
 - https://github.com/ykdojo/claude-code-tips
 - https://claudekit.cc/blog/vc-07-claude-code-common-mistakes-production-ready-project
 - https://x.com/bcherny/status/2007179832300581177
+- https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices
+- https://platform.claude.com/docs/en/build-with-claude/skills-guide
+- https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
