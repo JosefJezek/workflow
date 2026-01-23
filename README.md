@@ -29,12 +29,12 @@ I combine Spec Kit with TDD to ensure code quality and correctness.
 ### 🔄 Spec files can be updated
 
 To update the spec file, you need to create a new git branch with the same prefix as the spec file folder.
-For example, to update `specs/001-login-page/spec.md`, create a branch named `001-fix-bug`.
+For example, to update `specs/001-login-page/spec.md`, create a branch named `001-fix-submit-button`.
 
 ```sh
-git checkout -b 001-fix-bug
+git checkout -b 001-fix-submit-button
 /speckit.clarify Update the login page to fix the alignment issue of the submit button.
-/speckit.plan Try to keep the same tech stack and architecture as before. Test cases should be updated accordingly to cover the new changes.
+/speckit.plan Test cases should be updated accordingly to cover the new changes.
 /speckit.tasks
 /speckit.implement
 ```
@@ -332,10 +332,10 @@ bunx add-skill getsentry/skills -y -g -s find-bugs
 # Design a settings panel with dark mode
 bunx add-skill anthropics/skills -y -g -s frontend-design
 
-# iterate-pr
-# Iterate on PR until CI passes.
-# https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/iterate-pr/SKILL.md
-bunx add-skill getsentry/skills -y -g -s iterate-pr
+# gh-fix-ci
+# Fix CI failures on GitHub PRs.
+# https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
+bunx add-skill openai/skills -y -g -s gh-fix-ci
 
 # repomix-explorer
 # Explore and analyze code repositories.
