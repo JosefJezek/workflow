@@ -14,6 +14,12 @@ My personal workflow and tools for AI-assisted development.
 - [📚 Docs as Agent Skills](#-docs-as-agent-skills)
 - [✅ Best Practices References](#best-practices-references)
 
+## Context-Driven Development with AI
+
+- I use context-driven development to leverage AI models effectively.
+- I provide AI models with relevant context from the codebase to improve their understanding and output quality.
+- This approach helps AI models generate more accurate and context-aware code suggestions, reducing errors and improving overall code quality.
+
 ## 📋 Spec-Driven Development Workflow
 
 I use Spec Kit for structured, specification-driven development with AI assistance.
@@ -189,6 +195,13 @@ claude plugin list --available --json > cc-plugins.json
 claude plugin marketplace add thedotmack/claude-mem
 claude plugin install claude-mem
 
+# Context7
+# Fallback for local docs skills from Repomix.
+# Local docs skills does not cover all libraries.
+# https://github.com/upstash/context7/tree/master/plugins/claude/context7
+claude plugin marketplace add upstash/context7
+claude plugin install context7-plugin@context7-marketplace
+
 ### Oficial Claude Code Plugins ###
 
 # Claude Code Setup
@@ -290,6 +303,9 @@ Proxy server to manage requests and costs.
 <details>
 <summary>Click to expand list of agent skills</summary>
 
+- Used with `bunx add-skill <repo> -y -g -s <skill-name>`.
+- Tool [add-skill](https://github.com/vercel-labs/add-skill) installs the skill globally (-g) for all agents.
+
 ```sh
 # agent-browser
 # Headless browser automation CLI tool for AI agents.
@@ -372,6 +388,9 @@ bunx add-skill vercel-labs/agent-skills -y -g -s web-design-guidelines
 
 <details>
 <summary>Click to expand list of agent skills</summary>
+
+- Used with `bunx repomix --remote <repo> --include <path> --skill-generate <skill-name>`.
+- Tool `repomix` generates Claude Agent Skills format output to `.claude/skills/<skill-name>/` directory.
 
 ```sh
 # AI SDK Docs
