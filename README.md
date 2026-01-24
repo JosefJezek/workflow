@@ -367,9 +367,15 @@ bunx --bun skills add openai/skills -y -g -s gh-fix-ci
 # https://repomix.com/guide/repomix-explorer-skill
 # Prompts:
 # Find all authentication-related code in this repository.
+# What's the structure of this repo?
 # Analyze the repository and provide an overview of its structure, key components, and any potential areas for improvement.
 # I want to implement a similar feature to what I did in my other project. ~/projects/my-other-app
 bunx --bun skills add yamadashy/repomix -y -g -s repomix-explorer
+
+# resend: react-email
+# Build and send HTML emails using React components.
+# https://github.com/resend/react-email/blob/canary/skills/SKILL.md
+bunx --bun skills add resend/react-email -y -g -s react-email
 
 # skill-creator
 # Create new agent skills from templates.
