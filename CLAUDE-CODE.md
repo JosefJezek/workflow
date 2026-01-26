@@ -13,8 +13,10 @@
 ## 🛠️ Tools
 
 - 📊 [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
+- [Claude Code Viewer](https://github.com/d-kimuson/claude-code-viewer#readme)
 - [Claude Task Viewer](https://github.com/L1AD/claude-task-viewer#readme)
 - [claude-tasks-viewer](https://github.com/burke/claude-tasks-viewer#readme)
+- [vibe-kanban](https://github.com/BloopAI/vibe-kanban#readme)
 
 ## Tasks
 
@@ -38,10 +40,11 @@ Example: my-project: add-auth | Opus | Context: {{ progress bar }} 30% (60k / 20
 
 ## 🔌 Plugins
 
-- 🎨 [Official Claude Code plugins](https://github.com/anthropics/claude-code/tree/main/plugins)
+- 🎨 [Official Claude Code plugins repository](https://github.com/anthropics/claude-code/tree/main/plugins)
 
 ```sh
 # List available plugins in JSON format.
+# The repo does not contain a complete list of plugins.
 claude plugin list --available --json > cc-plugins.json
 ```
 
