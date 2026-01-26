@@ -17,6 +17,7 @@
 # agent-browser
 # Headless browser automation CLI tool for AI agents.
 # https://github.com/vercel-labs/agent-browser#readme
+# https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md
 # Prompt: Dark mode is broken, test it on http://localhost:3000 and fix it.
 bun pm trust -g agent-browser
 bun add -g agent-browser
@@ -90,7 +91,9 @@ bunx --bun skills add anthropics/skills -y -g -s skill-creator
 
 # stitch: design-md, react:components
 # https://github.com/google-labs-code/stitch-skills/blob/main/skills/design-md
+# https://github.com/google-labs-code/stitch-skills/blob/main/skills/design-md/SKILL.md
 # https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components
+# https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components/SKILL.md
 bunx --bun skills add google-labs-code/stitch-skills -y -g -s design-md -s react:components
 
 # vercel-react-best-practices
