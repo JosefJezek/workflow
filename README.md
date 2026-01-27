@@ -11,9 +11,7 @@ My personal workflow and tools for AI-assisted development.
 - [📋 Spec-Driven Development Workflow](#-spec-driven-development-workflow)
 - [🤖 AI Models](#-ai-models)
 - [💬 Claude Code](#-claude-code)
-- [⚡ Terminal tools](#-terminal-tools)
-- [✏️ Code editor](#️-code-editor)
-- [🔀 AI Proxy](#-ai-proxy)
+- [🛠️ Tools](#️-tools)
 - [🧩 AI Agent Skills](#-ai-agent-skills)
 - [✅ Best Practices References](#-best-practices-references)
 
@@ -156,33 +154,9 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 See [CLAUDE-CODE.md](CLAUDE-CODE.md) for detailed information about Claude Code CLI, tools, tasks, status line, and plugins.
 
-## ⚡ Terminal tools
+## 🛠️ Tools
 
-- 👻 [Ghostty](https://github.com/ghostty/ghostty#readme)
-- 🐠 [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
-- 🚀 [Starship](https://github.com/starship/starship#readme)
-- 🍞 [Bun](https://github.com/oven-sh/bun#readme)
-
-## ✏️ Code editor
-
-[VS Code](https://github.com/microsoft/vscode#readme) with [Dev Containers](https://code.visualstudio.com/docs/devcontainers/containers) for consistent development environments.
-
-- 🎥 [Run Your AI Coding Agent in Containers](https://www.youtube.com/watch?v=w3kI6XlZXZQ)
-
-### 🧩 Extensions
-
-- 🤖 [Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat)
-- 📦 [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
-- 🔄 [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
-- ⚙️ [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
-- 🎯 [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
-
-## 🔀 AI Proxy
-
-Proxy server to manage requests and costs.
-
-- 🔌 [9Router](https://github.com/decolua/9router#readme)
-- 🌌 [Antigravity](https://antigravity.google) - Opus, Sonnet, Gemini
+See [TOOLS.md](TOOLS.md) for detailed information about terminal tools, code editor, and AI proxy.
 
 ## 🧩 AI Agent Skills
 
