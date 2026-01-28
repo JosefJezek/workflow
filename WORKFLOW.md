@@ -38,6 +38,10 @@ git checkout -b 001-fix-submit-button
 /speckit.implement
 ```
 
+### constitution.md vs AGENTS.md
+
+- `.specify/memory/constitution.md`
+
 ### 📝 Workflow Steps
 
 #### 1️⃣ Establish project principles

@@ -17,6 +17,7 @@
 - [Claude Task Viewer](https://github.com/L1AD/claude-task-viewer#readme)
 - [claude-tasks-viewer](https://github.com/burke/claude-tasks-viewer#readme)
 - [vibe-kanban](https://github.com/BloopAI/vibe-kanban#readme)
+- [Auto Claude](https://github.com/AndyMik90/Auto-Claude#readme)
 
 ## Tasks
 
