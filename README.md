@@ -17,6 +17,8 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven dev
 <details>
 <summary>Click to expand comparisons</summary>
 
+### 🆚 Model Comparisons
+
 - [Arena leaderboard](https://arena.ai/leaderboard)
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
 - [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
