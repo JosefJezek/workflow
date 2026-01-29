@@ -18,7 +18,6 @@
 - Tool [add-skill](https://github.com/vercel-labs/add-skill) installs the skill globally (-g) for all agents.
 
 ```sh
-
 # find-skills - must be first to avoid the question of installing it
 # Search for skills in skill repositories.
 # https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md
@@ -142,131 +141,162 @@ npx skills add vercel-labs/agent-skills -y -g -s web-design-guidelines
 
 [Repomix](https://github.com/yamadashy/repomix#readme) can convert documentation into agent skills for enhanced AI interaction.
 
-- Used with `npx repomix --remote <repo> --include <path> --skill-generate <skill-name>`.
+- Used with `npx repomix --remote <repo> --include <path> --skill-generate <skill-name> --skill-output <output-path> --force`.
 - Tool `repomix` generates Claude Agent Skills format output to `.claude/skills/<skill-name>/` directory.
 
 ```sh
 # AI SDK Docs
 # https://github.com/vercel/ai/tree/main/content
-npx repomix --remote vercel/ai --include content --skill-generate docs-ai-sdk
+npx repomix --remote vercel/ai --include content --skill-generate docs-ai-sdk --skill-output /tmp/skills/docs-ai-sdk --force
+npx skills add /tmp/skills/docs-ai-sdk -y -g
 
 # Alibaba Hooks Docs
 # https://github.com/alibaba/hooks/tree/master/docs
-npx repomix --remote alibaba/hooks --include docs --skill-generate docs-ahooks
+npx repomix --remote alibaba/hooks --include docs --skill-generate docs-ahooks --skill-output /tmp/skills/docs-ahooks --force
+npx skills add /tmp/skills/docs-ahooks -y -g
 
 # Base UI Docs
 # https://github.com/mui/base-ui/tree/master/docs
-npx repomix --remote mui/base-ui --include docs --skill-generate docs-base-ui
+npx repomix --remote mui/base-ui --include docs --skill-generate docs-base-ui --skill-output /tmp/skills/docs-base-ui --force
+npx skills add /tmp/skills/docs-base-ui -y -g
 
 # Better Auth Docs
 # https://github.com/better-auth/better-auth/tree/canary/docs
-npx repomix --remote better-auth/better-auth --include docs --skill-generate docs-better-auth
+npx repomix --remote better-auth/better-auth --include docs --skill-generate docs-better-auth --skill-output /tmp/skills/docs-better-auth --force
+npx skills add /tmp/skills/docs-better-auth -y -g
 
 # Claude Code Action Docs
 # https://github.com/anthropics/claude-code-action/tree/main/docs
-npx repomix --remote anthropics/claude-code-action --include docs --skill-generate docs-claude-code-action
+npx repomix --remote anthropics/claude-code-action --include docs --skill-generate docs-claude-code-action --skill-output /tmp/skills/docs-claude-code-action --force
+npx skills add /tmp/skills/docs-claude-code-action -y -g
 
 # Cloudflare Docs
 # https://github.com/cloudflare/cloudflare-docs/tree/production/src/content/docs
-npx repomix --remote cloudflare/cloudflare-docs --include src/content/docs --skill-generate docs-cloudflare
+npx repomix --remote cloudflare/cloudflare-docs --include src/content/docs --skill-generate docs-cloudflare --skill-output /tmp/skills/docs-cloudflare --force
+npx skills add /tmp/skills/docs-cloudflare -y -g
 
 # Drizzle ORM Docs
 # https://github.com/drizzle-team/drizzle-orm-docs/tree/main/src/content/docs
-npx repomix --remote drizzle-team/drizzle-orm-docs --include src/content/docs --skill-generate docs-drizzle-orm
+npx repomix --remote drizzle-team/drizzle-orm-docs --include src/content/docs --skill-generate docs-drizzle-orm --skill-output /tmp/skills/docs-drizzle-orm --force
+npx skills add /tmp/skills/docs-drizzle-orm -y -g
 
 # Motion React Examples
 # https://github.com/motiondivision/motion/tree/main/dev/react/src/examples
-npx repomix --remote motiondivision/motion --include dev/react/src/examples --skill-generate docs-motion-react-examples
+npx repomix --remote motiondivision/motion --include dev/react/src/examples --skill-generate docs-motion-react-examples --skill-output /tmp/skills/docs-motion-react-examples --force
+npx skills add /tmp/skills/docs-motion-react-examples -y -g
 
 # React Docs
 # https://github.com/reactjs/react.dev/tree/main/src/content
-npx repomix --remote reactjs/react.dev --include src/content --skill-generate docs-react
+npx repomix --remote reactjs/react.dev --include src/content --skill-generate docs-react --skill-output /tmp/skills/docs-react --force
+npx skills add /tmp/skills/docs-react -y -g
 
 # React Error Boundary Docs
 # https://github.com/bvaughn/react-error-boundary/tree/main/public/generated
-npx repomix --remote bvaughn/react-error-boundary --include public/generated --skill-generate docs-react-error-boundary
+npx repomix --remote bvaughn/react-error-boundary --include public/generated --skill-generate docs-react-error-boundary --skill-output /tmp/skills/docs-react-error-boundary --force
+npx skills add /tmp/skills/docs-react-error-boundary -y -g
 
 # React Testing Library Docs
 # https://github.com/testing-library/testing-library-docs/tree/main/docs/react-testing-library
-npx repomix --remote testing-library/testing-library-docs --include docs/react-testing-library --skill-generate docs-react-testing-library
+npx repomix --remote testing-library/testing-library-docs --include docs/react-testing-library --skill-generate docs-react-testing-library --skill-output /tmp/skills/docs-react-testing-library --force
+npx skills add /tmp/skills/docs-react-testing-library -y -g
 
 # Rooks Docs
 # https://github.com/imbhargav5/rooks/tree/main/apps/website/content/docs
-npx repomix --remote imbhargav5/rooks --include apps/website/content/docs --skill-generate docs-rooks
+npx repomix --remote imbhargav5/rooks --include apps/website/content/docs --skill-generate docs-rooks --skill-output /tmp/skills/docs-rooks --force
+npx skills add /tmp/skills/docs-rooks -y -g
 
 # Shadcn UI Docs
 # https://github.com/shadcn-ui/ui/tree/main/apps/v4/content/docs
-npx repomix --remote shadcn-ui/ui --include apps/v4/content/docs --skill-generate docs-shadcn-ui
+npx repomix --remote shadcn-ui/ui --include apps/v4/content/docs --skill-generate docs-shadcn-ui --skill-output /tmp/skills/docs-shadcn-ui --force
+npx skills add /tmp/skills/docs-shadcn-ui -y -g
 
 # Storybook Docs
 # https://github.com/storybookjs/storybook/tree/next/docs
-npx repomix --remote storybookjs/storybook --include docs --skill-generate docs-storybook
+npx repomix --remote storybookjs/storybook --include docs --skill-generate docs-storybook --skill-output /tmp/skills/docs-storybook --force
+npx skills add /tmp/skills/docs-storybook -y -g
 
 # Tailwind CSS Docs
 # https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs
-npx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-generate docs-tailwind-css
+npx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-generate docs-tailwind-css --skill-output /tmp/skills/docs-tailwind-css --force
+npx skills add /tmp/skills/docs-tailwind-css -y -g
 
 # Tailwind Variants Docs
 # https://github.com/heroui-inc/tailwind-variants-docs/tree/main/pages/docs
-npx repomix --remote heroui-inc/tailwind-variants-docs --include pages/docs --skill-generate docs-tailwind-variants
+npx repomix --remote heroui-inc/tailwind-variants-docs --include pages/docs --skill-generate docs-tailwind-variants --skill-output /tmp/skills/docs-tailwind-variants --force
+npx skills add /tmp/skills/docs-tailwind-variants -y -g
 
 # TanStack DB Docs
 # https://github.com/TanStack/db/tree/main/docs
-npx repomix --remote TanStack/db --include docs --skill-generate docs-tanstack-db
+npx repomix --remote TanStack/db --include docs --skill-generate docs-tanstack-db --skill-output /tmp/skills/docs-tanstack-db --force
+npx skills add /tmp/skills/docs-tanstack-db -y -g
 
 # TanStack Form Docs
 # https://github.com/TanStack/form/tree/main/docs
-npx repomix --remote TanStack/form --include docs --skill-generate docs-tanstack-form
+npx repomix --remote TanStack/form --include docs --skill-generate docs-tanstack-form --skill-output /tmp/skills/docs-tanstack-form --force
+npx skills add /tmp/skills/docs-tanstack-form -y -g
 
 # TanStack Pacer Docs
 # https://github.com/TanStack/pacer/tree/main/docs
-npx repomix --remote TanStack/pacer --include docs --skill-generate docs-tanstack-pacer
+npx repomix --remote TanStack/pacer --include docs --skill-generate docs-tanstack-pacer --skill-output /tmp/skills/docs-tanstack-pacer --force
+npx skills add /tmp/skills/docs-tanstack-pacer -y -g
 
 # TanStack Query Docs
 # https://github.com/TanStack/query/tree/main/docs
-npx repomix --remote TanStack/query --include docs --skill-generate docs-tanstack-query
+npx repomix --remote TanStack/query --include docs --skill-generate docs-tanstack-query --skill-output /tmp/skills/docs-tanstack-query --force
+npx skills add /tmp/skills/docs-tanstack-query -y -g
 
 # TanStack Ranger Docs
 # https://github.com/TanStack/ranger/tree/main/docs
-npx repomix --remote TanStack/ranger --include docs --skill-generate docs-tanstack-ranger
+npx repomix --remote TanStack/ranger --include docs --skill-generate docs-tanstack-ranger --skill-output /tmp/skills/docs-tanstack-ranger --force
+npx skills add /tmp/skills/docs-tanstack-ranger -y -g
 
 # TanStack Router Docs
 # https://github.com/TanStack/router/tree/main/docs/router
-npx repomix --remote TanStack/router --include docs/router --skill-generate docs-tanstack-router
+npx repomix --remote TanStack/router --include docs/router --skill-generate docs-tanstack-router --skill-output /tmp/skills/docs-tanstack-router --force
+npx skills add /tmp/skills/docs-tanstack-router -y -g
 
 # TanStack Start Docs
 # https://github.com/TanStack/router/tree/main/docs/start
-npx repomix --remote TanStack/router --include docs/start --skill-generate docs-tanstack-start
+npx repomix --remote TanStack/router --include docs/start --skill-generate docs-tanstack-start --skill-output /tmp/skills/docs-tanstack-start --force
+npx skills add /tmp/skills/docs-tanstack-start -y -g
 
 # TanStack Table Docs
 # https://github.com/TanStack/table/tree/main/docs
-npx repomix --remote TanStack/table --include docs --skill-generate docs-tanstack-table
+npx repomix --remote TanStack/table --include docs --skill-generate docs-tanstack-table --skill-output /tmp/skills/docs-tanstack-table --force
+npx skills add /tmp/skills/docs-tanstack-table -y -g
 
 # TanStack Virtual Docs
 # https://github.com/TanStack/virtual/tree/main/docs
-npx repomix --remote TanStack/virtual --include docs --skill-generate docs-tanstack-virtual
+npx repomix --remote TanStack/virtual --include docs --skill-generate docs-tanstack-virtual --skill-output /tmp/skills/docs-tanstack-virtual --force
+npx skills add /tmp/skills/docs-tanstack-virtual -y -g
 
 # TW Animate CSS Docs
 # https://github.com/Wombosvideo/tw-animate-css/tree/main/docs
-npx repomix --remote Wombosvideo/tw-animate-css --include docs --skill-generate docs-tw-animate-css
+npx repomix --remote Wombosvideo/tw-animate-css --include docs --skill-generate docs-tw-animate-css --skill-output /tmp/skills/docs-tw-animate-css --force
+npx skills add /tmp/skills/docs-tw-animate-css -y -g
 
 # TypeScript Docs
 # https://github.com/microsoft/TypeScript-Website/tree/v2/packages/documentation/copy/en
-npx repomix --remote microsoft/TypeScript-Website --include packages/documentation/copy/en --skill-generate docs-typescript
+npx repomix --remote microsoft/TypeScript-Website --include packages/documentation/copy/en --skill-generate docs-typescript --skill-output /tmp/skills/docs-typescript --force
+npx skills add /tmp/skills/docs-typescript -y -g
 
 # Vite Docs
 # https://github.com/vitejs/vite/tree/main/docs
-npx repomix --remote vitejs/vite --include docs --skill-generate docs-vite
+npx repomix --remote vitejs/vite --include docs --skill-generate docs-vite --skill-output /tmp/skills/docs-vite --force
+npx skills add /tmp/skills/docs-vite -y -g
 
 # Vitest Docs
 # https://github.com/vitest-dev/vitest/tree/main/docs
-npx repomix --remote vitest-dev/vitest --include docs --skill-generate docs-vitest
+npx repomix --remote vitest-dev/vitest --include docs --skill-generate docs-vitest --skill-output /tmp/skills/docs-vitest --force
+npx skills add /tmp/skills/docs-vitest -y -g
 
 # Zod Docs
 # https://github.com/colinhacks/zod/tree/main/packages/docs
-npx repomix --remote colinhacks/zod --include packages/docs --skill-generate docs-zod
+npx repomix --remote colinhacks/zod --include packages/docs --skill-generate docs-zod --skill-output /tmp/skills/docs-zod --force
+npx skills add /tmp/skills/docs-zod -y -g
 
 # Zustand Docs
 # https://github.com/pmndrs/zustand/tree/main/docs
-npx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustand
+npx repomix --remote pmndrs/zustand --include docs --skill-generate docs-zustand --skill-output /tmp/skills/docs-zustand --force
+npx skills add /tmp/skills/docs-zustand -y -g
 ```
