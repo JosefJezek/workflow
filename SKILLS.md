@@ -78,6 +78,11 @@ npx skills add anthropics/skills -y -g -s frontend-design
 # https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
 npx skills add openai/skills -y -g -s gh-fix-ci
 
+# knowledge-saver
+# Save knowledge from agent sessions.
+# https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md
+npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
+
 # octocode-research, octocode-documentaion-writer
 # Research codebases using OctoCode MCP. Generate documentation from code.
 # https://medium.com/@guybary/octocode-research-skill-b8248214b515
