@@ -7,14 +7,15 @@ My personal workflow and tools for AI-assisted development.
 
 ## 🎯 Workflow
 
-See [WORKFLOW.md](WORKFLOW.md) for detailed information about context-driven and spec-driven development workflows.
+See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven development workflow.
 
 ## 🤖 AI Models
 
 - 🎯 Claude Opus for specification-driven development.
 - ⚡ Claude Sonnet for general coding tasks.
 
-### 📊 Comparisons
+<details>
+<summary>Click to expand comparisons</summary>
 
 - [Arena leaderboard](https://arena.ai/leaderboard)
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
@@ -22,8 +23,7 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about context-driven and
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
 - [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
-<details>
-<summary>Click to expand more comparisons</summary>
+### Selected Comments from Dev Community
 
 - Sorry but in like 90% of cases GLM 4.7 (thinking!) is not even close to Opus 4.5. We are using both across multiple GH orgs tons of repos mostly larger JS and PHP codebases. The way Opus does things is just on a totally different level it actually seems aware of the consequences of every single change and catches stuff GLM skips entirely. Please dont just rely on benchmark data when saying they are on the same level for coding because thats simply not true.
 - Agreed. Over 3 hours today, Opus 4.5 helped me ship a feature I've spent 100+ hours on over the past 6 months (to no avail). The closest any other model got was GPT 5.2 and only today did I realize how terribly far off it was to the real solution. Today Opus 4.5 and I did it in 3 hours. It's the only model that seems to truly think.
