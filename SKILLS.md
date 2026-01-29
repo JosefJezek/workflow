@@ -147,7 +147,7 @@ npx skills add vercel-labs/agent-skills -y -g -s web-design-guidelines
 [Repomix](https://github.com/yamadashy/repomix#readme) can convert documentation into agent skills for enhanced AI interaction.
 
 - Used with `npx repomix --remote <repo> --include <path> --skill-generate <skill-name> --skill-output <output-path> --force`.
-- Tool `repomix` generates Claude Agent Skills format output to `.claude/skills/<skill-name>/` directory.
+- Force regeneration with `--force` to update existing skills.
 
 ```sh
 # AI SDK Docs
