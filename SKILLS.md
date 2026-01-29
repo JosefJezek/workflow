@@ -33,6 +33,11 @@ npx skills add vercel-labs/skills -y -g -s find-skills
 # agent-browser install --with-deps # on Linux, install system dependencies
 npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 
+# ai-sdk
+# Vercel AI SDK integration skill.
+# https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
+npx skills add vercel/ai -y -g -s ai-sdk
+
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
