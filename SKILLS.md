@@ -15,7 +15,7 @@
 ## ⚙️ Installing Skills
 
 - Used with `npx skills add <repo> -y -g -s <skill-name>`.
-- Tool [add-skill](https://github.com/vercel-labs/add-skill) installs the skill globally (-g) for all agents.
+- Tool [skills](https://github.com/vercel-labs/skills) installs the skill globally (-g) for all AI agents.
 
 ```sh
 # find-skills - must be first to avoid the question of installing it
