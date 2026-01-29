@@ -39,7 +39,7 @@ Spec-Driven Development (SDD) is a development methodology that emphasizes creat
 | **Monorepo** | specs.md (FIRE) | Hierarchical standards |
 | **Gemini CLI** | Conductor | Native support |
 
-## Tools
+## Compared SDD Tools
 
 - [OpenSpec](https://github.com/Fission-AI/OpenSpec#readme)
   - https://github.com/Fission-AI/OpenSpec/releases/tag/v1.0.0
