@@ -16,6 +16,10 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about context-driven and
 
 ### 📊 Comparisons
 
+- [Arena leaderboard](https://arena.ai/leaderboard)
+- [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
+- [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
+- [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
 - [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
 <details>
