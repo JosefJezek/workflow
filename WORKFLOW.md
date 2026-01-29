@@ -4,14 +4,34 @@ My personal development workflows for AI-assisted development.
 
 ## 📑 Table of Contents
 
-- [🎯 Context-Driven Development Workflow](#-context-driven-development-workflow)
-- [📋 Spec-Driven Development Workflow](#-spec-driven-development-workflow)
+## Greenfield Projects
 
-## 🎯 Context-Driven Development Workflow
+## Brownfield Projects
 
-- I use context-driven development to leverage AI models effectively.
-- I provide AI models with relevant context from the codebase to improve their understanding and output quality.
-- This approach helps AI models generate more accurate and context-aware code suggestions, reducing errors and improving overall code quality.
+For existing brownfield projects, I primarily use the Context-Driven Development Workflow to enhance and maintain the codebase effectively.
+
+### Documentation First Approach
+
+#### Generating Documentation with Octocode
+
+I use the Documentation Writer Skill from Octocode to generate and maintain up-to-date documentation for my codebases.
+This helps ensure that both human developers and AI models have a clear understanding of the code structure and functionality.
+
+For more information, see the [Documentation Writer Skill](RDD.md#documentation-writer-skill).
+
+```sh
+/octocode-documentaion-writer
+```
+
+#### Creating Codebase Reference Skill with Repomix
+
+I use Repomix to generate a comprehensive codebase reference skill for better navigation and understanding of the project structure.
+
+For more information, see the [Skill Generator](RDD.md#skill-generator).
+
+```sh
+repomix src/ --skill-generate repomix-codebase-reference-src
+```
 
 ## 📋 Spec-Driven Development Workflow
 
@@ -19,11 +39,13 @@ I use Spec Kit for structured, specification-driven development with AI assistan
 
 [Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
 
-[Specification-Driven Development](https://github.com/github/spec-kit/blob/main/spec-driven.md) (SDD) is a development methodology that emphasizes creating detailed specifications before writing code. It ensures that the final product meets the defined requirements and behaves as expected.
+For more information, see [Spec-Driven Development (SDD)](SDD.md).
 
 ### 🧪 Test-Driven Development (TDD)
 
 I combine Spec Kit with TDD to ensure code quality and correctness.
+
+For more information, see [Test-Driven Development (TDD)](TDD.md).
 
 ### 🔄 Spec files can be updated
 
@@ -40,7 +62,7 @@ git checkout -b 001-fix-submit-button
 
 ### constitution.md vs AGENTS.md
 
-- `.specify/memory/constitution.md`
+- File `.specify/memory/constitution.md` is used to define the project's principles and guidelines that govern the development process.
 
 ### 📝 Workflow Steps
 
@@ -120,3 +142,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 ```bash
 /speckit.implement
 ```
+
+## 🎯 Context-Driven Development
+
+For more information, see [Context-Driven Development (CDD)](CDD.md).

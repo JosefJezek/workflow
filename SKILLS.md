@@ -8,6 +8,10 @@
 - 📖 [skillsdirectory.com](https://www.skillsdirectory.com)
 - 🏛️ [Anthropics Skills](https://github.com/anthropics/skills#readme)
 
+## Best Practices
+
+- https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
+
 ## ⚙️ Installing Skills
 
 - Used with `bunx --bun skills add <repo> -y -g -s <skill-name>`.
@@ -68,6 +72,16 @@ bunx --bun skills add anthropics/skills -y -g -s frontend-design
 # https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
 bunx --bun skills add openai/skills -y -g -s gh-fix-ci
 
+# octocode-research, octocode-documentaion-writer
+# Research codebases using OctoCode MCP. Generate documentation from code.
+# https://medium.com/@guybary/octocode-research-skill-b8248214b515
+# https://www.linkedin.com/posts/bgauryy_octocode-vs-deepwiki-by-cognition-ai-research-activity-7384197129247993856-7lrU/
+# https://github.com/bgauryy/octocode-mcp/tree/main/skills/octocode-research
+# https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md
+# https://github.com/bgauryy/octocode-mcp/tree/main/skills/octocode-documentaion-writer
+# https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentaion-writer/SKILL.md
+bunx --bun skills add bgauryy/octocode-mcp -y -g -s octocode-research -s octocode-documentaion-writer
+
 # repomix-explorer
 # Explore and analyze code repositories.
 # https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md
@@ -101,6 +115,11 @@ bunx --bun skills add google-labs-code/stitch-skills -y -g -s design-md -s react
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
 # Prompt: Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
 bunx --bun skills add vercel-labs/agent-skills -y -g -s vercel-react-best-practices
+
+# vite, vitest
+# https://github.com/antfu/skills/blob/main/skills/vite/SKILL.md
+# https://github.com/antfu/skills/blob/main/skills/vitest/SKILL.md
+bunx --bun skills add antfu/skills -y -g -s vite -s vitest
 
 # web-design-guidelines
 # Review UI code for Web Interface Guidelines compliance.

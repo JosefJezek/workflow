@@ -2,6 +2,10 @@
 
 [Claude Code](https://github.com/anthropics/claude-code#readme) is a CLI tool to interact with Claude models from the terminal.
 
+> I use Claude Code tool, because it provides powerful interface to leverage Claude models effectively for AI-assisted development.
+
+## Best Practices
+
 - 📖 [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
 - 💡 [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices)
 - ✍️ [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
@@ -12,7 +16,7 @@
 
 ## 🛠️ Tools
 
-- 📊 [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
+- [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
 - [Claude Code Viewer](https://github.com/d-kimuson/claude-code-viewer#readme)
 - [Claude Task Viewer](https://github.com/L1AD/claude-task-viewer#readme)
 - [claude-tasks-viewer](https://github.com/burke/claude-tasks-viewer#readme)
@@ -87,10 +91,6 @@ claude plugin install commit-commands
 # https://github.com/anthropics/claude-code/blob/main/plugins/feature-dev/README.md
 claude plugin install feature-dev
 
-# Go LSP
-# Go language server for code intelligence and refactoring.
-claude plugin install gopls-lsp
-
 # Plugin Development Toolkit
 # Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.
 # https://github.com/anthropics/claude-code/blob/main/plugins/plugin-dev/README.md
@@ -101,6 +101,16 @@ claude plugin install plugin-dev
 # https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/README.md
 claude plugin install pr-review-toolkit
 
+# Security Guidance
+# Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns.
+claude plugin install security-guidance
+
+### Oficial LSP Plugins ###
+
+# Go LSP
+# Go language server for code intelligence and refactoring.
+claude plugin install gopls-lsp
+
 # Pyright LSP
 # Python language server (Pyright) for type checking and code intelligence.
 claude plugin install pyright-lsp
@@ -108,10 +118,6 @@ claude plugin install pyright-lsp
 # Rust Analyzer LSP
 # Rust language server for code intelligence and analysis.
 claude plugin install rust-analyzer-lsp
-
-# Security Guidance
-# Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns.
-claude plugin install security-guidance
 
 # TypeScript LSP
 # TypeScript/JavaScript language server for enhanced code intelligence.

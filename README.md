@@ -1,5 +1,8 @@
 # 🚀 My Workflow & Tools
 
+[![View Code Wiki](https://assets.codewiki.google/readme-badge/static.svg)](https://codewiki.google/github.com/JosefJezek/workflow)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/JosefJezek/workflow)
+
 My personal workflow and tools for AI-assisted development.
 
 ## 📑 Table of Contents
@@ -55,4 +58,3 @@ See [SKILLS.md](SKILLS.md) for a comprehensive list of agent skills, documentati
 - https://www.vibekanban.com/vibe-guide
 - https://repomix.com/guide/tips/best-practices
 - https://claudekit.cc/blog/vc-07-claude-code-common-mistakes-production-ready-project
-- https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
