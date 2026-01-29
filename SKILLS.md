@@ -148,11 +148,13 @@ npx skills add vercel-labs/agent-skills -y -g -s web-design-guidelines
 # AI SDK Docs
 # https://github.com/vercel/ai/tree/main/content
 npx repomix --remote vercel/ai --include content --skill-generate docs-ai-sdk --skill-output /tmp/skills/docs-ai-sdk --force
+sed -i -e 's/Ai/AI SDK/g' /tmp/skills/docs-ai-sdk/SKILL.md
 npx skills add /tmp/skills/docs-ai-sdk -y -g
 
 # Alibaba Hooks Docs
 # https://github.com/alibaba/hooks/tree/master/docs
 npx repomix --remote alibaba/hooks --include docs --skill-generate docs-ahooks --skill-output /tmp/skills/docs-ahooks --force
+sed -i -e 's/Hooks/ahooks/g' /tmp/skills/docs-ahooks/SKILL.md
 npx skills add /tmp/skills/docs-ahooks -y -g
 
 # Base UI Docs
@@ -188,6 +190,7 @@ npx skills add /tmp/skills/docs-motion-react-examples -y -g
 # React Docs
 # https://github.com/reactjs/react.dev/tree/main/src/content
 npx repomix --remote reactjs/react.dev --include src/content --skill-generate docs-react --skill-output /tmp/skills/docs-react --force
+sed -i -e 's/React.Dev/React/g' /tmp/skills/docs-react/SKILL.md
 npx skills add /tmp/skills/docs-react -y -g
 
 # React Error Boundary Docs
@@ -208,6 +211,7 @@ npx skills add /tmp/skills/docs-rooks -y -g
 # Shadcn UI Docs
 # https://github.com/shadcn-ui/ui/tree/main/apps/v4/content/docs
 npx repomix --remote shadcn-ui/ui --include apps/v4/content/docs --skill-generate docs-shadcn-ui --skill-output /tmp/skills/docs-shadcn-ui --force
+sed -i -e 's/Ui/Shadcn UI/g' /tmp/skills/docs-shadcn-ui/SKILL.md
 npx skills add /tmp/skills/docs-shadcn-ui -y -g
 
 # Storybook Docs
@@ -218,6 +222,7 @@ npx skills add /tmp/skills/docs-storybook -y -g
 # Tailwind CSS Docs
 # https://github.com/tailwindlabs/tailwindcss.com/tree/main/src/docs
 npx repomix --remote tailwindlabs/tailwindcss.com --include src/docs --skill-generate docs-tailwind-css --skill-output /tmp/skills/docs-tailwind-css --force
+sed -i -e 's/Tailwindcss.Com/Tailwind CSS/g' /tmp/skills/docs-tailwind-css/SKILL.md
 npx skills add /tmp/skills/docs-tailwind-css -y -g
 
 # Tailwind Variants Docs
@@ -228,46 +233,55 @@ npx skills add /tmp/skills/docs-tailwind-variants -y -g
 # TanStack DB Docs
 # https://github.com/TanStack/db/tree/main/docs
 npx repomix --remote TanStack/db --include docs --skill-generate docs-tanstack-db --skill-output /tmp/skills/docs-tanstack-db --force
+sed -i -e 's/Db/TanStack DB/g' /tmp/skills/docs-tanstack-db/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-db -y -g
 
 # TanStack Form Docs
 # https://github.com/TanStack/form/tree/main/docs
 npx repomix --remote TanStack/form --include docs --skill-generate docs-tanstack-form --skill-output /tmp/skills/docs-tanstack-form --force
+sed -i -e 's/Form/TanStack Form/g' /tmp/skills/docs-tanstack-form/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-form -y -g
 
 # TanStack Pacer Docs
 # https://github.com/TanStack/pacer/tree/main/docs
 npx repomix --remote TanStack/pacer --include docs --skill-generate docs-tanstack-pacer --skill-output /tmp/skills/docs-tanstack-pacer --force
+sed -i -e 's/Pacer/TanStack Pacer/g' /tmp/skills/docs-tanstack-pacer/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-pacer -y -g
 
 # TanStack Query Docs
 # https://github.com/TanStack/query/tree/main/docs
 npx repomix --remote TanStack/query --include docs --skill-generate docs-tanstack-query --skill-output /tmp/skills/docs-tanstack-query --force
+sed -i -e 's/Query/TanStack Query/g' /tmp/skills/docs-tanstack-query/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-query -y -g
 
 # TanStack Ranger Docs
 # https://github.com/TanStack/ranger/tree/main/docs
 npx repomix --remote TanStack/ranger --include docs --skill-generate docs-tanstack-ranger --skill-output /tmp/skills/docs-tanstack-ranger --force
+sed -i -e 's/Ranger/TanStack Ranger/g' /tmp/skills/docs-tanstack-ranger/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-ranger -y -g
 
 # TanStack Router Docs
 # https://github.com/TanStack/router/tree/main/docs/router
 npx repomix --remote TanStack/router --include docs/router --skill-generate docs-tanstack-router --skill-output /tmp/skills/docs-tanstack-router --force
+sed -i -e 's/Router/TanStack Router/g' /tmp/skills/docs-tanstack-router/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-router -y -g
 
 # TanStack Start Docs
 # https://github.com/TanStack/router/tree/main/docs/start
 npx repomix --remote TanStack/router --include docs/start --skill-generate docs-tanstack-start --skill-output /tmp/skills/docs-tanstack-start --force
+sed -i -e 's/Router/TanStack Start/g' /tmp/skills/docs-tanstack-start/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-start -y -g
 
 # TanStack Table Docs
 # https://github.com/TanStack/table/tree/main/docs
 npx repomix --remote TanStack/table --include docs --skill-generate docs-tanstack-table --skill-output /tmp/skills/docs-tanstack-table --force
+sed -i -e 's/Table/TanStack Table/g' /tmp/skills/docs-tanstack-table/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-table -y -g
 
 # TanStack Virtual Docs
 # https://github.com/TanStack/virtual/tree/main/docs
 npx repomix --remote TanStack/virtual --include docs --skill-generate docs-tanstack-virtual --skill-output /tmp/skills/docs-tanstack-virtual --force
+sed -i -e 's/Virtual/TanStack Virtual/g' /tmp/skills/docs-tanstack-virtual/SKILL.md
 npx skills add /tmp/skills/docs-tanstack-virtual -y -g
 
 # TW Animate CSS Docs
@@ -278,6 +292,7 @@ npx skills add /tmp/skills/docs-tw-animate-css -y -g
 # TypeScript Docs
 # https://github.com/microsoft/TypeScript-Website/tree/v2/packages/documentation/copy/en
 npx repomix --remote microsoft/TypeScript-Website --include packages/documentation/copy/en --skill-generate docs-typescript --skill-output /tmp/skills/docs-typescript --force
+sed -i -e 's/TypeScript Website/TypeScript/g' /tmp/skills/docs-typescript/SKILL.md
 npx skills add /tmp/skills/docs-typescript -y -g
 
 # Vite Docs
