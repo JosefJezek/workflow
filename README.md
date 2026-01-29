@@ -5,20 +5,6 @@
 
 My personal workflow and tools for AI-assisted development.
 
-## 📑 Table of Contents
-
-<details>
-<summary>Click to expand</summary>
-
-- [🎯 Workflow](#-workflow)
-- [🤖 AI Models](#-ai-models)
-- [💬 Claude Code](#-claude-code)
-- [🛠️ Tools](#️-tools)
-- [🧩 AI Agent Skills](#-ai-agent-skills)
-- [✅ Best Practices References](#-best-practices-references)
-
-</details>
-
 ## 🎯 Workflow
 
 See [WORKFLOW.md](WORKFLOW.md) for detailed information about context-driven and spec-driven development workflows.
