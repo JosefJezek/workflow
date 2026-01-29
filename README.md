@@ -33,6 +33,10 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven dev
 
 </details>
 
+## 🧩 AI Agent Skills
+
+See [SKILLS.md](SKILLS.md) for a comprehensive list of agent skills, documentation skills, and installation commands.
+
 ## 💬 Claude Code
 
 See [CLAUDE-CODE.md](CLAUDE-CODE.md) for detailed information about Claude Code CLI, tools, tasks, status line, and plugins.
@@ -40,10 +44,6 @@ See [CLAUDE-CODE.md](CLAUDE-CODE.md) for detailed information about Claude Code 
 ## 🛠️ Tools
 
 See [TOOLS.md](TOOLS.md) for detailed information about terminal tools, code editor, and AI proxy.
-
-## 🧩 AI Agent Skills
-
-See [SKILLS.md](SKILLS.md) for a comprehensive list of agent skills, documentation skills, and installation commands.
 
 ## ✅ Best Practices References
 
