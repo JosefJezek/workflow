@@ -4,6 +4,13 @@
 
 > I use Claude Code tool, because it provides powerful interface to leverage Claude models effectively for AI-assisted development.
 
+## Setup
+
+```sh
+# Manage IDE integrations and show status 
+/ide
+```
+
 ## Best Practices
 
 - 📖 [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
@@ -39,6 +46,7 @@
 4. progress bar of 10 U+2588 or U+2591 showing context usage
 5. total cost in USD.
 Example: my-project: add-auth | Opus | Context: {{ progress bar }} 30% (60k / 200k) | $2.17
+Save script to ~/.claude/statusline.sh and make it executable.
 ```
 
 [source](https://x.com/claudeai/status/1999209597035331739)
@@ -56,12 +64,6 @@ claude plugin list --available --json > cc-plugins.json
 ### Installation
 
 ```sh
-# Claude-Mem
-# Seamlessly preserves context across sessions.
-# https://github.com/thedotmack/claude-mem
-claude plugin marketplace add thedotmack/claude-mem
-claude plugin install claude-mem
-
 ### Oficial Claude Code Plugins ###
 
 # Claude Code Setup
