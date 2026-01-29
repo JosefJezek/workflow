@@ -6,6 +6,7 @@ My personal tools setup for AI-assisted development.
 
 - [⚡ Terminal tools](#-terminal-tools)
 - [✏️ Code editor](#️-code-editor)
+- [🤖 AI Tools](#-ai-tools)
 - [🔀 AI Proxy](#-ai-proxy)
 - [🔒 VPN](#-vpn)
 
@@ -29,6 +30,10 @@ My personal tools setup for AI-assisted development.
 - 🔄 [GitHub Pull Requests](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - ⚙️ [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
 - 🎯 [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
+
+## 🤖 AI Tools
+
+- [dev3000](https://github.com/vercel-labs/dev3000#readme)
 
 ## 🔀 AI Proxy
 
