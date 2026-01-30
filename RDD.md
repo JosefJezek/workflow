@@ -64,5 +64,5 @@ The Skill Generator enables you to create custom agent skills based on your code
 - https://github.com/yamadashy/repomix/tree/main?tab=readme-ov-file#agent-skills-generation-1
 
 ```sh
-repomix src/ --skill-generate repomix-codebase-reference-src
+npx repomix src/ --skill-generate repomix-codebase-reference-src
 ```
