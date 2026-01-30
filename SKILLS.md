@@ -87,7 +87,7 @@ npx skills add openai/skills -y -g -s gh-fix-ci
 # https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md
 npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
 
-# octocode-research, octocode-documentaion-writer
+# octocode-research, octocode-documentaion-writer, octocode-prompt-optimizer
 # Research codebases using OctoCode MCP. Generate documentation from code.
 # https://medium.com/@guybary/octocode-research-skill-b8248214b515
 # https://www.linkedin.com/posts/bgauryy_octocode-vs-deepwiki-by-cognition-ai-research-activity-7384197129247993856-7lrU/
@@ -95,7 +95,8 @@ npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/tree/main/skills/octocode-documentaion-writer
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentaion-writer/SKILL.md
-npx skills add bgauryy/octocode-mcp -y -g -s octocode-research -s octocode-documentaion-writer
+# https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md
+npx skills add bgauryy/octocode-mcp -y -g -s octocode-research -s octocode-documentaion-writer -s octocode-prompt-optimizer
 
 # repomix-explorer
 # Explore and analyze code repositories.
