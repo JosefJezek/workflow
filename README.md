@@ -37,6 +37,10 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven dev
 
 See [SKILLS.md](SKILLS.md) for a comprehensive list of agent skills, documentation skills, and installation commands.
 
+## 🔌 MCP Servers
+
+See [MCP.md](MCP.md) for detailed information about my MCP server setups and configurations.
+
 ## 💬 Claude Code
 
 See [CLAUDE-CODE.md](CLAUDE-CODE.md) for detailed information about Claude Code CLI, tools, tasks, status line, and plugins.
