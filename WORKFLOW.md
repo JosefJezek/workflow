@@ -30,8 +30,35 @@ I use Repomix to generate a comprehensive codebase reference skill for better na
 For more information, see the [Skill Generator](RDD.md#skill-generator).
 
 ```sh
-repomix src/ --skill-generate repomix-codebase-reference-src
+npx repomix src/ --skill-generate repomix-codebase-reference-src
 ```
+
+#### Creating Codebase Reference in one file with Repomix
+
+I use Repomix to create a single-file representation of the entire codebase for easy analysis and exploration by AI models.
+
+For more information, see the [Explorer Skill](RDD.md#explorer-skill).
+
+```sh
+npx repomix@latest
+```
+
+> This file contains all the files in the repository combined into one.
+> I want to refactor the code, so please review it first.
+
+## 🎯 Context-Driven Development Workflow
+
+I fetch source code using [opensrc](https://github.com/vercel-labs/opensrc#readme) for npm packages to give coding agents deeper context than types alone.
+
+```sh
+# Install opensrc globally
+npm install -g opensrc
+
+# Fetch source code for packages used in the project
+opensrc react react-dom zod
+```
+
+For more information, see [Context-Driven Development (CDD)](CDD.md).
 
 ## 📋 Spec-Driven Development Workflow
 
@@ -142,7 +169,3 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 ```bash
 /speckit.implement
 ```
-
-## 🎯 Context-Driven Development
-
-For more information, see [Context-Driven Development (CDD)](CDD.md).
