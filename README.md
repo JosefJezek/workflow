@@ -23,6 +23,7 @@ See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven dev
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
 - [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
+- [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [Claude Opus 4.5 vs GPT 5.2 High vs Gemini 3 Pro](https://dev.to/tensorlake/claude-opus-45-vs-gpt-52-high-vs-gemini-3-pro-production-coding-test-25of)
 
 ### Selected Comments from Dev Community
