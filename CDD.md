@@ -20,6 +20,11 @@ It unlocks context-driven development by shifting the context of your project ou
 - Integration with version control systems to track context changes
 - File based context management for precise control and versioning
 
+## Passive Context Loading
+
+- https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals
+- https://github.com/vercel/next.js/pull/88961
+
 ## CDD vs SDD
 
 ### Context-Driven Development (CDD)
