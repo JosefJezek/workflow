@@ -4,6 +4,19 @@
 
 > I use Claude Code tool, because it provides powerful interface to leverage Claude models effectively for AI-assisted development.
 
+## Product Requirements Document (PRD)
+
+- claude plugin doc-authoring
+
+## Plan Mode
+
+- https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/workflows/plan-driven.md
+- [Plan Mode Deep Dive: Why External Spec Tools Are Redundant](https://www.youtube.com/watch?v=7j_d9jtrXVM)
+
+## Tasks
+
+- [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
+
 ## Setup
 
 ```sh
