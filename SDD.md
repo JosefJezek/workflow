@@ -4,6 +4,17 @@
 
 Spec-Driven Development (SDD) is a development methodology that emphasizes creating detailed specifications before writing code. It ensures that the final product meets the defined requirements and behaves as expected.
 
+## Features of SDD
+
+- specifications are the source of truth
+- versioned memory for specs
+- supports delta specs for updates
+- integrates with version control systems
+- promotes team consistency through shared standards
+- user prompts for spec generation and updates are stored in project memory
+- AI agents build code based on specifications
+- questions and answers from chat are saved in project memory in md files
+
 ## Comparison Overview
 
 | Criteria | OpenSpec | Spec-Kit | BMAD Method | Superpowers | specs.md | SpecSwarm | Conductor |
