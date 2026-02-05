@@ -121,20 +121,31 @@ claude plugin install pr-review-toolkit
 claude plugin install security-guidance
 
 ### Oficial LSP Plugins ###
+# https://code.claude.com/docs/en/plugins-reference#lsp-servers
 
 # Go LSP
 # Go language server for code intelligence and refactoring.
+# Install Go: https://go.dev/wiki/Ubuntu
+# https://go.dev/gopls/
+# https://marketplace.visualstudio.com/items?itemName=golang.go
+go install golang.org/x/tools/gopls@latest
 claude plugin install gopls-lsp
 
 # Pyright LSP
 # Python language server (Pyright) for type checking and code intelligence.
+npm install -g pyright
 claude plugin install pyright-lsp
 
 # Rust Analyzer LSP
 # Rust language server for code intelligence and analysis.
+# Install Rust: https://rust-lang.org/tools/install/
+# https://rust-analyzer.github.io/book/rust_analyzer_binary.html
+# https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer
+rustup component add rust-analyzer
 claude plugin install rust-analyzer-lsp
 
 # TypeScript LSP
 # TypeScript/JavaScript language server for enhanced code intelligence.
+npm install -g typescript-language-server typescript
 claude plugin install typescript-lsp
 ```
