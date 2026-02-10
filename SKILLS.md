@@ -24,6 +24,16 @@
 # https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md
 npx skills add vercel-labs/skills -y -g -s find-skills
 
+# accessibility, best-practices, core-web-vitals, performance, seo, web-quality-audit
+# https://github.com/addyosmani/web-quality-skills
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/core-web-vitals/SKILL.md
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/performance/SKILL.md
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/seo/SKILL.md
+# https://github.com/addyosmani/web-quality-skills/blob/main/skills/web-quality-audit/SKILL.md
+npx skills add addyosmani/web-quality-skills -y -g -s accessibility -s best-practices -s core-web-vitals -s performance -s seo -s web-quality-audit
+
 # agent-browser
 # Headless browser automation CLI tool for AI agents.
 # https://github.com/vercel-labs/agent-browser#readme
@@ -73,6 +83,7 @@ npx skills add getsentry/skills -y -g -s find-bugs
 # https://jsonobject.com/how-a-400-token-plugin-transformed-claude-code-into-a-frontend-design-powerhouse
 # https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb
 # https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+# https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design
 # Prompts:
 # Build a landing page for an AI security startup
 # Design a settings panel with dark mode
@@ -98,6 +109,17 @@ npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentaion-writer/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md
 npx skills add bgauryy/octocode-mcp -y -g -s octocode-research -s octocode-documentaion-writer -s octocode-prompt-optimizer
+
+# pdf
+# https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
+npx skills add anthropics/skills -y -g -s pdf
+
+# playground
+# Creates interactive HTML playgrounds — self-contained single-file explorers with visual controls, live preview, and prompt output with copy button. Includes templates for design playgrounds, data explorers, concept maps, and document critique.
+# https://x.com/trq212/status/2017024445244924382
+# https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground
+# https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground/SKILL.md
+npx skills add anthropics/claude-plugins-official -y -g -s playground
 
 # repomix-explorer
 # Explore and analyze code repositories.
