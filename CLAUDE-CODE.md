@@ -20,7 +20,7 @@
 ## Setup
 
 ```sh
-# Manage IDE integrations and show status 
+# Manage IDE integrations and show status
 /ide
 ```
 
@@ -52,7 +52,7 @@
 ## 📟 Status line
 
 ```sh
-/statusline set the status line to include: 
+/statusline set the status line to include:
 1. current git repository
 2. current branch
 3. model used
@@ -105,6 +105,11 @@ claude plugin install commit-commands
 # Comprehensive feature development workflow with specialized agents for codebase exploration, architecture design, and quality review.
 # https://github.com/anthropics/claude-code/blob/main/plugins/feature-dev/README.md
 claude plugin install feature-dev
+
+# Hookify
+# Easily create custom hooks to prevent unwanted behaviors by analyzing conversation patterns or from explicit instructions. Define rules via simple markdown files.
+# https://github.com/anthropics/claude-plugins-official/tree/main/plugins/hookify
+claude plugin install hookify
 
 # Plugin Development Toolkit
 # Comprehensive toolkit for developing Claude Code plugins. Includes 7 expert skills covering hooks, MCP integration, commands, agents, and best practices. AI-assisted plugin creation and validation.
