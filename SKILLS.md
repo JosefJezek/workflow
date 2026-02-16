@@ -24,7 +24,7 @@
 # https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md
 npx skills add vercel-labs/skills -y -g -s find-skills
 
-# accessibility, best-practices, core-web-vitals, performance, seo, web-quality-audit
+# addyosmani: accessibility, best-practices, core-web-vitals, performance, seo, web-quality-audit
 # https://github.com/addyosmani/web-quality-skills
 # https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md
 # https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md
@@ -59,6 +59,10 @@ npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-
 # Migrate prompts and code to Opus 4.5.
 # https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
 npx skills add anthropics/claude-code -y -g -s claude-opus-4-5-migration
+
+# code-reviewer
+# https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
+npx skills add google-gemini/gemini-cli -y -g -s code-reviewer
 
 # context7: documentation-lookup
 # Fallback for local docs skills from Repomix.
@@ -121,6 +125,14 @@ npx skills add anthropics/skills -y -g -s pdf
 # https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground/SKILL.md
 npx skills add anthropics/claude-plugins-official -y -g -s playground
 
+# prd
+# https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md
+npx skills add github/awesome-copilot -y -g -s prd
+
+# refactor
+# https://github.com/github/awesome-copilot/blob/main/skills/refactor/SKILL.md
+npx skills add github/awesome-copilot -y -g -s refactor
+
 # repomix-explorer
 # Explore and analyze code repositories.
 # https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md
@@ -149,8 +161,14 @@ npx skills add anthropics/skills -y -g -s skill-creator
 # https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components/SKILL.md
 npx skills add google-labs-code/stitch-skills -y -g -s design-md -s react:components
 
+# vercel-composition-patterns
+# https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/README.md
+# https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md
+npx skills add vercel-labs/agent-skills -y -g -s vercel-composition-patterns
+
 # vercel-react-best-practices
 # Comprehensive performance optimization guide for React and Next.js applications.
+# https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/README.md
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md
 # Prompt: Assess this repo against React best practices. Make a prioritized list of quick wins and top fixes.
 npx skills add vercel-labs/agent-skills -y -g -s vercel-react-best-practices
