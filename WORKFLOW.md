@@ -103,7 +103,7 @@ TDD is optional in Spec Kit, but I enforce it strictly in my projects.
 /speckit.constitution
 Create principles focused on code quality, testing standards,
 user experience consistency, and performance requirements.
-This React project follows a "Library-First" approach where all features 
+This React project follows a "Library-First" approach where all features
 are implemented as standalone, reusable components and hooks first.
 We prefer functional components with hooks over class components.
 We use Test-Driven Development strictly with React Testing Library.
@@ -168,4 +168,15 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 
 ```bash
 /speckit.implement
+```
+
+## Claude Code Insights
+
+The /insights command in Claude Code generates a comprehensive HTML report analyzing your usage patterns across all your Claude Code sessions.
+It’s designed to help you understand how you interact with Claude, what’s working well, where friction occurs, and how to improve your workflows.
+
+- https://www.zolkos.com/2026/02/04/deep-dive-how-claude-codes-insights-command-works.html
+
+```sh
+/insights
 ```
