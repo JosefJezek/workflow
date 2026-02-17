@@ -180,3 +180,17 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 ```sh
 /insights
 ```
+
+## Code Review
+
+### Remote Pull Request Review
+
+- https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
+- https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md
+
+```sh
+# go to the PR repository
+/code-reviewer PR 100 # skill from google-gemini/gemini-cli
+/pr-review-toolkit:review-pr all parallel, PR 100 # command from pr-review-toolkit claude plugin
+/my.review-pr PR 100 # send the review to PR comments
+```
