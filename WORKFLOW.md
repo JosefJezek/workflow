@@ -193,5 +193,6 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 /code-reviewer PR 100 # skill from google-gemini/gemini-cli
 /pr-review-toolkit:review-pr all parallel, PR 100 # command from pr-review-toolkit claude plugin
 /octocode-research review PR 100 # skill from octocode
+/arinhub-verify-pr-implementation PR 100 # Verify that a pull request fully implements the requirements described in its linked GitHub issue.
 /arinhub-submit-pr-review PR 100 # Submit pull request (PR) review from chat session to PR conversations.
 ```
