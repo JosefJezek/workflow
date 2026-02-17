@@ -192,5 +192,6 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 # go to the PR repository
 /code-reviewer PR 100 # skill from google-gemini/gemini-cli
 /pr-review-toolkit:review-pr all parallel, PR 100 # command from pr-review-toolkit claude plugin
-/my.review-pr PR 100 # send the review to PR comments
+/octocode-research review PR 100 # skill from octocode
+/arin-send-pr-review PR 100 # Send pull request (PR) review from chat session to PR conversations.
 ```
