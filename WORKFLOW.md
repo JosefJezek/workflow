@@ -185,8 +185,11 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 
 ### Remote Pull Request Review
 
-- https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
-- https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md
+- [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)
+- [pr-review-toolkit](https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md)
+- [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)
+- [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)
+- [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)
 
 ```sh
 # go to the PR repository
