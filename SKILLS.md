@@ -49,6 +49,10 @@ npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 # https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
 npx skills add vercel/ai -y -g -s ai-sdk
 
+# arinhub: arinhub-submit-pr-review
+# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md
+npx skills add arinhubcom/arinhub -y -g -s arinhub-submit-pr-review
+
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
