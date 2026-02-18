@@ -12,6 +12,8 @@
 
 ```sh
 claude mcp add --scope user context7 -- npx -y @upstash/context7-mcp --api-key YOUR_API_KEY
+# or with bunx
+claude mcp add --scope user context7 -- bunx -y --bun @upstash/context7-mcp --api-key YOUR_API_KEY
 ```
 
 ### LEANN
