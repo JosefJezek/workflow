@@ -20,7 +20,7 @@ This helps ensure that both human developers and AI models have a clear understa
 For more information, see the [Documentation Writer Skill](RDD.md#documentation-writer-skill).
 
 ```sh
-/octocode-documentaion-writer
+/octocode-documentation-writer
 ```
 
 #### Creating Codebase Reference Skill with Repomix
@@ -185,17 +185,14 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 
 ### Remote Pull Request Review
 
-- [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)
-- [pr-review-toolkit](https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md)
-- [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)
-- [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)
-- [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)
+- [arinhub-review-pr](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md) is a skill that calls these skills:
+  - [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)
+  - [pr-review-toolkit](https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md)
+  - [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)
+  - [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)
+  - [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)
 
 ```sh
-# go to the PR repository
-/code-reviewer PR 100 # skill from google-gemini/gemini-cli
-/pr-review-toolkit:review-pr all parallel, PR 100 # command from pr-review-toolkit claude plugin
-/octocode-research review PR 100 # skill from octocode
-/arinhub-verify-pr-implementation PR 100 # Verify that a pull request fully implements the requirements described in its linked GitHub issue.
-/arinhub-submit-pr-review PR 100 # Submit pull request (PR) review from chat session to PR conversations.
+# go to PR repository
+/arinhub-review-pr 100
 ```
