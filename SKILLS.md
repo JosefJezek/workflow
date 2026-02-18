@@ -25,6 +25,7 @@
 | [accessibility](https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md)                                                    | Audit and improve web accessibility following WCAG 2.1 guidelines                   | Asked to improve accessibility, a11y audit, WCAG compliance, screen reader support   |
 | [agent-browser](https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)                                                        | Headless browser automation CLI tool for AI agents                                  | Need to navigate websites, interact with web pages, fill forms, take screenshots     |
 | [ai-sdk](https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md)                                                                                  | Vercel AI SDK integration skill                                                     | Building AI agents, chatbots, RAG systems, using generateText, streamText, useChat   |
+| [arinhub-review-pr](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md)                                                       | Review PRs                                                                          | Reviewing pull requests with structured analysis                                     |
 | [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)                                         | Submit PR reviews                                                                   | Submitting structured PR reviews                                                     |
 | [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)                         | Verify PR implementation                                                            | Verifying PR implementation matches requirements                                     |
 | [best-practices](https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md)                                                  | Modern web development best practices for security, compatibility, and code quality | Asked to apply best practices, security audit, modernize code, code quality review   |
@@ -99,10 +100,11 @@ npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 # https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
 npx skills add vercel/ai -y -g -s ai-sdk
 
-# arinhub: arinhub-submit-pr-review, arinhub-verify-pr-implementation
+# arinhub: arinhub-review-pr, arinhub-submit-pr-review, arinhub-verify-pr-implementation
+# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md
 # https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md
 # https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md
-npx skills add arinhubcom/arinhub -y -g -s arinhub-submit-pr-review -s arinhub-verify-pr-implementation
+npx skills add arinhubcom/arinhub -y -g -s arinhub-review-pr -s arinhub-submit-pr-review -s arinhub-verify-pr-implementation
 
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
