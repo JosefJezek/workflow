@@ -18,7 +18,7 @@
 - [Don't Build Agents, Build Skills Instead](https://www.youtube.com/watch?v=CEvIs9y1uog)
 - https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
 
-## My Skills
+## My Agent Skills
 
 | Skill                                                                                                                                                        | Description                                                                         | Use when                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
