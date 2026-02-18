@@ -4,9 +4,70 @@
 
 > I use Claude Code tool, because it provides powerful interface to leverage Claude models effectively for AI-assisted development.
 
-## Product Requirements Document (PRD)
+## Settings
 
-- claude plugin doc-authoring
+- Edit settings file `~/.claude/settings.json` to configure default model, plugins, and other preferences.
+
+### Environment Variables
+
+- https://code.claude.com/docs/en/settings#environment-variables
+
+```yaml
+"env": {
+    # Disable bug command to prevent accidental triggering and improve privacy. Use with caution as it may impact performance optimizations and support.
+    "DISABLE_BUG_COMMAND": "1",
+
+    # Disable error reporting to prevent data collection and improve privacy. Use with caution as it may impact performance optimizations and support.
+    "DISABLE_ERROR_REPORTING": "1",
+
+    # Disable telemetry to prevent data collection and improve privacy. Use with caution as it may impact performance optimizations and support.
+    "DISABLE_TELEMETRY": "1",
+
+    # Enable LSP tools for better code intelligence and refactoring capabilities.
+    "ENABLE_LSP_TOOLS": "1",
+
+    # Maintain project working directory across commands to allow for better context and state management.
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1",
+
+    # Set maximum output tokens for MCP responses to 50,000 to allow for more detailed and comprehensive responses from MCP servers.
+    # https://code.claude.com/docs/en/mcp#mcp-output-limits-and-warnings
+    "MAX_MCP_OUTPUT_TOKENS": "50000",
+
+    # Set default models for different agent types to the 1M context versions for better performance on larger codebases.
+    # Requires enabling extra usage on your subscription plan.
+    # The 1M context only increases in price went context goes past 200K but the model performs better knowing the headroom it has.
+    # https://code.claude.com/docs/en/model-config#environment-variables
+    # https://code.claude.com/docs/en/model-config#extended-context-with-1m
+    # https://x.com/nummanali/status/2023828631793909855
+    # https://x.com/nummanali/status/2023917312793854336
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-6[1m]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "claude-sonnet-4-6[1m]",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-4-6[1m]",
+    "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-4-6[1m]",
+
+    # Set effort level to "high". Use with caution as it may increase latency and cost.
+    # https://code.claude.com/docs/en/model-config#adjust-effort-level
+    "CLAUDE_CODE_EFFORT_LEVEL": "high",
+  }
+```
+
+### Permissions
+
+```yaml
+"permissions": {
+    # Enable bypass permissions mode to allow all commands without explicit permissions. Use with caution.
+    # https://code.claude.com/docs/en/permissions#permission-modes
+    "defaultMode": "bypassPermissions",
+  }
+```
+
+### Others
+
+```yaml
+# Hide all attribution.
+# https://code.claude.com/docs/en/settings#attribution-settings
+"attribution": { "commit": "", "pr": "" }
+```
 
 ## Plan Mode
 
