@@ -8,10 +8,60 @@
 - 📖 [skillsdirectory.com](https://www.skillsdirectory.com)
 - 🏛️ [Anthropics Skills](https://github.com/anthropics/skills#readme)
 
+### Interesting Skills
+
+- https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md
+- https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md
+
 ## Best Practices
 
 - [Don't Build Agents, Build Skills Instead](https://www.youtube.com/watch?v=CEvIs9y1uog)
 - https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
+
+## My Skills
+
+| Skill                                                                                                                                                        | Description                                                                         | Use when                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [accessibility](https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md)                                                    | Audit and improve web accessibility following WCAG 2.1 guidelines                   | Asked to improve accessibility, a11y audit, WCAG compliance, screen reader support   |
+| [agent-browser](https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)                                                        | Headless browser automation CLI tool for AI agents                                  | Need to navigate websites, interact with web pages, fill forms, take screenshots     |
+| [ai-sdk](https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md)                                                                                  | Vercel AI SDK integration skill                                                     | Building AI agents, chatbots, RAG systems, using generateText, streamText, useChat   |
+| [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)                                         | Submit PR reviews                                                                   | Submitting structured PR reviews                                                     |
+| [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)                         | Verify PR implementation                                                            | Verifying PR implementation matches requirements                                     |
+| [best-practices](https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md)                                                  | Modern web development best practices for security, compatibility, and code quality | Asked to apply best practices, security audit, modernize code, code quality review   |
+| [better-auth-best-practices](https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md)                                            | Better Auth integration best practices                                              | Integrating Better Auth authentication framework                                     |
+| [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md) | Migrate prompts and code to Opus 4.5                                                | Updating codebase, prompts, or API calls to use Opus 4.5                             |
+| [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)                                                 | Review code for correctness, maintainability, and adherence to standards            | Reviewing local changes or remote Pull Requests                                      |
+| [core-web-vitals](https://github.com/addyosmani/web-quality-skills/blob/main/skills/core-web-vitals/SKILL.md)                                                | Optimize Core Web Vitals (LCP, INP, CLS)                                            | Asked to improve Core Web Vitals, fix LCP, reduce CLS, optimize INP                  |
+| [create-auth-skill](https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md)                                                        | Create auth layers using Better Auth                                                | Creating auth layers in TypeScript/JavaScript apps                                   |
+| [design-md](https://github.com/google-labs-code/stitch-skills/blob/main/skills/design-md/SKILL.md)                                                           | Synthesize a semantic design system into DESIGN.md files                            | Analyzing Stitch projects and creating design systems                                |
+| [doc-coauthoring](https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md)                                                            | Structured workflow for collaborative document creation                             | Writing documentation, proposals, technical specs, decision docs                     |
+| [documentation-lookup](https://github.com/upstash/context7/blob/master/plugins/claude/context7/skills/documentation-lookup/SKILL.md)                         | Look up library and framework documentation via Context7                            | Asking about libraries, frameworks, API references, or needing code examples         |
+| [find-bugs](https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/find-bugs/SKILL.md)                                                   | Find bugs, security vulnerabilities, and code quality issues                        | Reviewing changes, finding bugs, security review, or auditing code on current branch |
+| [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md)                                                                   | Search for skills in skill repositories                                             | Looking for functionality that might exist as an installable skill                   |
+| [frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)                                                            | Create distinctive, production-grade frontend interfaces                            | Building web components, pages, dashboards, landing pages, or styling web UI         |
+| [gh-fix-ci](https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md)                                                                   | Fix CI failures on GitHub PRs                                                       | Debugging or fixing failing PR CI/CD checks on GitHub Actions                        |
+| [knowledge-saver](https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md)                                                                          | Save knowledge from agent sessions                                                  | Reviewing session learnings, extracting reusable knowledge from debugging            |
+| [octocode-documentaion-writer](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentaion-writer/SKILL.md)                               | Generate comprehensive documentation from code                                      | Generating documentation with intelligent orchestration                              |
+| [octocode-prompt-optimizer](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md)                                     | Optimize prompts and agent instructions                                             | User provides a prompt or SKILL.md and requests optimization                         |
+| [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)                                                     | Research codebases using OctoCode MCP                                               | Asked to research code, trace code flow, find usages, explore libraries              |
+| [pdf](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md)                                                                                    | Read, merge, split, rotate, watermark, encrypt, and OCR PDF files                   | User wants to do anything with PDF files                                             |
+| [performance](https://github.com/addyosmani/web-quality-skills/blob/main/skills/performance/SKILL.md)                                                        | Optimize web performance for faster loading                                         | Asked to speed up site, optimize performance, reduce load time                       |
+| [playground](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground/SKILL.md)                                  | Create interactive HTML playgrounds with visual controls and live preview           | User asks to make a playground, explorer, or interactive tool                        |
+| [playwright-cli](https://github.com/microsoft/playwright-cli/blob/main/skills/playwright-cli/SKILL.md)                                                       | Browser automation for web testing                                                  | Testing web applications, automating browser interactions                            |
+| [prd](https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md)                                                                               | Generate Product Requirements Documents                                             | Creating PRDs with user stories, technical specs, and risk analysis                  |
+| [react-components](https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components/SKILL.md)                                             | Convert Stitch designs into modular React components                                | Converting designs into Vite and React components                                    |
+| [react-doctor](https://github.com/millionco/react-doctor/blob/main/skills/react-doctor/SKILL.md)                                                             | Diagnose and fix React codebase health issues                                       | Reviewing React code, fixing performance problems, auditing security                 |
+| [react-email](https://github.com/resend/react-email/blob/canary/skills/SKILL.md)                                                                             | Build HTML emails using React components                                            | Creating email templates - welcome, password reset, notifications                    |
+| [refactor](https://github.com/github/awesome-copilot/blob/main/skills/refactor/SKILL.md)                                                                     | Surgical code refactoring to improve maintainability                                | Extracting functions, renaming variables, eliminating code smells                    |
+| [repomix-explorer](https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md)                                                  | Analyze and explore codebases using Repomix                                         | User wants to analyze a repo, explore codebase structure, find patterns              |
+| [seo](https://github.com/addyosmani/web-quality-skills/blob/main/skills/seo/SKILL.md)                                                                        | Optimize for search engine visibility and ranking                                   | Asked to improve SEO, fix meta tags, add structured data, sitemap optimization       |
+| [skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)                                                                | Guide for creating effective skills                                                 | Users want to create or update a skill                                               |
+| [vercel-composition-patterns](https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/SKILL.md)                                    | React composition patterns that scale                                               | Refactoring components, building flexible component libraries                        |
+| [vercel-react-best-practices](https://github.com/vercel-labs/agent-skills/blob/main/skills/react-best-practices/SKILL.md)                                    | React and Next.js performance optimization guidelines                               | Writing, reviewing, or refactoring React/Next.js code                                |
+| [vite](https://github.com/antfu/skills/blob/main/skills/vite/SKILL.md)                                                                                       | Vite next-generation frontend build tool                                            | Configuring Vite, adding plugins, working with dev server                            |
+| [vitest](https://github.com/antfu/skills/blob/main/skills/vitest/SKILL.md)                                                                                   | Vitest fast unit testing framework                                                  | Writing tests, mocking, configuring coverage, test filtering                         |
+| [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)                                         | Review UI code for Web Interface Guidelines compliance                              | Asked to review UI, check accessibility, audit design                                |
+| [web-quality-audit](https://github.com/addyosmani/web-quality-skills/blob/main/skills/web-quality-audit/SKILL.md)                                            | Comprehensive web quality audit (performance, a11y, SEO, best practices)            | Asked to audit site, review web quality, run lighthouse audit                        |
 
 ## ⚙️ Installing Skills
 
@@ -130,9 +180,21 @@ npx skills add anthropics/skills -y -g -s pdf
 # https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground/SKILL.md
 npx skills add anthropics/claude-plugins-official -y -g -s playground
 
+# playwright-cli
+# https://github.com/microsoft/playwright-cli/blob/main/skills/playwright-cli/SKILL.md
+# npm install -g @playwright/cli@latest
+# Prompt:
+# Use playwright skills to test https://demo.playwright.dev/todomvc/.
+# Take screenshots for all successful and failing scenarios.
+npx skills add microsoft/playwright-cli -y -g -s playwright-cli
+
 # prd
 # https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md
 npx skills add github/awesome-copilot -y -g -s prd
+
+# react-doctor
+# https://github.com/millionco/react-doctor/blob/main/skills/react-doctor/SKILL.md
+npx skills add millionco/react-doctor -y -g -s react-doctor
 
 # refactor
 # https://github.com/github/awesome-copilot/blob/main/skills/refactor/SKILL.md
