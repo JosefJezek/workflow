@@ -160,15 +160,16 @@ npx skills add openai/skills -y -g -s gh-fix-ci
 # https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md
 npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
 
-# octocode-documentation-writer, octocode-local-search, octocode-research, octocode-roast
+# octocode-documentation-writer, octocode-local-search, octocode-prompt-optimizer, octocode-research, octocode-roast
 # Research codebases using OctoCode MCP. Generate documentation from code.
 # https://medium.com/@guybary/octocode-research-skill-b8248214b515
 # https://www.linkedin.com/posts/bgauryy_octocode-vs-deepwiki-by-cognition-ai-research-activity-7384197129247993856-7lrU/
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentation-writer/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-local-search/SKILL.md
+# https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-roast/SKILL.md
-npx skills add bgauryy/octocode-mcp -y -g -s octocode-documentation-writer -s octocode-local-search -s octocode-research -s octocode-roast
+npx skills add bgauryy/octocode-mcp -y -g -s octocode-documentation-writer -s octocode-local-search -s octocode-prompt-optimizer -s octocode-research -s octocode-roast
 
 # pdf
 # https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
