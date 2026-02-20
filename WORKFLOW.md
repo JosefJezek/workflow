@@ -183,16 +183,21 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 
 ## Code Review
 
-### Remote Pull Request Review
+- [ArinHub Code Reviewer](https://github.com/arinhubcom/arinhub) is a agent skill that allows you to perform code reviews using AI subagents. It can analyze your codebase, identify potential issues, and suggest improvements.
 
-- [arinhub-review-pr](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md) is a skill that calls these skills:
-  - [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)
-  - [pr-review-toolkit](https://github.com/anthropics/claude-code/blob/main/plugins/pr-review-toolkit/commands/review-pr.md)
-  - [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)
-  - [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)
-  - [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)
+### Local Changes
 
 ```sh
-# go to PR repository
-/arinhub-review-pr 100
+/arinhub-code-reviewer
+# or
+review my changes
+```
+
+### GitHub Pull Request
+
+```sh
+# navigate to the PR repository first
+/arinhub-code-reviewer PR 123
+# or
+review PR 123
 ```
