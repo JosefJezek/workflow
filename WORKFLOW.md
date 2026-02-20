@@ -190,7 +190,7 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 ```sh
 /arinhub-code-reviewer
 # or
-review my changes
+ah review my changes
 ```
 
 ### GitHub Pull Request
@@ -199,5 +199,5 @@ review my changes
 # navigate to the PR repository first
 /arinhub-code-reviewer PR 123
 # or
-review PR 123
+ah review PR 123
 ```
