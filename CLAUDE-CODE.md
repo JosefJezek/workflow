@@ -148,11 +148,6 @@ claude plugin install claude-code-setup
 # Tools to maintain and improve CLAUDE.md files - audit quality, capture session learnings, and keep project memory current.
 claude plugin install claude-md-management
 
-# Code Review
-# Automated code review for pull requests using multiple specialized agents with confidence-based scoring to filter false positives.
-# https://github.com/anthropics/claude-code/blob/main/plugins/code-review/README.md
-claude plugin install code-review
-
 # Code Simplifier
 # Agent that simplifies and refines code for clarity, consistency, and maintainability while preserving functionality. Focuses on recently modified code.
 claude plugin install code-simplifier
