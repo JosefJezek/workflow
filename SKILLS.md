@@ -100,11 +100,11 @@ npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 # https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
 npx skills add vercel/ai -y -g -s ai-sdk
 
-# arinhub: arinhub-review-pr, arinhub-submit-pr-review, arinhub-verify-pr-implementation
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md
-npx skills add arinhubcom/arinhub -y -g -s arinhub-review-pr -s arinhub-submit-pr-review -s arinhub-verify-pr-implementation
+# arinhub: arinhub-code-reviewer, arinhub-submit-code-review, arinhub-verify-requirements-coverage
+# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-code-reviewer/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-code-review/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-requirements-coverage/SKILL.md
+npx skills add arinhubcom/arinhub -y -g -s arinhub-code-reviewer -s arinhub-submit-code-review -s arinhub-verify-requirements-coverage
 
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
