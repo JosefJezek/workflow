@@ -5,6 +5,7 @@
 
 ## 🆚 Model Comparisons
 
+- [AI IQ Test](https://trackingai.org)
 - [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
 - [Coding Index](https://artificialanalysis.ai/models/capabilities/coding)
 - [Context Window](https://artificialanalysis.ai/models#context-window)
