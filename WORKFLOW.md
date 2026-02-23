@@ -188,16 +188,12 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 ### Local Changes
 
 ```sh
-/arinhub-code-reviewer
-# or
-ah review my changes
+ah review code
 ```
 
 ### GitHub Pull Request
 
 ```sh
 # navigate to the PR repository first
-/arinhub-code-reviewer PR 123
-# or
-ah review PR 123
+ah review code 123
 ```
