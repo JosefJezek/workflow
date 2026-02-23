@@ -12,6 +12,9 @@
 
 - https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md
 - https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md
+- https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
+- https://github.com/coreyhaines31/marketingskills
+- https://skills.sh/?q=rodydavis
 
 ## Best Practices
 
