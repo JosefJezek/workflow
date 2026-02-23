@@ -22,15 +22,17 @@
 
 | Skill                                                                                                                                                        | Description                                                                         | Use when                                                                             |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [a11y-debugging](https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md)                                             | Chrome DevTools MCP for accessibility debugging and auditing                        | Testing semantic HTML, ARIA labels, focus states, keyboard navigation, tap targets   |
 | [accessibility](https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md)                                                    | Audit and improve web accessibility following WCAG 2.1 guidelines                   | Asked to improve accessibility, a11y audit, WCAG compliance, screen reader support   |
 | [agent-browser](https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)                                                        | Headless browser automation CLI tool for AI agents                                  | Need to navigate websites, interact with web pages, fill forms, take screenshots     |
 | [ai-sdk](https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md)                                                                                  | Vercel AI SDK integration skill                                                     | Building AI agents, chatbots, RAG systems, using generateText, streamText, useChat   |
-| [arinhub-review-pr](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-review-pr/SKILL.md)                                                       | Review PRs                                                                          | Reviewing pull requests with structured analysis                                     |
-| [arinhub-submit-pr-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-pr-review/SKILL.md)                                         | Submit PR reviews                                                                   | Submitting structured PR reviews                                                     |
-| [arinhub-verify-pr-implementation](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-pr-implementation/SKILL.md)                         | Verify PR implementation                                                            | Verifying PR implementation matches requirements                                     |
+| [arinhub-code-reviewer](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-code-reviewer/SKILL.md)                                               | Review code with structured analysis                                                | Reviewing pull requests or local changes with 'ah review' prefix                     |
+| [arinhub-submit-code-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-code-review/SKILL.md)                                     | Submit code review to GitHub PR                                                     | Submitting structured PR reviews with line-specific comments                         |
+| [arinhub-verify-requirements-coverage](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-requirements-coverage/SKILL.md)                 | Verify PR implementation against issue requirements                                 | Verifying PR or local changes cover linked issue requirements                        |
 | [best-practices](https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md)                                                  | Modern web development best practices for security, compatibility, and code quality | Asked to apply best practices, security audit, modernize code, code quality review   |
 | [better-auth-best-practices](https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md)                                            | Better Auth integration best practices                                              | Integrating Better Auth authentication framework                                     |
 | [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md) | Migrate prompts and code to Opus 4.5                                                | Updating codebase, prompts, or API calls to use Opus 4.5                             |
+| [cloudflare](https://github.com/cloudflare/skills/blob/main/skills/cloudflare/SKILL.md)                                                                      | Comprehensive Cloudflare platform skill                                             | Any Cloudflare development: Workers, Pages, KV, D1, R2, AI, networking, security     |
 | [code-reviewer](https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md)                                                 | Review code for correctness, maintainability, and adherence to standards            | Reviewing local changes or remote Pull Requests                                      |
 | [core-web-vitals](https://github.com/addyosmani/web-quality-skills/blob/main/skills/core-web-vitals/SKILL.md)                                                | Optimize Core Web Vitals (LCP, INP, CLS)                                            | Asked to improve Core Web Vitals, fix LCP, reduce CLS, optimize INP                  |
 | [create-auth-skill](https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md)                                                        | Create auth layers using Better Auth                                                | Creating auth layers in TypeScript/JavaScript apps                                   |
@@ -41,10 +43,13 @@
 | [find-skills](https://github.com/vercel-labs/skills/blob/main/skills/find-skills/SKILL.md)                                                                   | Search for skills in skill repositories                                             | Looking for functionality that might exist as an installable skill                   |
 | [frontend-design](https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md)                                                            | Create distinctive, production-grade frontend interfaces                            | Building web components, pages, dashboards, landing pages, or styling web UI         |
 | [gh-fix-ci](https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md)                                                                   | Fix CI failures on GitHub PRs                                                       | Debugging or fixing failing PR CI/CD checks on GitHub Actions                        |
+| [here-now](https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md)                                                                                  | Publish files and folders to the web instantly                                      | Publishing, hosting, deploying, or sharing files on the web                          |
 | [knowledge-saver](https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md)                                                                          | Save knowledge from agent sessions                                                  | Reviewing session learnings, extracting reusable knowledge from debugging            |
-| [octocode-documentaion-writer](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentaion-writer/SKILL.md)                               | Generate comprehensive documentation from code                                      | Generating documentation with intelligent orchestration                              |
+| [octocode-documentation-writer](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentation-writer/SKILL.md)                             | Generate comprehensive documentation from code                                      | Generating documentation with intelligent orchestration                              |
+| [octocode-local-search](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-local-search/SKILL.md)                                             | Local codebase exploration via Octocode Local + LSP                                 | Finding definitions, tracing code, exploring directories locally                     |
 | [octocode-prompt-optimizer](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md)                                     | Optimize prompts and agent instructions                                             | User provides a prompt or SKILL.md and requests optimization                         |
 | [octocode-research](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md)                                                     | Research codebases using OctoCode MCP                                               | Asked to research code, trace code flow, find usages, explore libraries              |
+| [octocode-roast](https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-roast/SKILL.md)                                                           | Brutally honest code criticism with severity-ranked fixes                           | Roasting code, finding antipatterns, entertaining code critique                      |
 | [pdf](https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md)                                                                                    | Read, merge, split, rotate, watermark, encrypt, and OCR PDF files                   | User wants to do anything with PDF files                                             |
 | [performance](https://github.com/addyosmani/web-quality-skills/blob/main/skills/performance/SKILL.md)                                                        | Optimize web performance for faster loading                                         | Asked to speed up site, optimize performance, reduce load time                       |
 | [playground](https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground/SKILL.md)                                  | Create interactive HTML playgrounds with visual controls and live preview           | User asks to make a playground, explorer, or interactive tool                        |
@@ -62,7 +67,9 @@
 | [vite](https://github.com/antfu/skills/blob/main/skills/vite/SKILL.md)                                                                                       | Vite next-generation frontend build tool                                            | Configuring Vite, adding plugins, working with dev server                            |
 | [vitest](https://github.com/antfu/skills/blob/main/skills/vitest/SKILL.md)                                                                                   | Vitest fast unit testing framework                                                  | Writing tests, mocking, configuring coverage, test filtering                         |
 | [web-design-guidelines](https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md)                                         | Review UI code for Web Interface Guidelines compliance                              | Asked to review UI, check accessibility, audit design                                |
+| [web-perf](https://github.com/cloudflare/skills/blob/main/skills/web-perf/SKILL.md)                                                                          | Analyze web performance using Chrome DevTools MCP                                   | Auditing, profiling, debugging, or optimizing page load performance                  |
 | [web-quality-audit](https://github.com/addyosmani/web-quality-skills/blob/main/skills/web-quality-audit/SKILL.md)                                            | Comprehensive web quality audit (performance, a11y, SEO, best practices)            | Asked to audit site, review web quality, run lighthouse audit                        |
+| [workers-best-practices](https://github.com/cloudflare/skills/blob/main/skills/workers-best-practices/SKILL.md)                                              | Reviews Cloudflare Workers code against production best practices                   | Writing or reviewing Cloudflare Workers, configuring wrangler.jsonc                  |
 
 ## ⚙️ Installing Skills
 
@@ -106,6 +113,10 @@ npx skills add vercel/ai -y -g -s ai-sdk
 # https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-requirements-coverage/SKILL.md
 npx skills add arinhubcom/arinhub -y -g -s arinhub-code-reviewer -s arinhub-submit-code-review -s arinhub-verify-requirements-coverage
 
+# a11y-debugging
+# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md
+npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s a11y-debugging
+
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
@@ -116,6 +127,11 @@ npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-
 # Migrate prompts and code to Opus 4.5.
 # https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
 npx skills add anthropics/claude-code -y -g -s claude-opus-4-5-migration
+
+# cloudflare, workers-best-practices
+# https://github.com/cloudflare/skills/blob/main/skills/cloudflare/SKILL.md
+# https://github.com/cloudflare/skills/blob/main/skills/workers-best-practices/SKILL.md
+npx skills add cloudflare/skills -y -g -s cloudflare -s workers-best-practices
 
 # code-reviewer
 # https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
@@ -154,6 +170,10 @@ npx skills add anthropics/skills -y -g -s frontend-design
 # Fix CI failures on GitHub PRs.
 # https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
 npx skills add openai/skills -y -g -s gh-fix-ci
+
+# here-now
+# https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md
+npx skills add heredotnow/skill -y -g -s here-now
 
 # knowledge-saver
 # Save knowledge from agent sessions.
@@ -251,6 +271,10 @@ npx skills add antfu/skills -y -g -s vite -s vitest
 # Review UI code for Web Interface Guidelines compliance.
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/web-design-guidelines/SKILL.md
 npx skills add vercel-labs/agent-skills -y -g -s web-design-guidelines
+
+# web-perf
+# https://github.com/cloudflare/skills/blob/main/skills/web-perf/SKILL.md
+npx skills add cloudflare/skills -y -g -s web-perf
 ```
 
 ### 📚 Docs as Agent Skills
