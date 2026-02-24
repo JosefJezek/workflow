@@ -188,6 +188,7 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 ### Local Changes
 
 ```sh
+# /model opus
 ah review code
 ```
 
@@ -195,5 +196,6 @@ ah review code
 
 ```sh
 # navigate to the PR repository first
+# /model opus
 ah review code 123
 ```
