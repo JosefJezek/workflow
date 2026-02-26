@@ -29,9 +29,9 @@
 | [accessibility](https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md)                                                    | Audit and improve web accessibility following WCAG 2.1 guidelines                   | Asked to improve accessibility, a11y audit, WCAG compliance, screen reader support   |
 | [agent-browser](https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)                                                        | Headless browser automation CLI tool for AI agents                                  | Need to navigate websites, interact with web pages, fill forms, take screenshots     |
 | [ai-sdk](https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md)                                                                                  | Vercel AI SDK integration skill                                                     | Building AI agents, chatbots, RAG systems, using generateText, streamText, useChat   |
-| [arinhub-code-reviewer](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-code-reviewer/SKILL.md)                                               | Review code with structured analysis                                                | Reviewing pull requests or local changes with 'ah review' prefix                     |
-| [arinhub-submit-code-review](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-code-review/SKILL.md)                                     | Submit code review to GitHub PR                                                     | Submitting structured PR reviews with line-specific comments                         |
-| [arinhub-verify-requirements-coverage](https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-requirements-coverage/SKILL.md)                 | Verify PR implementation against issue requirements                                 | Verifying PR or local changes cover linked issue requirements                        |
+| [ah-review-code](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-review-code/SKILL.md)                                               | Review code with structured analysis                                                | Reviewing pull requests or local changes with 'ah review' prefix                     |
+| [ah-submit-code-review](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-submit-code-review/SKILL.md)                                     | Submit code review to GitHub PR                                                     | Submitting structured PR reviews with line-specific comments                         |
+| [ah-verify-requirements-coverage](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-verify-requirements-coverage/SKILL.md)                 | Verify PR implementation against issue requirements                                 | Verifying PR or local changes cover linked issue requirements                        |
 | [best-practices](https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md)                                                  | Modern web development best practices for security, compatibility, and code quality | Asked to apply best practices, security audit, modernize code, code quality review   |
 | [better-auth-best-practices](https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md)                                            | Better Auth integration best practices                                              | Integrating Better Auth authentication framework                                     |
 | [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md) | Migrate prompts and code to Opus 4.5                                                | Updating codebase, prompts, or API calls to use Opus 4.5                             |
@@ -110,11 +110,11 @@ npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 # https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
 npx skills add vercel/ai -y -g -s ai-sdk
 
-# arinhub: arinhub-code-reviewer, arinhub-submit-code-review, arinhub-verify-requirements-coverage
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-code-reviewer/SKILL.md
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-submit-code-review/SKILL.md
-# https://github.com/arinhubcom/arinhub/blob/main/skills/arinhub-verify-requirements-coverage/SKILL.md
-npx skills add arinhubcom/arinhub -y -g -s arinhub-code-reviewer -s arinhub-submit-code-review -s arinhub-verify-requirements-coverage
+# arinhub: ah-review-code, ah-submit-code-review, ah-verify-requirements-coverage
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-review-code/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-submit-code-review/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-verify-requirements-coverage/SKILL.md
+npx skills add arinhubcom/arinhub -y -g -s ah-review-code -s ah-submit-code-review -s ah-verify-requirements-coverage
 
 # a11y-debugging
 # https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md
