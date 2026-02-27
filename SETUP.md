@@ -2,6 +2,8 @@
 
 ## Repository Setup
 
+Go to the root of your repository.
+
 ### [opensrc](https://github.com/vercel-labs/opensrc#readme)
 
 Fetch source code for npm packages to give coding agents deeper context than types alone.
