@@ -14,11 +14,11 @@ npm install -g opensrc
 opensrc react react-dom react-error-boundary tailwindcss tailwind-variants tw-animate-css zod zustand @testing-library/react @testing-library/jest-dom @testing-library/user-event
 ```
 
-### Generate skills using [Repomix](https://github.com/yamadashy/repomix/tree/main?tab=readme-ov-file#agent-skills-generation-1)
+### [Repomix](https://github.com/yamadashy/repomix#readme)
 
 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.
 It is perfect for when you need to feed your codebase to Large Language Models (LLMs).
 
 ```sh
-npx repomix apps/app-name --skill-generate repomix-app-name --skill-output .claude/skills
+npx repomix apps/app-name -o repomix/repomix-app-name.xml
 ```
