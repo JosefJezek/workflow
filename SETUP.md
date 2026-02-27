@@ -22,3 +22,12 @@ It is perfect for when you need to feed your codebase to Large Language Models (
 ```sh
 npx repomix apps/app-name -o repomix/repomix-app-name.xml
 ```
+
+### [Preflight](https://github.com/preflightsh/preflight#readme)
+
+Preflight is a Go-based CLI tool that scans a codebase and related configuration for launch readiness.
+
+```sh
+npm install -g @preflightsh/preflight
+preflight init
+```
