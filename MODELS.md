@@ -11,6 +11,7 @@
 - [Coding Index](https://artificialanalysis.ai/models/capabilities/coding)
 - [Latency Benchmark](https://artificialanalysis.ai/models#latency)
 - [Arena leaderboard](https://arena.ai/leaderboard)
+- [ARC-AGI-2 leaderboard](https://arcprize.org/leaderboard)
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
 - [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
 - [Context Window Size Comparison](https://artificialanalysis.ai/models#context-window)
