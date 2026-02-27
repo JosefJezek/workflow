@@ -48,16 +48,6 @@ npx repomix@latest
 
 ## 🎯 Context-Driven Development Workflow
 
-I fetch source code using [opensrc](https://github.com/vercel-labs/opensrc#readme) for npm packages to give coding agents deeper context than types alone.
-
-```sh
-# Install opensrc globally
-npm install -g opensrc
-
-# Fetch source code for packages used in the project
-opensrc react react-dom zod
-```
-
 For more information, see [Context-Driven Development (CDD)](CDD.md).
 
 ## 📋 Spec-Driven Development Workflow

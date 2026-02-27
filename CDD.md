@@ -28,6 +28,7 @@ It unlocks context-driven development by shifting the context of your project ou
 ## CDD vs SDD
 
 ### Context-Driven Development (CDD)
+
 - **Focus:** Understanding existing codebase through context
 - **Direction:** Reactive - analyzes what already exists
 - **Source of Truth:** Repository (code + docs + artifacts)
@@ -36,6 +37,7 @@ It unlocks context-driven development by shifting the context of your project ou
 - **Question:** "What is the current state?"
 
 ### Spec-Driven Development (SDD)
+
 - **Focus:** Defining specifications before writing code
 - **Direction:** Proactive - defines what should be built
 - **Source of Truth:** Specifications (may vary by tool)
@@ -45,14 +47,14 @@ It unlocks context-driven development by shifting the context of your project ou
 
 ### Key Differences
 
-| Aspect | CDD | SDD |
-|--------|-----|-----|
-| **Starting Point** | Existing codebase | Specifications |
-| **Process** | Context → Understanding → Code | Specs → Code → Validation |
-| **Context Load** | High (entire codebase context) | Low to Medium (relevant specs) |
-| **Best For** | Legacy code, brownfield | Greenfield, new features |
-| **Memory** | Session-based, extracted | Versioned, explicit |
-| **AI Input** | "Here's the code, understand it" | "Here's what to build" |
+| Aspect             | CDD                              | SDD                            |
+| ------------------ | -------------------------------- | ------------------------------ |
+| **Starting Point** | Existing codebase                | Specifications                 |
+| **Process**        | Context → Understanding → Code   | Specs → Code → Validation      |
+| **Context Load**   | High (entire codebase context)   | Low to Medium (relevant specs) |
+| **Best For**       | Legacy code, brownfield          | Greenfield, new features       |
+| **Memory**         | Session-based, extracted         | Versioned, explicit            |
+| **AI Input**       | "Here's the code, understand it" | "Here's what to build"         |
 
 ### Complementary Approaches
 
@@ -74,6 +76,7 @@ CDD and SDD work best together:
    - Result: Team alignment on both "what to build" and "how it works"
 
 **Example Workflow:**
+
 ```
 1. CDD: Load context about existing authentication system
 2. SDD: Write spec for new OAuth2 integration
