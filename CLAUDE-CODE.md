@@ -89,6 +89,12 @@ Each agent runs with full isolation using git worktrees, testing its work before
 
 - [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
 
+## Auto-Memory
+
+Claude remembers what it learns across sessions — your project context, debugging patterns, preferred approaches — and recalls it later without you having to write anything down.
+
+- https://x.com/trq212/status/2027109375765356723
+
 ## Setup
 
 ```sh
