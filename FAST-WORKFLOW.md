@@ -1,8 +1,31 @@
 # Fast Workflow
 
+## Brainstorming
+
+```sh
+/simple-brainstorm
+```
+
+- https://github.com/roin-orca/skills
+
+## Plan Only
+
+```sh
+/plan
+```
+
+## Review Plan
+
+```sh
+/plan-exit-review
+```
+
+- https://gist.github.com/garrytan/001f9074cab1a8f545ebecbc73a813df
+- https://x.com/garrytan/status/2026778016463138882
+
 ## Plan and Parallel Execution
 
-Interactively plan out code migrations, then execute in parallel using dozens of agents.
+Interactively plan, then execute in parallel using dozens of agents.
 Each agent runs with full isolation using git worktrees, testing its work before putting up a PR.
 
 ```sh
@@ -20,8 +43,9 @@ Each agent runs with full isolation using git worktrees, testing its work before
 Alternative usage: `make this code change then run /simplify`
 
 - https://x.com/bcherny/status/2027534984534544489
+- https://www.youtube.com/watch?v=0_-Ld5vtw8M
 
-## Claude Code Insights
+## Insights
 
 The /insights command in Claude Code generates a comprehensive HTML report analyzing your usage patterns across all your Claude Code sessions.
 It’s designed to help you understand how you interact with Claude, what’s working well, where friction occurs, and how to improve your workflows.
