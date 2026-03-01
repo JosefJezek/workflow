@@ -65,4 +65,13 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 
 Claude remembers what it learns across sessions — your project context, debugging patterns, preferred approaches — and recalls it later without you having to write anything down.
 
+- https://code.claude.com/docs/en/memory#auto-memory
 - https://x.com/trq212/status/2027109375765356723
+
+### Memory Optimizer
+
+```sh
+/memory-optimize
+```
+
+- https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
