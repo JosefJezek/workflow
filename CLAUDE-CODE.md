@@ -74,6 +74,17 @@
 - https://github.com/FlorianBruniaux/claude-code-ultimate-guide/blob/main/guide/workflows/plan-driven.md
 - [Plan Mode Deep Dive: Why External Spec Tools Are Redundant](https://www.youtube.com/watch?v=7j_d9jtrXVM)
 
+### Parallel Execution
+
+Interactively plan out code migrations, then execute in parallel using dozens of agents.
+Each agent runs with full isolation using git worktrees, testing its work before putting up a PR.
+
+```sh
+/batch migrate src/ from Solid to React
+```
+
+- https://x.com/bcherny/status/2027534984534544489
+
 ## Tasks
 
 - [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
