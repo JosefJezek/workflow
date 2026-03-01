@@ -160,6 +160,16 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 /speckit.implement
 ```
 
+## Simplify
+
+```sh
+/simplify
+```
+
+Alternative usage: `make this code change then run /simplify`
+
+- https://x.com/bcherny/status/2027534984534544489
+
 ## Claude Code Insights
 
 The /insights command in Claude Code generates a comprehensive HTML report analyzing your usage patterns across all your Claude Code sessions.
