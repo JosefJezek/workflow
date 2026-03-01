@@ -17,6 +17,7 @@ My personal tools setup for AI-assisted development.
 - 🚀 [Starship](https://github.com/starship/starship#readme)
 - 🍞 [Bun](https://github.com/oven-sh/bun#readme)
 - 📊 [Superset](https://github.com/superset-sh/superset#readme)
+- 🛡️ [Preflight](https://github.com/preflightsh/preflight#readme)
 
 ## ✏️ Code editor
 
