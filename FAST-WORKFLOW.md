@@ -55,3 +55,14 @@ It’s designed to help you understand how you interact with Claude, what’s wo
 ```sh
 /insights
 ```
+
+## Memory
+
+- https://github.com/blader/theorist
+- https://github.com/blader/napkin
+
+### Auto-Memory
+
+Claude remembers what it learns across sessions — your project context, debugging patterns, preferred approaches — and recalls it later without you having to write anything down.
+
+- https://x.com/trq212/status/2027109375765356723
