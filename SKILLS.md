@@ -23,6 +23,7 @@
 - https://github.com/carmahhawwari/ui-design-brain
 - https://github.com/affaan-m/everything-claude-code
 - https://github.com/kochetkov-ma/claude-brewcode
+- https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
 - https://github.com/thedotmack/mackeroni-skills
 
 ## Best Practices
