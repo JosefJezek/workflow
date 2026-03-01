@@ -16,6 +16,7 @@ My personal tools setup for AI-assisted development.
 - 🐠 [Fish Shell](https://github.com/fish-shell/fish-shell#readme)
 - 🚀 [Starship](https://github.com/starship/starship#readme)
 - 🍞 [Bun](https://github.com/oven-sh/bun#readme)
+- 📊 [Superset](https://github.com/superset-sh/superset#readme)
 
 ## ✏️ Code editor
 
