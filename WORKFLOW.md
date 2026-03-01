@@ -160,6 +160,16 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 /speckit.implement
 ```
 
+#### 6️⃣ Check implementation
+
+Post-implementation retrospective command focused on spec adherence, drift analysis, and actionable follow-up.
+
+```bash
+/speckit.retrospective.analyze
+```
+
+- https://github.com/emi-dm/spec-kit-retrospective
+
 ## Simplify
 
 ```sh
