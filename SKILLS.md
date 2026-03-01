@@ -15,6 +15,15 @@
 - https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
 - https://github.com/coreyhaines31/marketingskills
 - https://skills.sh/?q=rodydavis
+- https://github.com/blader/taskmaster
+- https://github.com/blader/napkin
+- https://github.com/blader/theorist
+- https://github.com/blader/humanizer
+- https://github.com/oldbrush/skill-top-design-systems
+- https://github.com/carmahhawwari/ui-design-brain
+- https://github.com/affaan-m/everything-claude-code
+- https://github.com/kochetkov-ma/claude-brewcode
+- https://github.com/thedotmack/mackeroni-skills
 
 ## Best Practices
 
@@ -29,9 +38,9 @@
 | [accessibility](https://github.com/addyosmani/web-quality-skills/blob/main/skills/accessibility/SKILL.md)                                                    | Audit and improve web accessibility following WCAG 2.1 guidelines                   | Asked to improve accessibility, a11y audit, WCAG compliance, screen reader support   |
 | [agent-browser](https://github.com/vercel-labs/agent-browser/blob/main/skills/agent-browser/SKILL.md)                                                        | Headless browser automation CLI tool for AI agents                                  | Need to navigate websites, interact with web pages, fill forms, take screenshots     |
 | [ai-sdk](https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md)                                                                                  | Vercel AI SDK integration skill                                                     | Building AI agents, chatbots, RAG systems, using generateText, streamText, useChat   |
-| [ah-review-code](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-review-code/SKILL.md)                                               | Review code with structured analysis                                                | Reviewing pull requests or local changes with 'ah review' prefix                     |
-| [ah-submit-code-review](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-submit-code-review/SKILL.md)                                     | Submit code review to GitHub PR                                                     | Submitting structured PR reviews with line-specific comments                         |
-| [ah-verify-requirements-coverage](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-verify-requirements-coverage/SKILL.md)                 | Verify PR implementation against issue requirements                                 | Verifying PR or local changes cover linked issue requirements                        |
+| [ah-review-code](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-review-code/SKILL.md)                                                             | Review code with structured analysis                                                | Reviewing pull requests or local changes with 'ah review' prefix                     |
+| [ah-submit-code-review](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-submit-code-review/SKILL.md)                                               | Submit code review to GitHub PR                                                     | Submitting structured PR reviews with line-specific comments                         |
+| [ah-verify-requirements-coverage](https://github.com/arinhubcom/arinhub/blob/main/skills/ah-verify-requirements-coverage/SKILL.md)                           | Verify PR implementation against issue requirements                                 | Verifying PR or local changes cover linked issue requirements                        |
 | [best-practices](https://github.com/addyosmani/web-quality-skills/blob/main/skills/best-practices/SKILL.md)                                                  | Modern web development best practices for security, compatibility, and code quality | Asked to apply best practices, security audit, modernize code, code quality review   |
 | [better-auth-best-practices](https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md)                                            | Better Auth integration best practices                                              | Integrating Better Auth authentication framework                                     |
 | [claude-opus-4-5-migration](https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md) | Migrate prompts and code to Opus 4.5                                                | Updating codebase, prompts, or API calls to use Opus 4.5                             |
