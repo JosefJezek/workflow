@@ -3,16 +3,47 @@
 ## Brainstorming
 
 ```sh
-/simple-brainstorm
+/simple-brainstorm add table component for admin dashboard
 ```
 
 - https://github.com/roin-orca/skills
+- https://github.com/obra/superpowers
 
 ## Plan Only
 
 ```sh
 /plan
 ```
+
+- https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis
+
+## Refactor Code
+
+```sh
+/refactor
+```
+
+- https://github.com/github/awesome-copilot/blob/main/skills/refactor/SKILL.md
+- https://code.claude.com/docs/en/common-workflows#refactor-code
+
+### Repomix
+
+```
+This file contains all the files in the repository combined into one.
+I want to refactor the code, so please review it first.
+#file:repomix-output.xml
+```
+
+#### Refactoring Assistance
+
+Get refactoring suggestions that maintain consistency across your entire codebase.
+
+```
+This codebase needs refactoring to improve maintainability.
+Please suggest improvements while keeping the existing functionality intact.
+```
+
+- https://repomix.com/guide/use-cases#refactoring-assistance
 
 ## Review Plan
 
@@ -25,11 +56,11 @@
 
 ## Plan and Parallel Execution
 
-Interactively plan, then execute in parallel using dozens of agents.
+Research and interactively plan a `large-scale change`, then execute it in parallel using dozens of agents.
 Each agent runs with full isolation using git worktrees, testing its work before putting up a PR.
 
 ```sh
-/batch migrate src/ from Solid to React
+/batch migrate src/ from Solid to React, use red/green TDD
 ```
 
 - https://x.com/bcherny/status/2027534984534544489
