@@ -8,30 +8,29 @@ My personal workflow and tools for AI-assisted development.
 
 ## 🎯 Workflow
 
-See [WORKFLOW.md](WORKFLOW.md) for detailed information about my spec-driven development workflow.
+- 📋 [WORKFLOW.md](WORKFLOW.md) - Development workflows for greenfield and brownfield projects
+- ⚡ [FAST-WORKFLOW.md](FAST-WORKFLOW.md) - Quick commands for brainstorming, planning, refactoring, and parallel execution
 
-## 🤖 AI Models
+### 📐 Development Methodologies
 
-See [MODELS.md](MODELS.md) for detailed information about the AI models I use, comparisons, and performance benchmarks.
-
-## 🧩 AI Agent Skills
-
-See [SKILLS.md](SKILLS.md) for a comprehensive list of agent skills, documentation skills, and installation commands.
-
-## 🔌 MCP Servers
-
-See [MCP.md](MCP.md) for detailed information about my MCP server setups and configurations.
+- 🧭 [CDD.md](CDD.md) - Context-Driven Development for existing codebases
+- 📑 [SDD.md](SDD.md) - Spec-Driven Development with tool comparisons
+- 🔬 [RDD.md](RDD.md) - Research-Driven Development with Octocode and Repomix
+- 🧪 [TDD.md](TDD.md) - Test-Driven Development
+- 💻 [CODE-MODE.md](CODE-MODE.md) - Code Mode pattern for efficient tool execution
 
 ## 💬 Claude Code
 
-See [CLAUDE-CODE.md](CLAUDE-CODE.md) for detailed information about Claude Code CLI, tools, tasks, status line, and plugins.
+- 🤖 [CLAUDE-CODE.md](CLAUDE-CODE.md) - CLI settings, plugins, tasks, and status line
+- 🧠 [MEMORY.md](MEMORY.md) - AI memory, project instructions, rules, and auto-memory
+- 🧩 [SKILLS.md](SKILLS.md) - Agent skills, repositories, and installation commands
 
-## 🛠️ Tools
+## 🛠️ Tools & Infrastructure
 
-See [TOOLS.md](TOOLS.md) for detailed information about terminal tools, code editor, and AI proxy.
-
-## ✅ Best Practices References
-
-- https://www.vibekanban.com/vibe-guide
-- https://repomix.com/guide/tips/best-practices
-- https://claudekit.cc/blog/vc-07-claude-code-common-mistakes-production-ready-project
+- ⚙️ [TOOLS.md](TOOLS.md) - Terminal tools, code editor, AI proxy
+- 🔌 [MCP.md](MCP.md) - MCP server setups and configurations
+- 📚 [RAG.md](RAG.md) - Retrieval-Augmented Generation with LEANN
+- 🤖 [MODELS.md](MODELS.md) - AI model comparisons and benchmarks
+- 🏗️ [TECH-STACK.md](TECH-STACK.md) - Tech stack choices and hosting
+- 📦 [SETUP.md](SETUP.md) - Repository setup with opensrc, Repomix, and Preflight
+- 💡 [TIPS.md](TIPS.md) - AI tips and best practices
