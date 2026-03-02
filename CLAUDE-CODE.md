@@ -89,12 +89,6 @@ Each agent runs with full isolation using git worktrees, testing its work before
 
 - [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
 
-## Auto-Memory
-
-Claude remembers what it learns across sessions — your project context, debugging patterns, preferred approaches — and recalls it later without you having to write anything down.
-
-- https://x.com/trq212/status/2027109375765356723
-
 ## Setup
 
 ```sh
@@ -196,6 +190,7 @@ claude plugin install pr-review-toolkit
 
 # Security Guidance
 # Security reminder hook that warns about potential security issues when editing files, including command injection, XSS, and unsafe code patterns.
+# https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
 claude plugin install security-guidance
 
 ### Oficial LSP Plugins ###
