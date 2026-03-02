@@ -33,6 +33,8 @@ cd everything-claude-code
 ./install.sh golang python swift typescript
 ```
 
+- https://github.com/github/awesome-copilot/blob/main/instructions/typescript-5-es2022.instructions.md
+
 ## Auto-Memory
 
 Claude remembers what it learns across sessions — your project context, debugging patterns, preferred approaches — and recalls it later without you having to write anything down.
