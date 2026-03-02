@@ -16,8 +16,6 @@
 - https://github.com/coreyhaines31/marketingskills
 - https://skills.sh/?q=rodydavis
 - https://github.com/blader/taskmaster
-- https://github.com/blader/napkin
-- https://github.com/blader/theorist
 - https://github.com/blader/humanizer
 - https://github.com/oldbrush/skill-top-design-systems
 - https://github.com/carmahhawwari/ui-design-brain
