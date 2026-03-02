@@ -54,6 +54,24 @@ Please suggest improvements while keeping the existing functionality intact.
 - https://gist.github.com/garrytan/001f9074cab1a8f545ebecbc73a813df
 - https://x.com/garrytan/status/2026778016463138882
 
+## Execution
+
+### Before execution
+
+```sh
+first run the tests
+```
+
+- https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/
+
+### TDD with red/green tests
+
+```
+use red/green TDD
+```
+
+- https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/
+
 ## Plan and Parallel Execution
 
 Research and interactively plan a `large-scale change`, then execute it in parallel using dozens of agents.
@@ -106,3 +124,22 @@ Claude remembers what it learns across sessions — your project context, debugg
 ```
 
 - https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
+
+## Documents Writing
+
+- https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/
+
+## Interactive explanations
+
+- https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/
+
+### Playground
+
+```
+Use the playground skill to show how this email agent codebase works and let me comment on particular nodes in the architecture to ask questions, make edits, etc
+```
+
+- https://x.com/trq212/status/2017024445244924382
+- https://github.com/anthropics/claude-plugins-official/tree/main/plugins/playground
+
+Deploy: https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md
