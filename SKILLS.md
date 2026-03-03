@@ -249,6 +249,10 @@ npx skills add yamadashy/repomix -y -g -s repomix-explorer
 # https://github.com/resend/react-email/blob/canary/skills/SKILL.md
 npx skills add resend/react-email -y -g -s react-email
 
+# simple-brainstorm
+# https://github.com/roin-orca/skills/blob/main/skills/simple-brainstorm/SKILL.md
+npx skills add roin-orca/skills -y -g -s simple-brainstorm
+
 # skill-creator
 # Create new agent skills from templates.
 # https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
