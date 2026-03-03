@@ -8,23 +8,26 @@ Spec-Driven Development (SDD) is a development methodology that emphasizes creat
 
 - specifications are the source of truth
 - versioned memory for specs
-- supports delta specs for updates
+- supports delta specs for updates - openspec only now
 - integrates with version control systems
 - promotes team consistency through shared standards
 - user prompts for spec generation and updates are stored in project memory
 - AI agents build code based on specifications
-- questions and answers from chat are saved in project memory in md files
+- specs can be updated and versioned in git
+- tasks are generated from specs and saved in git repo
+- supports both greenfield and brownfield projects
+- can be used in combination with TDD for enhanced code quality
 
 ## Comparison Overview
 
-| Criteria | OpenSpec | Spec-Kit | BMAD Method | Superpowers | specs.md | SpecSwarm | Conductor |
-|----------|----------|----------|-------------|-------------|----------|-----------|-----------|
-| **Context Load** | ⭐⭐⭐⭐ Low | ⭐⭐⭐ Medium | ⭐⭐ High | ⭐⭐⭐⭐⭐ Very Low | ⭐⭐⭐ Medium | ⭐⭐⭐ Medium | ⭐⭐⭐ Medium |
-| **Spec Updates** | ✅ Excellent | ⚠️ Limited | ✅ Good | ⚠️ Limited | ✅ Good | ✅ Good | ✅ Good |
-| **Memory Versioning** | ✅ Git-based | ❌ No | ✅ Yes | ❌ No | ✅ Yes | ✅ Yes | ✅ Git notes |
-| **Workflow Speed** | ⭐⭐⭐⭐ Fast | ⭐⭐⭐ Medium | ⭐⭐ Slow | ⭐⭐⭐⭐⭐ Fastest | ⭐⭐⭐ Medium | ⭐⭐⭐⭐ Fast | ⭐⭐⭐ Medium |
-| **Team Consistency** | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐ Medium | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐ Good |
-| **Source of Truth** | Specs → Code | Spec → Code | Docs + Code | Code + Skills | Memory Bank | Tech Stack + Specs | Conductor/ |
+| Criteria              | OpenSpec             | Spec-Kit      | BMAD Method          | Superpowers         | specs.md      | SpecSwarm          | Conductor     |
+| --------------------- | -------------------- | ------------- | -------------------- | ------------------- | ------------- | ------------------ | ------------- |
+| **Context Load**      | ⭐⭐⭐⭐ Low         | ⭐⭐⭐ Medium | ⭐⭐ High            | ⭐⭐⭐⭐⭐ Very Low | ⭐⭐⭐ Medium | ⭐⭐⭐ Medium      | ⭐⭐⭐ Medium |
+| **Spec Updates**      | ✅ Excellent         | ⚠️ Limited    | ✅ Good              | ⚠️ Limited          | ✅ Good       | ✅ Good            | ✅ Good       |
+| **Memory Versioning** | ✅ Git-based         | ❌ No         | ✅ Yes               | ❌ No               | ✅ Yes        | ✅ Yes             | ✅ Git notes  |
+| **Workflow Speed**    | ⭐⭐⭐⭐ Fast        | ⭐⭐⭐ Medium | ⭐⭐ Slow            | ⭐⭐⭐⭐⭐ Fastest  | ⭐⭐⭐ Medium | ⭐⭐⭐⭐ Fast      | ⭐⭐⭐ Medium |
+| **Team Consistency**  | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐⭐ Excellent | ⭐⭐⭐ Medium       | ⭐⭐⭐⭐ Good | ⭐⭐⭐⭐ Good      | ⭐⭐⭐⭐ Good |
+| **Source of Truth**   | Specs → Code         | Spec → Code   | Docs + Code          | Code + Skills       | Memory Bank   | Tech Stack + Specs | Conductor/    |
 
 ### Key Findings
 
@@ -40,15 +43,15 @@ Spec-Driven Development (SDD) is a development methodology that emphasizes creat
 
 ### Recommended by Scenario
 
-| Scenario | Recommended Tool | Reason |
-|----------|------------------|--------|
-| **Quick Prototypes** | Superpowers | Minimal overhead, skills on-demand |
-| **Enterprise Projects** | BMAD Method or specs.md (AI-DLC) | Full traceability, multi-agent |
-| **Brownfield Updates** | OpenSpec | Delta specs, merge workflow |
-| **Refactoring** | OpenSpec | Delta specs, brownfield-first, archive merge |
-| **Team Consistency** | Spec-Kit or SpecSwarm | Constitution, tech stack enforcement |
-| **Monorepo** | specs.md (FIRE) | Hierarchical standards |
-| **Gemini CLI** | Conductor | Native support |
+| Scenario                | Recommended Tool                 | Reason                                       |
+| ----------------------- | -------------------------------- | -------------------------------------------- |
+| **Quick Prototypes**    | Superpowers                      | Minimal overhead, skills on-demand           |
+| **Enterprise Projects** | BMAD Method or specs.md (AI-DLC) | Full traceability, multi-agent               |
+| **Brownfield Updates**  | OpenSpec                         | Delta specs, merge workflow                  |
+| **Refactoring**         | OpenSpec                         | Delta specs, brownfield-first, archive merge |
+| **Team Consistency**    | Spec-Kit or SpecSwarm            | Constitution, tech stack enforcement         |
+| **Monorepo**            | specs.md (FIRE)                  | Hierarchical standards                       |
+| **Gemini CLI**          | Conductor                        | Native support                               |
 
 ## Compared SDD Tools
 

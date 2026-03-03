@@ -2,49 +2,15 @@
 
 My personal development workflows for AI-assisted development.
 
-## 📑 Table of Contents
-
 ## Greenfield Projects
 
 ## Brownfield Projects
 
 For existing brownfield projects, I primarily use the Context-Driven Development Workflow to enhance and maintain the codebase effectively.
 
-### Documentation First Approach
+## 📄 Documentation First Approach
 
-#### Generating Documentation with Octocode
-
-I use the Documentation Writer Skill from Octocode to generate and maintain up-to-date documentation for my codebases.
-This helps ensure that both human developers and AI models have a clear understanding of the code structure and functionality.
-
-For more information, see the [Documentation Writer Skill](RDD.md#documentation-writer-skill).
-
-```sh
-/octocode-documentation-writer
-```
-
-#### Creating Codebase Reference Skill with Repomix
-
-I use Repomix to generate a comprehensive codebase reference skill for better navigation and understanding of the project structure.
-
-For more information, see the [Skill Generator](RDD.md#skill-generator).
-
-```sh
-npx repomix src/ --skill-generate repomix-codebase-reference-src
-```
-
-#### Creating Codebase Reference in one file with Repomix
-
-I use Repomix to create a single-file representation of the entire codebase for easy analysis and exploration by AI models.
-
-For more information, see the [Explorer Skill](RDD.md#explorer-skill).
-
-```sh
-npx repomix@latest
-```
-
-> This file contains all the files in the repository combined into one.
-> I want to refactor the code, so please review it first.
+For more information, see [Documentation First Approach](DOCS.md).
 
 ## 🎯 Context-Driven Development Workflow
 
@@ -56,30 +22,13 @@ I use Spec Kit for structured, specification-driven development with AI assistan
 
 [Spec Kit](https://github.com/github/spec-kit#readme) is a tool for creating, managing, and validating software specifications.
 
-For more information, see [Spec-Driven Development (SDD)](SDD.md).
+For more information, see [Spec-Driven Development (SDD)](SDD.md) and [SPECKIT.md](SPECKIT.md).
 
 ### 🧪 Test-Driven Development (TDD)
 
 I combine Spec Kit with TDD to ensure code quality and correctness.
 
 For more information, see [Test-Driven Development (TDD)](TDD.md).
-
-### 🔄 Spec files can be updated
-
-To update the spec file, you need to create a new git branch with the same prefix as the spec file folder.
-For example, to update `specs/001-login-page/spec.md`, create a branch named `001-fix-submit-button`.
-
-```sh
-git checkout -b 001-fix-submit-button
-/speckit.clarify Update the login page to fix the alignment issue of the submit button.
-/speckit.plan Test cases should be updated accordingly to cover the new changes.
-/speckit.tasks
-/speckit.implement
-```
-
-### constitution.md vs AGENTS.md
-
-- File `.specify/memory/constitution.md` is used to define the project's principles and guidelines that govern the development process.
 
 ### 📝 Workflow Steps
 
