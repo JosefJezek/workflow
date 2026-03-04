@@ -23,6 +23,7 @@
 - https://github.com/kochetkov-ma/claude-brewcode
 - https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
 - https://github.com/thedotmack/mackeroni-skills
+- https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
 
 ## Best Practices
 
