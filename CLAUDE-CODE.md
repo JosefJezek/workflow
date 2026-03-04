@@ -45,9 +45,9 @@
     "ANTHROPIC_DEFAULT_HAIKU_MODEL": "claude-sonnet-4-6[1m]",
     "CLAUDE_CODE_SUBAGENT_MODEL": "claude-sonnet-4-6[1m]",
 
-    # Set effort level to "high". Use with caution as it may increase latency and cost.
+    # Set effort level to "medium". Use with caution as it may increase latency and cost.
     # https://code.claude.com/docs/en/model-config#adjust-effort-level
-    "CLAUDE_CODE_EFFORT_LEVEL": "high",
+    "CLAUDE_CODE_EFFORT_LEVEL": "medium",
   }
 ```
 
