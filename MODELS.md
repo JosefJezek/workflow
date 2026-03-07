@@ -20,3 +20,18 @@
 - [Artificial Analysis Intelligence Index](https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index)
 - [Which model is fastest with 100k token prompts?](https://artificialanalysis.ai/models/prompt-options/single/100k#performance)
 - [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
+
+## Prompt Guides
+
+### Claude
+
+- https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
+- https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
+- https://github.com/ThamJiaHe/claude-prompt-engineering-guide
+
+### Gemini
+
+### GPT
+
+- https://developers.openai.com/api/docs/guides/latest-model
+- https://developers.openai.com/api/docs/guides/prompt-guidance/
