@@ -155,6 +155,10 @@ npx skills add google-gemini/gemini-cli -y -g -s code-reviewer
 # https://github.com/upstash/context7/blob/master/plugins/claude/context7/skills/documentation-lookup/SKILL.md
 npx skills add upstash/context7 -y -g -s documentation-lookup
 
+# d3k
+# https://github.com/vercel-labs/dev3000/blob/main/skills/d3k/SKILL.md
+npx skills add vercel-labs/dev3000 -y -g -s d3k
+
 # doc-coauthoring
 # Structured workflow for guiding users through collaborative document creation.
 # https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
@@ -190,6 +194,10 @@ npx skills add heredotnow/skill -y -g -s here-now
 # Save knowledge from agent sessions.
 # https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md
 npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
+
+# notebooklm
+# https://github.com/teng-lin/notebooklm-py/blob/main/src/notebooklm/data/SKILL.md
+npx skills add teng-lin/notebooklm-py -y -g -s notebooklm
 
 # octocode-documentation-writer, octocode-local-search, octocode-prompt-optimizer, octocode-research, octocode-roast
 # Research codebases using OctoCode MCP. Generate documentation from code.
@@ -252,6 +260,7 @@ npx skills add resend/react-email -y -g -s react-email
 # skill-creator
 # Create new agent skills from templates.
 # https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md
+# https://x.com/RLanceMartin/status/2028901058572107926
 npx skills add anthropics/skills -y -g -s skill-creator
 
 # stitch: design-md, react:components
