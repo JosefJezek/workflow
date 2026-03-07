@@ -23,6 +23,7 @@
 - https://github.com/kochetkov-ma/claude-brewcode
 - https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
 - https://github.com/thedotmack/mackeroni-skills
+- https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
 
 ## Best Practices
 
@@ -256,6 +257,10 @@ npx skills add yamadashy/repomix -y -g -s repomix-explorer
 # Build and send HTML emails using React components.
 # https://github.com/resend/react-email/blob/canary/skills/SKILL.md
 npx skills add resend/react-email -y -g -s react-email
+
+# simple-brainstorm
+# https://github.com/roin-orca/skills/blob/main/skills/simple-brainstorm/SKILL.md
+npx skills add roin-orca/skills -y -g -s simple-brainstorm
 
 # skill-creator
 # Create new agent skills from templates.
