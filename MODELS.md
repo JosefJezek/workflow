@@ -27,11 +27,22 @@
 
 - https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview
 - https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices
-- https://github.com/ThamJiaHe/claude-prompt-engineering-guide
 
 ### Gemini
+
+- https://ai.google.dev/gemini-api/docs/prompting-strategies
+- https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide
+- https://cloud.google.com/discover/what-is-prompt-engineering
+- https://cloud.google.com/gemini-enterprise/resources/prompt-guide
 
 ### GPT
 
 - https://developers.openai.com/api/docs/guides/latest-model
 - https://developers.openai.com/api/docs/guides/prompt-guidance/
+
+## Prompt Crafting Skills
+
+- https://docs.factory.ai/guides/power-user/prompt-crafting
+- https://github.com/Factory-AI/factory/blob/main/examples/power-user-skills/prompt-refiner-claude/SKILL.md
+- https://github.com/Factory-AI/factory/blob/main/examples/power-user-skills/prompt-refiner-gpt/SKILL.md
+- https://github.com/anthropics/claude-code/tree/main/plugins/claude-opus-4-5-migration
