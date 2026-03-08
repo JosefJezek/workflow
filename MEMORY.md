@@ -41,6 +41,7 @@ Claude remembers what it learns across sessions — your project context, debugg
 
 - https://code.claude.com/docs/en/memory#auto-memory
 - https://x.com/trq212/status/2027109375765356723
+- https://claudefa.st/blog/guide/mechanics/auto-memory
 
 ## Other Memory Tools
 
