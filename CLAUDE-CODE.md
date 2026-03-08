@@ -4,6 +4,13 @@
 
 > I use Claude Code tool, because it provides powerful interface to leverage Claude models effectively for AI-assisted development.
 
+## Setup
+
+```sh
+# Manage IDE integrations and show status
+/ide
+```
+
 ## Settings
 
 - Edit settings file `~/.claude/settings.json` to configure default model, plugins, and other preferences.
@@ -85,17 +92,6 @@ Each agent runs with full isolation using git worktrees, testing its work before
 
 - https://x.com/bcherny/status/2027534984534544489
 
-## Tasks
-
-- [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
-
-## Setup
-
-```sh
-# Manage IDE integrations and show status
-/ide
-```
-
 ## Best Practices
 
 - 📖 [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
@@ -116,6 +112,8 @@ Each agent runs with full isolation using git worktrees, testing its work before
 - [Auto Claude](https://github.com/AndyMik90/Auto-Claude#readme)
 
 ## Tasks
+
+- [Claude Code Just Got a Brain Upgrade Inspired By Beads](https://www.youtube.com/watch?v=-xOAYPjhigY)
 
 `CLAUDE_CODE_TASK_LIST_ID=test claude`
 
