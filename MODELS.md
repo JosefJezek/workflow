@@ -21,7 +21,7 @@
 - [Which model is fastest with 100k token prompts?](https://artificialanalysis.ai/models/prompt-options/single/100k#performance)
 - [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 
-## Prompt Guides
+## 📝 Prompt Guides
 
 ### Claude
 
@@ -40,7 +40,7 @@
 - https://developers.openai.com/api/docs/guides/latest-model
 - https://developers.openai.com/api/docs/guides/prompt-guidance/
 
-## Prompt Crafting Skills
+## 🛠️ Prompt Crafting Skills
 
 - https://docs.factory.ai/guides/power-user/prompt-crafting
 - https://github.com/Factory-AI/factory/blob/main/examples/power-user-skills/prompt-refiner-claude/SKILL.md
