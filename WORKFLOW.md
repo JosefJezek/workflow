@@ -121,6 +121,8 @@ Post-implementation retrospective command focused on spec adherence, drift analy
 
 ## Simplify
 
+- https://claudefa.st/blog/guide/mechanics/simplify-batch-commands
+
 ```sh
 /simplify
 ```
