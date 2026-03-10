@@ -59,3 +59,7 @@ https://claudefa.st/blog/guide/agents/agent-teams
 
 - https://github.com/ruvnet/ruflo
 - https://www.reddit.com/r/aipromptprogramming/comments/1rgmrz3/so_long_claude_flow_hello_ruflo_v350_is_out_of/?tl=cs
+
+## oh-my-claudecode
+
+- https://github.com/yeachan-heo/oh-my-claudecode
