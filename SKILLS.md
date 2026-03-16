@@ -24,6 +24,8 @@
 - https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
 - https://github.com/thedotmack/mackeroni-skills
 - https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
+- https://github.com/kepano/obsidian-skills
+- https://github.com/googleworkspace/cli
 
 ## Best Practices
 
@@ -160,6 +162,10 @@ npx skills add upstash/context7 -y -g -s documentation-lookup
 # https://github.com/vercel-labs/dev3000/blob/main/skills/d3k/SKILL.md
 npx skills add vercel-labs/dev3000 -y -g -s d3k
 
+# defuddle
+# https://github.com/kepano/obsidian-skills/blob/main/skills/defuddle/SKILL.md
+npx skills add kepano/obsidian-skills -y -g -s defuddle
+
 # doc-coauthoring
 # Structured workflow for guiding users through collaborative document creation.
 # https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
@@ -190,6 +196,11 @@ npx skills add openai/skills -y -g -s gh-fix-ci
 # here-now
 # https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md
 npx skills add heredotnow/skill -y -g -s here-now
+
+# chrome-devtools-cli
+# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/chrome-devtools-cli/SKILL.md
+# https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session
+npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s chrome-devtools-cli
 
 # knowledge-saver
 # Save knowledge from agent sessions.
@@ -257,6 +268,10 @@ npx skills add yamadashy/repomix -y -g -s repomix-explorer
 # Build and send HTML emails using React components.
 # https://github.com/resend/react-email/blob/canary/skills/SKILL.md
 npx skills add resend/react-email -y -g -s react-email
+
+# shadcn
+# https://github.com/shadcn-ui/ui/blob/main/skills/shadcn/SKILL.md
+npx skills add shadcn-ui/ui -y -g -s shadcn
 
 # simple-brainstorm
 # https://github.com/roin-orca/skills/blob/main/skills/simple-brainstorm/SKILL.md
