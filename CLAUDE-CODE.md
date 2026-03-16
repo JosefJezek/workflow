@@ -92,16 +92,6 @@ Each agent runs with full isolation using git worktrees, testing its work before
 
 - https://x.com/bcherny/status/2027534984534544489
 
-## Best Practices
-
-- 📖 [Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)
-- 💡 [Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-4-best-practices)
-- ✍️ [Skill authoring best practices](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices)
-- 📚 [Claude Cookbooks](https://github.com/anthropics/claude-cookbooks#readme)
-- 🔧 [Use Claude Code in VS Code](https://code.claude.com/docs/en/vs-code)
-- 💭 [Boris Cherny Tips](https://x.com/bcherny/status/2007179832300581177)
-- 🎯 [Claude Code Tips](https://github.com/ykdojo/claude-code-tips)
-
 ## 🛠️ Tools
 
 - [Claude Code Usage Analyzer](https://github.com/ryoppippi/ccusage#readme)
