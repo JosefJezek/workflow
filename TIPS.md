@@ -18,3 +18,4 @@
 - 💭 [Boris Cherny Tips](https://x.com/bcherny/status/2007179832300581177)
 - 🎯 [Claude Code Tips](https://github.com/ykdojo/claude-code-tips)
 - 📘 [Claude Code Best Practices](https://github.com/shanraisshan/claude-code-best-practice)
+- 📖 [Learn Claude Code](https://github.com/shareAI-lab/learn-claude-code)
