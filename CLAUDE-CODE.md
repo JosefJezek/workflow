@@ -210,3 +210,7 @@ claude plugin install rust-analyzer-lsp
 npm install -g typescript-language-server typescript
 claude plugin install typescript-lsp
 ```
+
+## System Prompts
+
+- https://github.com/Piebald-AI/claude-code-system-prompts
