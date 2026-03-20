@@ -55,6 +55,12 @@ https://claudefa.st/blog/guide/agents/agent-teams
 - https://github.com/darkroomengineering/cc-settings/blob/main/skills/teams/SKILL.md
 - https://lobehub.com/skills?q=CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS
 
+## Superpowers
+
+- https://github.com/obra/superpowers
+- https://blog.fsck.com/2026/03/09/superpowers-5/
+- https://www.reddit.com/r/GoogleAntigravityIDE/comments/1rfbocb/i_ported_superpowers_the_ai_coding_workflow/
+
 ## RuFlo (Claude Flow)
 
 - https://github.com/ruvnet/ruflo
@@ -63,3 +69,16 @@ https://claudefa.st/blog/guide/agents/agent-teams
 ## oh-my-claudecode
 
 - https://github.com/yeachan-heo/oh-my-claudecode
+
+## BMad Method
+
+- https://github.com/bmad-code-org/BMAD-METHOD
+
+## Claude Octopus
+
+- https://github.com/nyldn/claude-octopus
+
+## Other
+
+- https://github.com/different-ai/openwork
+- https://github.com/paperclipai/paperclip
