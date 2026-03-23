@@ -121,11 +121,15 @@ npx skills add vercel-labs/agent-browser -y -g -s agent-browser
 # https://github.com/vercel/ai/blob/main/skills/use-ai-sdk/SKILL.md
 npx skills add vercel/ai -y -g -s ai-sdk
 
-# arinhub: ah-review-code, ah-submit-code-review, ah-verify-requirements-coverage
+# arinhub: ah-review-code, ah-submit-code-review,ah-verify-requirements-coverage, ah-create-tasks, ah-create-pr, ah-finalize-code, ah-resolve-pr-review
 # https://github.com/arinhubcom/arinhub/blob/main/skills/ah-review-code/SKILL.md
 # https://github.com/arinhubcom/arinhub/blob/main/skills/ah-submit-code-review/SKILL.md
 # https://github.com/arinhubcom/arinhub/blob/main/skills/ah-verify-requirements-coverage/SKILL.md
-npx skills add arinhubcom/arinhub -y -g -s ah-review-code -s ah-submit-code-review -s ah-verify-requirements-coverage
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-create-tasks/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-create-pr/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-finalize-code/SKILL.md
+# https://github.com/arinhubcom/arinhub/blob/main/skills/ah-resolve-pr-review/SKILL.md
+npx skills add arinhubcom/arinhub -y -g -s ah-review-code -s ah-submit-code-review -s ah-verify-requirements-coverage -s ah-create-tasks -s ah-create-pr -s ah-finalize-code -s ah-resolve-pr-review
 
 # a11y-debugging
 # https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md
@@ -187,6 +191,10 @@ npx skills add getsentry/skills -y -g -s find-bugs
 # Build a landing page for an AI security startup
 # Design a settings panel with dark mode
 npx skills add anthropics/skills -y -g -s frontend-design
+
+# gh-address-comments
+# https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
+npx skills add openai/skills -y -g -s gh-address-comments
 
 # gh-fix-ci
 # Fix CI failures on GitHub PRs.
