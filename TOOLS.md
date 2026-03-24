@@ -6,9 +6,11 @@ My personal tools setup for AI-assisted development.
 
 - [⚡ Terminal tools](#-terminal-tools)
 - [✏️ Code editor](#️-code-editor)
+- [🧠 AI Agents](#-ai-agents)
 - [🤖 AI Tools](#-ai-tools)
 - [🔀 AI Proxy](#-ai-proxy)
 - [🔒 VPN](#-vpn)
+- [🌐 Browser Tools](#-browser-tools)
 
 ## ⚡ Terminal tools
 
@@ -33,6 +35,10 @@ My personal tools setup for AI-assisted development.
 - ⚙️ [GitHub Actions](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-github-actions)
 - 🎯 [Voight](https://marketplace.visualstudio.com/items?itemName=SwaritPandey.voight)
 
+## 🧠 AI Agents
+
+- [Knowledge Agent Template](https://github.com/vercel-labs/knowledge-agent-template)
+
 ## 🤖 AI Tools
 
 - [dev3000](https://github.com/vercel-labs/dev3000#readme)
@@ -48,3 +54,25 @@ Proxy server to manage requests and costs.
 ## 🔒 VPN
 
 - [Tailscale](https://tailscale.com) - Secure private network for development environments.
+
+## 🌐 Browser Tools
+
+### Browser automation CLI
+
+- https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/main/skills
+- https://github.com/microsoft/playwright-cli/tree/main/skills
+- https://github.com/vercel-labs/agent-browser/tree/main/skills
+- https://github.com/pinchtab/pinchtab/tree/main/skills
+- https://github.com/browser-use/browser-use/tree/main/skills
+
+```sh
+/browser-use
+connect to my browser and go to localhost:3000
+```
+
+- https://github.com/browser-use/browser-use/releases/tag/0.12.3
+
+### Other browser tools
+
+- https://github.com/vercel-labs/emulate
+- https://github.com/vercel-labs/next-browser
