@@ -64,6 +64,7 @@ Proxy server to manage requests and costs.
 - https://github.com/vercel-labs/agent-browser/tree/main/skills
 - https://github.com/pinchtab/pinchtab/tree/main/skills
 - https://github.com/browser-use/browser-use/tree/main/skills
+- https://github.com/Bin-Huang/camoufox-cli/tree/main/skills/camoufox-cli
 
 ```sh
 /browser-use
