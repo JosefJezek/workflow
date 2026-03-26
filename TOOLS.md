@@ -69,6 +69,7 @@ Proxy server to manage requests and costs.
 - https://github.com/Bin-Huang/camoufox-cli/tree/main/skills/camoufox-cli
 - https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser
 - https://github.com/lonexreb/site2cli
+- https://github.com/remorses/playwriter/tree/main/skills/playwriter
 
 ```sh
 /browser-use
