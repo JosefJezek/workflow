@@ -26,6 +26,8 @@
 - https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
 - https://github.com/kepano/obsidian-skills
 - https://github.com/googleworkspace/cli
+- https://github.com/vercel-labs/agentic-commerce-skills/blob/main/ucp/SKILL.md
+- https://github.com/vercel-labs/before-and-after
 
 ## Best Practices
 
@@ -140,6 +142,10 @@ npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s a11y-debugging
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
 # https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
 npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
+
+# building-components
+# https://github.com/vercel/components.build/blob/main/skills/building-components/SKILL.md
+npx skills add vercel/components.build -y -g -s building-components
 
 # claude-opus-4-5-migration
 # Migrate prompts and code to Opus 4.5.
