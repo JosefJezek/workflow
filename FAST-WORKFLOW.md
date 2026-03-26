@@ -13,9 +13,14 @@
 
 ```sh
 /plan
+audit plan
+/plan-exit-review
+# OR
+/plan-mega-review
 ```
 
 - https://code.claude.com/docs/en/common-workflows#use-plan-mode-for-safe-code-analysis
+- https://x.com/garrytan/status/2029986273562382343
 
 ## Refactor Code
 
