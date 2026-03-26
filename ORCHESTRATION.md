@@ -78,7 +78,12 @@ https://claudefa.st/blog/guide/agents/agent-teams
 
 - https://github.com/nyldn/claude-octopus
 
+## gstack
+
+- https://github.com/garrytan/gstack
+
 ## Other
 
 - https://github.com/different-ai/openwork
 - https://github.com/paperclipai/paperclip
+- https://github.com/rohitg00/pro-workflow
