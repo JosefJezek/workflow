@@ -19,7 +19,9 @@ My personal tools setup for AI-assisted development.
 - 🚀 [Starship](https://github.com/starship/starship#readme)
 - 🍞 [Bun](https://github.com/oven-sh/bun#readme)
 - 📊 [Superset](https://github.com/superset-sh/superset#readme)
+- 🔗 [Conductor](https://www.conductor.build)
 - 🛡️ [Preflight](https://github.com/preflightsh/preflight#readme)
+- 🔧 [Unfudged](https://www.unfudged.io)
 
 ## ✏️ Code editor
 
@@ -65,6 +67,8 @@ Proxy server to manage requests and costs.
 - https://github.com/pinchtab/pinchtab/tree/main/skills
 - https://github.com/browser-use/browser-use/tree/main/skills
 - https://github.com/Bin-Huang/camoufox-cli/tree/main/skills/camoufox-cli
+- https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser
+- https://github.com/lonexreb/site2cli
 
 ```sh
 /browser-use
