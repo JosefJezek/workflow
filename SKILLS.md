@@ -259,6 +259,10 @@ npx skills add microsoft/playwright-cli -y -g -s playwright-cli
 # https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md
 npx skills add github/awesome-copilot -y -g -s prd
 
+# prompt-master
+# https://github.com/nidhinjs/prompt-master/blob/main/SKILL.md
+npx skills add nidhinjs/prompt-master -y -g -s prompt-master
+
 # react-doctor
 # https://github.com/millionco/react-doctor/blob/main/skills/react-doctor/SKILL.md
 npx skills add millionco/react-doctor -y -g -s react-doctor
