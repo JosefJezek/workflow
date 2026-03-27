@@ -6,6 +6,8 @@
 
 ## Installation
 
+- https://github.com/paoloricciuti/mcp-add
+
 ### Context7
 
 - https://github.com/upstash/context7
