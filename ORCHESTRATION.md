@@ -58,6 +58,7 @@ https://claudefa.st/blog/guide/agents/agent-teams
 ## Superpowers
 
 - https://github.com/obra/superpowers
+- https://github.com/rhuss/cc-spex
 - https://blog.fsck.com/2026/03/09/superpowers-5/
 - https://www.reddit.com/r/GoogleAntigravityIDE/comments/1rfbocb/i_ported_superpowers_the_ai_coding_workflow/
 
