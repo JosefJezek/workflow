@@ -41,6 +41,10 @@ My personal tools setup for AI-assisted development.
 
 - [Knowledge Agent Template](https://github.com/vercel-labs/knowledge-agent-template)
 
+## 🧩 AI Dashboard
+
+- [Better Hub](https://github.com/better-auth/better-hub)
+
 ## 🤖 AI Tools
 
 - [dev3000](https://github.com/vercel-labs/dev3000#readme)
