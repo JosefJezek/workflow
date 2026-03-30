@@ -143,6 +143,10 @@ npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s a11y-debugging
 # https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
 npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
 
+# better-icons
+# https://github.com/better-auth/better-icons/blob/main/skills/SKILL.md
+npx skills add better-auth/better-icons -y -g -s better-icons
+
 # building-components
 # https://github.com/vercel/components.build/blob/main/skills/building-components/SKILL.md
 npx skills add vercel/components.build -y -g -s building-components
