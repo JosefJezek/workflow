@@ -26,6 +26,8 @@
 - https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
 - https://github.com/kepano/obsidian-skills
 - https://github.com/googleworkspace/cli
+- https://github.com/vercel-labs/agentic-commerce-skills/blob/main/ucp/SKILL.md
+- https://github.com/vercel-labs/before-and-after
 
 ## Best Practices
 
@@ -141,6 +143,14 @@ npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s a11y-debugging
 # https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
 npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
 
+# better-icons
+# https://github.com/better-auth/better-icons/blob/main/skills/SKILL.md
+npx skills add better-auth/better-icons -y -g -s better-icons
+
+# building-components
+# https://github.com/vercel/components.build/blob/main/skills/building-components/SKILL.md
+npx skills add vercel/components.build -y -g -s building-components
+
 # claude-opus-4-5-migration
 # Migrate prompts and code to Opus 4.5.
 # https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
@@ -252,6 +262,11 @@ npx skills add microsoft/playwright-cli -y -g -s playwright-cli
 # prd
 # https://github.com/github/awesome-copilot/blob/main/skills/prd/SKILL.md
 npx skills add github/awesome-copilot -y -g -s prd
+
+# prompt-master, prompt-mini
+# https://github.com/nidhinjs/prompt-master/blob/main/SKILL.md
+# https://github.com/nidhinjs/prompt-mini/blob/main/skills/prompt-mini/SKILL.md
+npx skills add nidhinjs/prompt-master -y -g -s prompt-master -s prompt-mini
 
 # react-doctor
 # https://github.com/millionco/react-doctor/blob/main/skills/react-doctor/SKILL.md
