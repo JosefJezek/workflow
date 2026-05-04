@@ -1,10 +1,5 @@
 # 🎯 Workflow
 
-## Dev Workflows Comparison
-
-- <https://github.com/shanraisshan/claude-code-best-practice#%EF%B8%8F-development-workflows>
-- <https://x.com/MaruPelkar/status/2036927243029713284>
-
 ## Greenfield Projects
 
 ## Brownfield Projects
