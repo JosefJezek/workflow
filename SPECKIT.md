@@ -32,3 +32,7 @@ git checkout -b 001-fix-submit-button
 ## constitution.md vs AGENTS.md
 
 - File `.specify/memory/constitution.md` is used to define the project's principles and guidelines that govern the development process.
+
+## Resources
+
+- <https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/>
