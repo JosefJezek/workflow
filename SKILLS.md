@@ -292,6 +292,12 @@ npx skills add yamadashy/repomix -y -g -s repomix-explorer
 # https://github.com/resend/react-email/blob/canary/skills/SKILL.md
 npx skills add resend/react-email -y -g -s react-email
 
+# sentry-cli
+#https://github.com/getsentry/cli/blob/main/plugins/sentry-cli/skills/sentry-cli/SKILL.md
+# https://github.com/getsentry/cli?tab=readme-ov-file#installation
+# sentry auth login
+npx skills add getsentry/cli -y -g -s sentry-cli
+
 # shadcn
 # https://github.com/shadcn-ui/ui/blob/main/skills/shadcn/SKILL.md
 npx skills add shadcn-ui/ui -y -g -s shadcn
