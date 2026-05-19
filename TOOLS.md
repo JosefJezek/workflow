@@ -61,29 +61,38 @@ Proxy server to manage requests and costs.
 
 - [Tailscale](https://tailscale.com) - Secure private network for development environments.
 
+## Image Tools
+
+- <https://github.com/PsychedelicCZ/FCK-GEMINI>
+
+## App Tools
+
+- <https://github.com/openclaw/gogcli>
+-
+
 ## 🌐 Browser Tools
 
 ### Browser automation CLI
 
-- https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/main/skills
-- https://github.com/microsoft/playwright-cli/tree/main/skills
-- https://github.com/vercel-labs/agent-browser/tree/main/skills
-- https://github.com/pinchtab/pinchtab/tree/main/skills
-- https://github.com/browser-use/browser-use/tree/main/skills
-- https://github.com/Bin-Huang/camoufox-cli/tree/main/skills/camoufox-cli
-- https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser
-- https://github.com/lonexreb/site2cli
-- https://github.com/remorses/playwriter/tree/main/skills/playwriter
-- https://github.com/vercel-labs/next-browser/blob/main/SKILL.md
+- <https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/main/skills>
+- <https://github.com/microsoft/playwright-cli/tree/main/skills>
+- <https://github.com/vercel-labs/agent-browser/tree/main/skills>
+- <https://github.com/pinchtab/pinchtab/tree/main/skills>
+- <https://github.com/browser-use/browser-use/tree/main/skills>
+- <https://github.com/Bin-Huang/camoufox-cli/tree/main/skills/camoufox-cli>
+- <https://github.com/SawyerHood/dev-browser/tree/main/skills/dev-browser>
+- <https://github.com/lonexreb/site2cli>
+- <https://github.com/remorses/playwriter/tree/main/skills/playwriter>
+- <https://github.com/vercel-labs/next-browser/blob/main/SKILL.md>
 
 ```sh
 /browser-use
 connect to my browser and go to localhost:3000
 ```
 
-- https://github.com/browser-use/browser-use/releases/tag/0.12.3
+- <https://github.com/browser-use/browser-use/releases/tag/0.12.3>
 
 ### Other browser tools
 
-- https://github.com/vercel-labs/emulate
-- https://github.com/vercel-labs/next-browser
+- <https://github.com/vercel-labs/emulate>
+- <https://github.com/vercel-labs/next-browser>

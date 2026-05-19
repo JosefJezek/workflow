@@ -9,3 +9,4 @@
 - <https://github.com/nexu-io/open-design>
 - <https://github.com/pbakaus/impeccable>
 - <https://www.pencil.dev/>
+- <https://github.com/Manavarya09/design-extract>
