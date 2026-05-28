@@ -5,6 +5,7 @@
 - <https://github.com/juliusbrussee/caveman>
 - <https://github.com/alexgreensh/token-optimizer>
 - <https://github.com/safishamsi/graphify>
+  - https://www.youtube.com/watch?v=HQEm4rBKdec
 - <https://github.com/getagentseal/codeburn>
 
 ## Resources
