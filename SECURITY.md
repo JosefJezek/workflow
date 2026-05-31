@@ -1,5 +1,11 @@
 # AI Security
 
+## Tools
+
+- https://github.com/vercel-labs/deepsec
+- https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
+- https://code.claude.com/docs/en/security-guidance
+
 ## Prompt to Verify AI Security
 
 ```md
