@@ -235,7 +235,7 @@ npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
 npx skills add GoogleChrome/modern-web-guidance -y -g -s modern-web-guidance -s chrome-extensions
 
 # notebooklm
-# https://github.com/teng-lin/notebooklm-py/blob/main/src/notebooklm/data/SKILL.md
+# https://github.com/teng-lin/notebooklm-py/blob/main/SKILL.md
 npx skills add teng-lin/notebooklm-py -y -g -s notebooklm
 
 # octocode-documentation-writer, octocode-prompt-optimizer, octocode-research, octocode-roast
