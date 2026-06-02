@@ -166,12 +166,11 @@ npx skills add cloudflare/skills -y -g -s cloudflare -s workers-best-practices
 # https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
 npx skills add google-gemini/gemini-cli -y -g -s code-reviewer
 
-# context7: documentation-lookup
+# context7-mcp
 # Fallback for local docs skills from Repomix.
 # Local docs skills does not cover all libraries.
-# https://github.com/upstash/context7/tree/master/plugins/claude/context7
-# https://github.com/upstash/context7/blob/master/plugins/claude/context7/skills/documentation-lookup/SKILL.md
-npx skills add upstash/context7 -y -g -s documentation-lookup
+# https://github.com/upstash/context7/blob/master/plugins/claude/context7/skills/context7-mcp/SKILL.md
+npx skills add upstash/context7 -y -g -s context7-mcp
 
 # d3k
 # https://github.com/vercel-labs/dev3000/blob/main/skills/d3k/SKILL.md
@@ -239,16 +238,15 @@ npx skills add GoogleChrome/modern-web-guidance -y -g -s modern-web-guidance -s 
 # https://github.com/teng-lin/notebooklm-py/blob/main/src/notebooklm/data/SKILL.md
 npx skills add teng-lin/notebooklm-py -y -g -s notebooklm
 
-# octocode-documentation-writer, octocode-local-search, octocode-prompt-optimizer, octocode-research, octocode-roast
+# octocode-documentation-writer, octocode-prompt-optimizer, octocode-research, octocode-roast
 # Research codebases using OctoCode MCP. Generate documentation from code.
 # https://medium.com/@guybary/octocode-research-skill-b8248214b515
 # https://www.linkedin.com/posts/bgauryy_octocode-vs-deepwiki-by-cognition-ai-research-activity-7384197129247993856-7lrU/
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-documentation-writer/SKILL.md
-# https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-local-search/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-prompt-optimizer/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-research/SKILL.md
 # https://github.com/bgauryy/octocode-mcp/blob/main/skills/octocode-roast/SKILL.md
-npx skills add bgauryy/octocode-mcp -y -g -s octocode-documentation-writer -s octocode-local-search -s octocode-prompt-optimizer -s octocode-research -s octocode-roast
+npx skills add bgauryy/octocode-mcp -y -g -s octocode-documentation-writer -s octocode-prompt-optimizer -s octocode-research -s octocode-roast
 
 # pdf
 # https://github.com/anthropics/skills/blob/main/skills/pdf/SKILL.md
@@ -288,7 +286,7 @@ npx skills add github/awesome-copilot -y -g -s refactor
 
 # repomix-explorer
 # Explore and analyze code repositories.
-# https://github.com/yamadashy/repomix/blob/main/.claude/skills/repomix-explorer/SKILL.md
+# https://github.com/yamadashy/repomix/blob/main/skills/repomix-explorer/SKILL.md
 # https://repomix.com/guide/repomix-explorer-skill
 # Prompts:
 # Find all authentication-related code in this repository.
