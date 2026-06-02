@@ -10,29 +10,36 @@
 
 ### Interesting Skills
 
-- https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md
-- https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md
-- https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md
-- https://github.com/coreyhaines31/marketingskills
-- https://skills.sh/?q=rodydavis
-- https://github.com/blader/taskmaster
-- https://github.com/blader/humanizer
-- https://github.com/oldbrush/skill-top-design-systems
-- https://github.com/carmahhawwari/ui-design-brain
-- https://github.com/affaan-m/everything-claude-code
-- https://github.com/kochetkov-ma/claude-brewcode
-- https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize
-- https://github.com/thedotmack/mackeroni-skills
-- https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md
-- https://github.com/kepano/obsidian-skills
-- https://github.com/googleworkspace/cli
-- https://github.com/vercel-labs/agentic-commerce-skills/blob/main/ucp/SKILL.md
-- https://github.com/vercel-labs/before-and-after
+- <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
+- <https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md>
+- <https://github.com/coreyhaines31/marketingskills/blob/main/skills/copywriting/SKILL.md>
+- <https://github.com/coreyhaines31/marketingskills>
+- <https://skills.sh/?q=rodydavis>
+- <https://github.com/blader/taskmaster>
+- <https://github.com/blader/humanizer>
+- <https://github.com/oldbrush/skill-top-design-systems>
+- <https://github.com/carmahhawwari/ui-design-brain>
+- <https://github.com/affaan-m/everything-claude-code>
+- <https://github.com/kochetkov-ma/claude-brewcode>
+- <https://github.com/kochetkov-ma/claude-brewcode/tree/main/skills/memory-optimize>
+- <https://github.com/thedotmack/mackeroni-skills>
+- <https://github.com/openai/skills/blob/main/skills/.curated/develop-web-game/SKILL.md>
+- <https://github.com/kepano/obsidian-skills>
+- <https://github.com/googleworkspace/cli>
+- <https://github.com/vercel-labs/agentic-commerce-skills/blob/main/ucp/SKILL.md>
+- <https://github.com/vercel-labs/before-and-after>
+- <https://github.com/anthropics/knowledge-work-plugins/tree/main/legal>
+
+## Engineering Skills
+
+- <https://github.com/addyosmani/agent-skills>
+- <https://github.com/mattpocock/skills>
+- <https://www.aihero.dev/grill-with-docs>
 
 ## Best Practices
 
 - [Don't Build Agents, Build Skills Instead](https://www.youtube.com/watch?v=CEvIs9y1uog)
-- https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md
+- <https://github.com/mrgoonie/claudekit-skills/blob/main/REFACTOR.md>
 
 ## My Agent Skills
 
@@ -133,10 +140,6 @@ npx skills add vercel/ai -y -g -s ai-sdk
 # https://github.com/arinhubcom/arinhub/blob/main/skills/ah-resolve-pr-review/SKILL.md
 npx skills add arinhubcom/arinhub -y -g -s ah-review-code -s ah-submit-code-review -s ah-verify-requirements-coverage -s ah-create-tasks -s ah-create-pr -s ah-finalize-code -s ah-resolve-pr-review
 
-# a11y-debugging
-# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md
-npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s a11y-debugging
-
 # better-auth: better-auth-best-practices, create-auth-skill
 # Better Auth integration guides.
 # https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
@@ -215,15 +218,24 @@ npx skills add openai/skills -y -g -s gh-fix-ci
 # https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md
 npx skills add heredotnow/skill -y -g -s here-now
 
-# chrome-devtools-cli
+# chrome-devtools-cli, memory-leak-debugging
 # https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/chrome-devtools-cli/SKILL.md
+# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/memory-leak-debugging/SKILL.md
+# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/a11y-debugging/SKILL.md
+# https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/main/skills/debug-optimize-lcp/SKILL.md
 # https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session
-npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s chrome-devtools-cli
+npx skills add ChromeDevTools/chrome-devtools-mcp -y -g -s chrome-devtools-cli -s memory-leak-debugging -s a11y-debugging -s debug-optimize-lcp
 
 # knowledge-saver
 # Save knowledge from agent sessions.
 # https://github.com/JosefJezek/knowledge-saver/blob/main/SKILL.md
 npx skills add JosefJezek/knowledge-saver -y -g -s knowledge-saver
+
+# modern-web-guidance, chrome-extensions
+# https://github.com/GoogleChrome/modern-web-guidance
+# https://github.com/GoogleChrome/modern-web-guidance/blob/main/skills/modern-web-guidance/SKILL.md
+# https://github.com/GoogleChrome/modern-web-guidance/blob/main/skills/chrome-extensions/SKILL.md
+npx skills add GoogleChrome/modern-web-guidance -y -g -s modern-web-guidance -s chrome-extensions
 
 # notebooklm
 # https://github.com/teng-lin/notebooklm-py/blob/main/src/notebooklm/data/SKILL.md
