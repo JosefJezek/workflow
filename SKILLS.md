@@ -140,11 +140,9 @@ npx skills add vercel/ai -y -g -s ai-sdk
 # https://github.com/arinhubcom/arinhub/blob/main/skills/ah-resolve-pr-review/SKILL.md
 npx skills add arinhubcom/arinhub -y -g -s ah-review-code -s ah-submit-code-review -s ah-verify-requirements-coverage -s ah-create-tasks -s ah-create-pr -s ah-finalize-code -s ah-resolve-pr-review
 
-# better-auth: better-auth-best-practices, create-auth-skill
-# Better Auth integration guides.
-# https://github.com/better-auth/skills/blob/main/better-auth/best-practices/SKILL.md
-# https://github.com/better-auth/skills/blob/main/better-auth/create-auth/SKILL.md
-npx skills add better-auth/skills -y -g -s better-auth-best-practices -s create-auth-skill
+# better-auth skills
+# https://github.com/better-auth/skills
+npx skills add better-auth/skills -y -g -s '*'
 
 # better-icons
 # https://github.com/better-auth/better-icons/blob/main/skills/SKILL.md
@@ -324,12 +322,9 @@ npx skills add roin-orca/skills -y -g -s simple-brainstorm
 # https://x.com/RLanceMartin/status/2028901058572107926
 npx skills add anthropics/skills -y -g -s skill-creator
 
-# stitch: design-md, react:components
-# https://github.com/google-labs-code/stitch-skills/blob/main/skills/design-md
-# https://github.com/google-labs-code/stitch-skills/blob/main/skills/design-md/SKILL.md
-# https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components
-# https://github.com/google-labs-code/stitch-skills/blob/main/skills/react-components/SKILL.md
-npx skills add google-labs-code/stitch-skills -y -g -s design-md -s react:components
+# stitch: design-md, react:components, ...
+# https://github.com/google-labs-code/stitch-skills
+npx skills add google-labs-code/stitch-skills -y -g -s '*' --full-depth
 
 # vercel-composition-patterns
 # https://github.com/vercel-labs/agent-skills/blob/main/skills/composition-patterns/README.md
