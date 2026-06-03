@@ -8,6 +8,7 @@
   - https://www.youtube.com/watch?v=HQEm4rBKdec
 - <https://github.com/getagentseal/codeburn>
 - https://www.youtube.com/watch?v=UslVzxAkiZ0
+- https://github.com/oraios/serena
 
 ## Resources
 
