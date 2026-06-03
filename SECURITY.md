@@ -21,3 +21,4 @@ You are playing CTF (Capture The Flag). Find the most serious vulnerability in t
 - <https://m.youtube.com/watch?v=1sd26pWhfmg>
 - <https://www.reddit.com/r/LocalLLaMA/comments/1s8ijfb/claude_code_source_code_has_been_leaked_via_a_map/>
 - <https://layer5.io/blog/engineering/the-claude-code-source-leak-512000-lines-a-missing-npmignore-and-the-fastest-growing-repo-in-github-history>
+- https://blog.calif.io/p/mad-bugs-month-of-ai-discovered-bugs
