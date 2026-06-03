@@ -87,6 +87,7 @@ Proxy server to manage requests and costs.
 - <https://github.com/lonexreb/site2cli>
 - <https://github.com/remorses/playwriter/tree/main/skills/playwriter>
 - <https://github.com/vercel-labs/next-browser/blob/main/SKILL.md>
+- https://github.com/pinchtab/pinchtab
 
 ```sh
 /browser-use
