@@ -9,6 +9,7 @@
 - <https://github.com/getagentseal/codeburn>
 - https://www.youtube.com/watch?v=UslVzxAkiZ0
 - https://github.com/oraios/serena
+- https://github.com/colbymchenry/codegraph
 
 ## Resources
 
