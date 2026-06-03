@@ -29,6 +29,7 @@
 - <https://github.com/vercel-labs/agentic-commerce-skills/blob/main/ucp/SKILL.md>
 - <https://github.com/vercel-labs/before-and-after>
 - <https://github.com/anthropics/knowledge-work-plugins/tree/main/legal>
+- https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
 
 ## Engineering Skills
 
