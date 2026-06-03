@@ -32,6 +32,7 @@
 
 ## Engineering Skills
 
+- https://github.com/obra/superpowers
 - <https://github.com/addyosmani/agent-skills>
 - <https://github.com/mattpocock/skills>
 - <https://www.aihero.dev/grill-with-docs>
