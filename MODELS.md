@@ -21,6 +21,7 @@
 - [Artificial Analysis Intelligence Index](https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index)
 - [Which model is fastest with 100k token prompts?](https://artificialanalysis.ai/models/prompt-options/single/100k#performance)
 - [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
+- [OpenHands Index](https://index.openhands.dev/home)
 
 ## 📝 Prompt Guides
 
