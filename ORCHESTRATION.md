@@ -88,8 +88,18 @@ Ask all teammates to shut down, then clean up the team.
 
 - <https://github.com/garrytan/gstack>
 
+## Codex CLI
+
+- https://github.com/Yeachan-Heo/oh-my-codex
+- https://github.com/code-yeongyu/lazycodex
+
+## Mission Control / Control Plane
+
+- <https://github.com/paperclipai/paperclip>
+- https://github.com/geekforbrains/harbour
+- https://www.jontsai.com/2026/02/12/building-mission-control-for-my-ai-workforce-introducing-openclaw-command-center
+
 ## Other
 
 - <https://github.com/different-ai/openwork>
-- <https://github.com/paperclipai/paperclip>
 - <https://github.com/rohitg00/pro-workflow>
