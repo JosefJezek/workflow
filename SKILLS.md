@@ -32,6 +32,7 @@
 - https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
 - https://github.com/ogulcancelik/herdr/blob/master/SKILL.md
 - https://github.com/github/awesome-copilot
+- https://github.com/steipete/agent-scripts/tree/main/skills
 
 ## Engineering Skills
 
