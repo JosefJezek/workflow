@@ -43,12 +43,16 @@ My personal tools setup for AI-assisted development.
 
 ## 🧩 AI Dashboard
 
-- [Better Hub](https://github.com/better-auth/better-hub)
 
 ## 🤖 AI Tools
 
 - [dev3000](https://github.com/vercel-labs/dev3000#readme)
 - [portless](https://github.com/vercel-labs/portless#readme)
+
+## CLI Tools
+
+- https://github.com/steipete/summarize
+- https://github.com/steipete/oracle
 
 ## 🔀 AI Proxy
 
