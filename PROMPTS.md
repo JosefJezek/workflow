@@ -8,3 +8,4 @@
 - Take a look at my website's homepage and tell me what to improve in terms of CRO.
 - I want to write an article about marketing MCP servers. Search the English website and give me at least 20 tips on the best ones.
 - Look at Google Search Console data from the last 6 months and identify quick wins – things you can easily optimize for higher impressions and clicks. Create a checklist of tasks sorted by priority.
+- No silent fallbacks! - AGENTS.md
