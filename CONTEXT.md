@@ -3,6 +3,7 @@
 ## Scientific literature and evidence
 
 - https://paperclip.gxl.ai
+- https://github.com/Imbad0202/academic-research-skills
 
 ## Czech context
 
