@@ -30,12 +30,14 @@
 - <https://github.com/vercel-labs/before-and-after>
 - <https://github.com/anthropics/knowledge-work-plugins/tree/main/legal>
 - https://github.com/openai/skills/blob/main/skills/.curated/gh-address-comments/SKILL.md
+- https://github.com/ogulcancelik/herdr/blob/master/SKILL.md
 
 ## Engineering Skills
 
 - https://github.com/obra/superpowers
 - <https://github.com/addyosmani/agent-skills>
 - <https://github.com/mattpocock/skills>
+  - https://github.com/mattpocock/skills/tree/main/skills/engineering
 - <https://www.aihero.dev/grill-with-docs>
 
 ## Best Practices
