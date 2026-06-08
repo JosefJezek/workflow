@@ -191,6 +191,11 @@ npx skills add kepano/obsidian-skills -y -g -s defuddle
 # https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
 npx skills add anthropics/skills -y -g -s doc-coauthoring
 
+# fallow
+# Clean up AI-generated code slop.
+# https://github.com/fallow-rs/fallow-skills/blob/main/fallow/skills/fallow/SKILL.md
+npx skills add fallow-rs/fallow-skills -y -g -s fallow
+
 # find-bugs
 # Find bugs on current git branch.
 # https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/find-bugs/SKILL.md
