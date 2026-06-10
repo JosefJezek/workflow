@@ -23,6 +23,9 @@
 - [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
 - [OpenHands Index](https://index.openhands.dev/home)
 - [Zapier AutomationBench](https://zapier.com/benchmarks)
+- [BridgeBench](https://www.bridgebench.ai)
+- [LiveBench](https://livebench.ai)
+- [BullshitBench](https://petergpt.github.io/bullshit-benchmark)
 
 ## 📝 Prompt Guides
 
