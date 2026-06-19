@@ -201,6 +201,10 @@ npx skills add fallow-rs/fallow-skills -y -g -s fallow
 # https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/find-bugs/SKILL.md
 npx skills add getsentry/skills -y -g -s find-bugs
 
+# firebase
+# https://github.com/firebase/agent-skills
+# npx skills add firebase/skills -y -g
+
 # frontend-design
 # Create distinctive, production-grade frontend interfaces with high design quality.
 # https://claude.com/blog/improving-frontend-design-through-skills
