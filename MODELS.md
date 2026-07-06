@@ -15,6 +15,7 @@
 - [ARC-AGI-2 leaderboard](https://arcprize.org/leaderboard)
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
 - [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
+- [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
 - [Context Window Size Comparison](https://artificialanalysis.ai/models#context-window)
 - [Long Context Reasoning Benchmark](https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning)
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
@@ -26,6 +27,8 @@
 - [BridgeBench](https://www.bridgebench.ai)
 - [LiveBench](https://livebench.ai)
 - [BullshitBench](https://petergpt.github.io/bullshit-benchmark)
+- [bots-bench](https://botsbench.com)
+- [Semgrep GLM 5.2](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
 
 ## 📝 Prompt Guides
 
