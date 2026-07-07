@@ -21,3 +21,7 @@
 - https://x.com/ClaudeDevs/status/2074208949205881033
 - https://x.com/PeyMonee/status/2069864394180452817
 - https://x.com/mvanhorn/article/2063865685558903149
+
+## AGENTS.md
+
+- https://x.com/sinanonur/status/2072617768327774295
