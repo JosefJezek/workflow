@@ -10,3 +10,9 @@
 - Look at Google Search Console data from the last 6 months and identify quick wins – things you can easily optimize for higher impressions and clicks. Create a checklist of tasks sorted by priority.
 - No silent fallbacks! - AGENTS.md
 - /schedule every day at 5am: answer to "Say only "Hi"." - Claude Code - Limit warmup 5h
+
+## Loops
+
+- https://www.cerebras.ai/blog/never-loop-without-verifiers
+- https://x.com/jasonzhou1993/status/2069002271216787464
+- https://x.com/BHolmesDev/status/2072106364298723592
