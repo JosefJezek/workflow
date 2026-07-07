@@ -17,3 +17,6 @@
 - https://www.cerebras.ai/blog/never-loop-without-verifiers
 - https://x.com/jasonzhou1993/status/2069002271216787464
 - https://x.com/BHolmesDev/status/2072106364298723592
+- https://x.com/ClaudeDevs/status/2074208949205881033
+- https://x.com/PeyMonee/status/2069864394180452817
+- https://x.com/mvanhorn/article/2063865685558903149
