@@ -1,7 +1,8 @@
 # Second Brain
 
 - https://www.hubble.md
-- https://github.com/shlokkhemani/rabbithole
+- https://x.com/shloked/status/2074214043997605972
+  - https://github.com/shlokkhemani/rabbithole
 - https://github.com/refactoringhq/tolaria
 - https://github.com/stephengpope/shockwave
 - https://www.youtube.com/watch?v=ib74sLgjIBM
