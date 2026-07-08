@@ -21,6 +21,9 @@
 - https://x.com/ClaudeDevs/status/2074208949205881033
 - https://x.com/PeyMonee/status/2069864394180452817
 - https://x.com/mvanhorn/article/2063865685558903149
+- https://www.warp.dev/blog/building-a-skill-optimization-loop
+- https://www.warp.dev/blog/agents-need-feedback-loops-not-perfect-prompts
+- https://www.warp.dev/blog/self-improvement-loop-for-skills
 
 ## AGENTS.md
 
