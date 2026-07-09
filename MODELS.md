@@ -29,6 +29,7 @@
 - [BullshitBench](https://petergpt.github.io/bullshit-benchmark)
 - [bots-bench](https://botsbench.com)
 - [Semgrep GLM 5.2](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
+- [CursorBench](https://cursor.com/evals)
 
 ## 📝 Prompt Guides
 
