@@ -1,6 +1,7 @@
 # Second Brain
 
 - https://www.hubble.md
+- https://github.com/langchain-ai/openwiki
 - https://x.com/shloked/status/2074214043997605972
   - https://github.com/shlokkhemani/rabbithole
 - https://github.com/refactoringhq/tolaria
