@@ -5,6 +5,7 @@
 
 ## 🆚 Model Comparisons
 
+- [Agent Arena](https://arena.ai/leaderboard/agent)
 - [AI IQ Test](https://trackingai.org)
 - [LiveBench](https://livebench.ai)
 - [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
