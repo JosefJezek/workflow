@@ -1,14 +1,13 @@
 # AI Models
 
-
-| Model / Family | Main Domain According to Community | Biggest Advantage |
-| :--- | :--- | :--- |
-| **GPT (OpenAI)** | General Assistant & Logic | Prompt compliance, ecosystem |
-| **Claude (Anthropic)** | Coding & Creative Writing | Natural language, clean code |
-| **Gemini (Google)** | Multimodality & Long Files | Massive context, Google integration |
-| **Grok (xAI)** | Current Events & News | X (Twitter) connection, real-time data |
-| **GLM (China / Zhipu)** | Open-source Agents & Development | MIT license, self-hosting, cost-effective |
-| **DeepSeek (China)** | Reason-heavy Coding & Math | Open-weights, ultra-low cost inference |
+| Model Family & Latest Version | Main Domain According to Community | Key Use Cases & Technical Strengths | Why the Community Prefers It (The "Why") | Max Context Window & API Pricing (per 1M tokens) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Claude 5 / Mythos Class** *(Anthropic)* <br>• **Claude Fable 5** | **Enterprise Multi-File Code & Advanced Prose** | Full-stack software engineering refactoring via Claude Code, human-grade technical documentation. | **Flawless text tone and lowest hallucination rate.** Built with always-on adaptive reasoning. It yields highly stable, bug-free enterprise code architectures. | **1 Million tokens**<br>$10.00 In / $50.00 Out *(Premium tier)* |
+| **DeepSeek V4** *(China)* <br>• **V4-Pro** (1.6T MoE) | **Hyper-Disruptive Economics & Open-Weight Coding** | Mass-scale automated software testing, hard algorithmic math, and enterprise self-hosted deployments. | **Market-shattering cost efficiency.** It matches US flagships on coding benchmarks (SWE-bench) but at a fraction of the cost. It features an integrated "thinking mode" directly in the API. | **1 Million tokens**<br>$0.43 In / $0.87 Out *(Dirt cheap)* |
+| **Gemini 3.5 Pro** *(Google)* <br>• Current 2026 Tier | **Native Multimodal Analytics & Video Streams** | Scanning hours of video footage natively, cross-referencing thousands of complex enterprise PDFs at once. | **Unmatched long-context precision.** Gemini remains the king of "needle-in-a-haystack" retrieval across millions of multi-modal tokens simultaneously without losing memory. | **2 Million tokens**<br>$2.00 In / $12.00 Out *(Flash tier is cheaper)* |
+| **GLM-5.2** *(Z.ai / Zhipu AI)* <br>• Launched June 2026 | **Long-Horizon Tasks & On-Premise AI Employees** | Processing massive GitHub repositories, long-running agent workflows, and localized corporate data analysis. | **True 1M context with open weights (MIT license).** Features an advanced, non-forced "Flexible Effort" thinking mode. Weights are open, allowing companies to run it entirely locally. | **1 Million tokens**<br>~$2.00 In / ~$3.00 Out *(Free via open weights)* |
+| **GPT-5.6 Sol** *(OpenAI)* <br>• Mid-2026 Tier | **Agentic Interface Design & Pure Logic** | Autonomous tool orchestration via Programmatic Tool Calling, UI frontend layout generation, and interactive "GPT-Live" voice. | **Absolute prompt compliance.** Still the standard for multi-step scientific reasoning ("thinking mode") and strictly following programmatic structures and JSON formats. | **1.05 Million tokens**<br>$5.00 In / $30.00 Out *(Highest tier)* |
+| **Grok 4.5** *(SpaceXAI)* <br>• Launched July 2026 | **Autonomous Engineering & Token-Efficient Coding** | Complex multi-step software engineering (Grok Build), real-time financial market modeling, and live sentiment analysis. | **Massive token efficiency and live data.** Trained via heavy reinforcement learning. Solves coding tasks using fewer tokens. Natively hooked into live X (Twitter) data. | **500k tokens**<br>$2.00 In / $6.00 Out *(Highly competitive)* |
 
 - https://ampcode.com/models
 
