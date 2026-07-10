@@ -10,6 +10,8 @@
 | **GLM (China / Zhipu)** | Open-source Agents & Development | MIT license, self-hosting, cost-effective |
 | **DeepSeek (China)** | Reason-heavy Coding & Math | Open-weights, ultra-low cost inference |
 
+- https://ampcode.com/models
+
 ## 🆚 Model Comparisons
 
 - [Agent Arena](https://arena.ai/leaderboard/agent)
