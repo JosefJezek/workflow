@@ -1,5 +1,12 @@
 # AI Orchestration Platforms
 
+## Agent Frameworks
+
+- https://www.agentcn.run
+- [eve](https://github.com/vercel/eve) - bashSandboxBackend
+  - https://github.com/vercel-labs/steve
+  - https://github.com/vercel-labs?q=eve
+
 ## Dev Workflows Comparison
 
 - <https://github.com/shanraisshan/claude-code-best-practice#%EF%B8%8F-development-workflows>
