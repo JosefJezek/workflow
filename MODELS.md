@@ -6,6 +6,9 @@
 ## 🆚 Model Comparisons
 
 - [Agent Arena](https://arena.ai/leaderboard/agent)
+- [CursorBench](https://cursor.com/evals)
+- [Zapier AutomationBench](https://zapier.com/benchmarks)
+- [OpenHands Index](https://index.openhands.dev/home)
 - [AI IQ Test](https://trackingai.org)
 - [LiveBench](https://livebench.ai)
 - [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
@@ -23,14 +26,11 @@
 - [Artificial Analysis Intelligence Index](https://artificialanalysis.ai/evaluations/artificial-analysis-intelligence-index)
 - [Which model is fastest with 100k token prompts?](https://artificialanalysis.ai/models/prompt-options/single/100k#performance)
 - [Measuring AI Ability to Complete Long Tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/)
-- [OpenHands Index](https://index.openhands.dev/home)
-- [Zapier AutomationBench](https://zapier.com/benchmarks)
 - [BridgeBench](https://www.bridgebench.ai)
 - [LiveBench](https://livebench.ai)
 - [BullshitBench](https://petergpt.github.io/bullshit-benchmark)
 - [bots-bench](https://botsbench.com)
 - [Semgrep GLM 5.2](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
-- [CursorBench](https://cursor.com/evals)
 
 ## 📝 Prompt Guides
 
