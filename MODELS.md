@@ -1,5 +1,15 @@
 # AI Models
 
+
+| Model / Family | Main Domain According to Community | Biggest Advantage |
+| :--- | :--- | :--- |
+| **GPT (OpenAI)** | General Assistant & Logic | Prompt compliance, ecosystem |
+| **Claude (Anthropic)** | Coding & Creative Writing | Natural language, clean code |
+| **Gemini (Google)** | Multimodality & Long Files | Massive context, Google integration |
+| **Grok (xAI)** | Current Events & News | X (Twitter) connection, real-time data |
+| **GLM (China / Zhipu)** | Open-source Agents & Development | MIT license, self-hosting, cost-effective |
+| **DeepSeek (China)** | Reason-heavy Coding & Math | Open-weights, ultra-low cost inference |
+
 ## 🆚 Model Comparisons
 
 - [Agent Arena](https://arena.ai/leaderboard/agent)
