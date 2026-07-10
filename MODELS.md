@@ -1,8 +1,5 @@
 # AI Models
 
-- 🎯 Claude Opus for specification-driven development.
-- ⚡ Claude Sonnet for general coding tasks.
-
 ## 🆚 Model Comparisons
 
 - [Agent Arena](https://arena.ai/leaderboard/agent)
