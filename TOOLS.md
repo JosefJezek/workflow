@@ -93,12 +93,17 @@ Proxy server to manage requests and costs.
 - <https://github.com/vercel-labs/next-browser/blob/main/SKILL.md>
 - https://github.com/pinchtab/pinchtab
 
+### Browser Use
+
 ```sh
 /browser-use
 connect to my browser and go to localhost:3000
 ```
 
 - <https://github.com/browser-use/browser-use/releases/tag/0.12.3>
+- https://browser-use.com/posts/firecracker-browser-infra
+- https://x.com/browser_use/status/2068405699340853541
+- https://docs.browser-use.com/open-source/examples/skills/qa
 
 ### Other browser tools
 
