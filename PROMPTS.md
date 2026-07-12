@@ -24,6 +24,8 @@
 - https://www.warp.dev/blog/building-a-skill-optimization-loop
 - https://www.warp.dev/blog/agents-need-feedback-loops-not-perfect-prompts
 - https://www.warp.dev/blog/self-improvement-loop-for-skills
+- https://walkinglabs.github.io/learn-harness-engineering/en/lectures/lecture-13-loop-engineering/
+- https://github.com/karpathy/autoresearch
 
 ## AGENTS.md
 
