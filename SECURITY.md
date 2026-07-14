@@ -6,6 +6,7 @@
 - https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
 - https://code.claude.com/docs/en/security-guidance
 - https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/README.md
+- https://www.superagent.sh
 
 ## Prompt to Verify AI Security
 
