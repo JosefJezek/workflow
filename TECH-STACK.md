@@ -23,7 +23,7 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ### Authentication
 
-- Better-Auth
+- [Better-Auth](https://better-auth.com)
 
 ### CMS
 
@@ -31,11 +31,16 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ### DB
 
-- Cloudflare D1
 - Drizzle ORM
+- Cloudflare D1
+
+### Docs
+
+- [Blume](https://useblume.dev)
 
 ### Hosting
 
+- Vercel
 - Cloudflare Workers
 
 ### Mail
