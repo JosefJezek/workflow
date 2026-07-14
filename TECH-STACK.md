@@ -28,6 +28,7 @@ I use a variety of tools and technologies to support my AI-assisted development 
 ### CMS
 
 - [Payload CMS](https://payloadcms.com)
+- https://useblume.dev/docs/content/sources
 
 ### DB
 
@@ -37,6 +38,7 @@ I use a variety of tools and technologies to support my AI-assisted development 
 ### Docs
 
 - [Blume](https://useblume.dev)
+  - https://x.com/haydenbleasel/status/2076714430705066382
 
 ### Hosting
 
