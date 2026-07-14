@@ -12,6 +12,10 @@
 - <https://github.com/Manavarya09/design-extract>
 - https://github.com/Nutlope/hallmark
 
+### Vectors
+
+- https://app.quiver.ai/explore
+
 ## Prompts
 
 - https://wholesale-laugh-2e2.notion.site/Prompt-z-videa-pr-miov-web-s-Fable-5-39207e5b838281b0878ecfed3e3eff32
