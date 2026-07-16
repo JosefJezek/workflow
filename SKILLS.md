@@ -8,6 +8,16 @@
 - 📖 [skillsdirectory.com](https://www.skillsdirectory.com)
 - 🏛️ [Anthropics Skills](https://github.com/anthropics/skills#readme)
 
+## Engineering Skills
+
+- https://github.com/EveryInc/compound-engineering-plugin
+- https://github.com/obra/superpowers
+- <https://github.com/addyosmani/agent-skills>
+  - https://github.com/addyosmani/agent-skills/blob/main/docs/comparison.md
+- <https://github.com/mattpocock/skills>
+  - https://github.com/mattpocock/skills/tree/main/skills/engineering
+  - <https://www.aihero.dev/grill-with-docs>
+
 ### Interesting Skills
 
 - <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
@@ -33,14 +43,6 @@
 - https://github.com/ogulcancelik/herdr/blob/master/SKILL.md
 - https://github.com/github/awesome-copilot
 - https://github.com/steipete/agent-scripts/tree/main/skills
-
-## Engineering Skills
-
-- https://github.com/obra/superpowers
-- <https://github.com/addyosmani/agent-skills>
-- <https://github.com/mattpocock/skills>
-  - https://github.com/mattpocock/skills/tree/main/skills/engineering
-- <https://www.aihero.dev/grill-with-docs>
 
 ## Best Practices
 
