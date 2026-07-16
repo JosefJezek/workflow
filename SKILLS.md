@@ -18,6 +18,11 @@
   - https://github.com/mattpocock/skills/tree/main/skills/engineering
   - <https://www.aihero.dev/grill-with-docs>
 
+## QA Skills
+
+- https://docs.browser-use.com/open-source/examples/skills/qa
+  - https://browser-use.com/posts/qa-automation-ai-agents
+
 ### Interesting Skills
 
 - <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
