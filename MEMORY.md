@@ -1,5 +1,12 @@
 # AI Memory
 
+## Brain is not memory
+
+- GBrain - mem0
+- https://x.com/mem0ai/status/2070541048527609885
+
+## CC
+
 - <https://code.claude.com/docs/en/memory>
 
 ## User Instructions
