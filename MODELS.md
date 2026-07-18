@@ -16,13 +16,13 @@
 ### Agent Benchmarks
 
 - [Agent Arena](https://arena.ai/leaderboard/agent)
-- [Next.js AI Agent Evaluations](https://nextjs.org/evals)
 - [Zapier AutomationBench](https://zapier.com/benchmarks)
 - [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
 - [Best Models for Hermes Agents](https://foxinthebox.io/blog/best-models-for-hermes-agents/)
 
 ### Coding Benchmarks
 
+- [Next.js AI Agent Evaluations](https://nextjs.org/evals)
 - [CursorBench](https://cursor.com/evals)
 - [OpenHands Index](https://index.openhands.dev/home)
 - [LLM Coding Leaderboard](https://aicodingdaily.com/leaderboard)
