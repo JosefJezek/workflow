@@ -13,21 +13,31 @@
 
 ## 🆚 Model Comparisons
 
+### Agent Benchmarks
+
 - [Agent Arena](https://arena.ai/leaderboard/agent)
-- [CursorBench](https://cursor.com/evals)
+- [Next.js AI Agent Evaluations](https://nextjs.org/evals)
 - [Zapier AutomationBench](https://zapier.com/benchmarks)
+- [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
+- [Best Models for Hermes Agents](https://foxinthebox.io/blog/best-models-for-hermes-agents/)
+
+### Coding Benchmarks
+
+- [CursorBench](https://cursor.com/evals)
 - [OpenHands Index](https://index.openhands.dev/home)
+- [LLM Coding Leaderboard](https://aicodingdaily.com/leaderboard)
+- [Coding Index](https://artificialanalysis.ai/models/capabilities/coding)
+- [Arena leaderboard](https://arena.ai/leaderboard)
+
+### Others
+
 - [AI IQ Test](https://trackingai.org)
 - [LiveBench](https://livebench.ai)
-- [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
-- [Coding Index](https://artificialanalysis.ai/models/capabilities/coding)
 - [Capture the Flag](https://capture-the-flag.labs.vercel.dev/leaderboard)
 - [Latency Benchmark](https://artificialanalysis.ai/models#latency)
-- [Arena leaderboard](https://arena.ai/leaderboard)
 - [ARC-AGI-2 leaderboard](https://arcprize.org/leaderboard)
 - [DesignArena leaderboard](https://www.designarena.ai/leaderboard)
 - [terminal-bench leaderboard](https://www.tbench.ai/leaderboard)
-- [Agentic Index](https://artificialanalysis.ai/models/capabilities/agentic)
 - [Context Window Size Comparison](https://artificialanalysis.ai/models#context-window)
 - [Long Context Reasoning Benchmark](https://artificialanalysis.ai/evaluations/artificial-analysis-long-context-reasoning)
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
