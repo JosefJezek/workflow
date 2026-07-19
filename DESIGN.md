@@ -12,6 +12,11 @@
 - <https://github.com/Manavarya09/design-extract>
 - https://github.com/Nutlope/hallmark
 
+### Diagrams
+
+- https://offline.tldraw.com
+- https://x.com/tldraw/status/2077784657869902121
+
 ### Vectors
 
 - https://app.quiver.ai/explore
