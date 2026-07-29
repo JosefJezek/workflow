@@ -115,7 +115,7 @@
 - https://github.com/nvidia/skillspector
 - https://github.com/shadcn/improve
 - https://github.com/DietrichGebert/ponytail
-- https://github.com/Agents365-ai/drawio-skill
+- https://github.com/Agents365-ai/drawio-skill - vizualizuj vrstvy služeb v repu
 
 ```sh
 # find-skills - must be first to avoid the question of installing it
