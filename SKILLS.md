@@ -112,6 +112,11 @@
 - Used with `npx skills add <repo> -y -g -s <skill-name>`.
 - Tool [skills](https://github.com/vercel-labs/skills) installs the skill globally (-g) for all AI agents.
 
+- https://github.com/nvidia/skillspector
+- https://github.com/shadcn/improve
+- https://github.com/DietrichGebert/ponytail
+- https://github.com/Agents365-ai/drawio-skill
+
 ```sh
 # find-skills - must be first to avoid the question of installing it
 # Search for skills in skill repositories.
