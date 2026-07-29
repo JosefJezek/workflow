@@ -47,4 +47,5 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ### Mail
 
+- https://github.com/shadcn-labs/emailcn
 - https://inbound.new
