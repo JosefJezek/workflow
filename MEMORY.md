@@ -55,3 +55,10 @@ Claude remembers what it learns across sessions — your project context, debugg
 - <https://github.com/garrytan/gbrain>
 - <https://github.com/blader/napkin>
 - <https://github.com/blader/theorist>
+
+### Cloud
+
+- https://github.com/topoteretes/cognee
+  - https://www.youtube.com/watch?v=3PbZ1h6buks
+  - https://www.cognee.ai/competitor/mem0
+- https://github.com/mem0ai/mem0
