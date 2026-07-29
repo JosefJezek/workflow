@@ -2,6 +2,7 @@
 
 ## Agent Frameworks
 
+- https://www.eveagents.dev/integrations/eve/knowledge-base-curator
 - https://www.agentcn.run
 - https://www.atomeve.dev
 - https://github.com/coleam00/Archon
