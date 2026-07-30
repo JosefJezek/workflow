@@ -17,6 +17,7 @@
 - <https://github.com/mattpocock/skills>
   - https://github.com/mattpocock/skills/tree/main/skills/engineering
   - <https://www.aihero.dev/grill-with-docs>
+  - https://www.youtube.com/watch?v=M6mYodf0dJM
 
 ## QA Skills
 
