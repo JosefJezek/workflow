@@ -12,6 +12,10 @@ My personal tools setup for AI-assisted development.
 - [🔒 VPN](#-vpn)
 - [🌐 Browser Tools](#-browser-tools)
 
+## Guards
+
+- https://github.com/Dicklesworthstone/destructive_command_guard
+
 ## ⚡ Terminal tools
 
 - 👻 [Ghostty](https://github.com/ghostty/ghostty#readme)
