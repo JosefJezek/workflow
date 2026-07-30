@@ -7,6 +7,7 @@
 ## Components
 
 - https://canvasui.dev
+- https://orbs.jakubantalik.com
 
 ## DESIGN.md Specification
 
