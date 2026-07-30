@@ -9,6 +9,11 @@
 - [eve](https://github.com/vercel/eve) - bashSandboxBackend
   - https://github.com/vercel-labs/steve
   - https://github.com/vercel-labs?q=eve
+ 
+## Delegation strategy for coding tasks
+
+- https://gist.github.com/bholmesdev/bdbb473f85fcce74cd1cee5e6da0ee9d
+  - https://www.youtube.com/watch?v=oc-ZdBP_Lqo
 
 ## Dev Workflows Comparison
 
