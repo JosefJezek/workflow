@@ -2,6 +2,9 @@
 
 ## Tools
 
+- https://github.com/DietrichGebert/ponytail
+- https://github.com/ayghri/i-have-adhd
+- https://github.com/petergyang/no-ai-slop
 - <https://github.com/juliusbrussee/caveman>
 - <https://github.com/alexgreensh/token-optimizer>
 - <https://github.com/safishamsi/graphify>
