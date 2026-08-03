@@ -2,7 +2,8 @@
 
 ## Real Devices
 
-- https://github.com/openclaw/Peekaboo
+- macOS https://github.com/openclaw/Peekaboo
+- Android, macOS, Linux, Win https://github.com/trycua/cua
 
 ### Cloud
 
