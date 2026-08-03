@@ -34,3 +34,7 @@
 
 - https://wholesale-laugh-2e2.notion.site/Prompt-z-videa-pr-miov-web-s-Fable-5-39207e5b838281b0878ecfed3e3eff32
 - https://x.com/the_cyw/status/2075033876930724339
+
+## Skills
+
+- https://github.com/Leonxlnx/taste-skill
