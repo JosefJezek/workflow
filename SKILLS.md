@@ -216,7 +216,7 @@ npx skills add getsentry/skills -y -g -s find-bugs
 
 # firebase
 # https://github.com/firebase/agent-skills
-# npx skills add firebase/skills -y -g
+# npx skills add firebase/skills -g
 
 # frontend-design
 # Create distinctive, production-grade frontend interfaces with high design quality.
@@ -238,6 +238,10 @@ npx skills add openai/skills -y -g -s gh-address-comments
 # Fix CI failures on GitHub PRs.
 # https://github.com/openai/skills/blob/main/skills/.curated/gh-fix-ci/SKILL.md
 npx skills add openai/skills -y -g -s gh-fix-ci
+
+# herdr
+# https://github.com/herdrdev/herdr/blob/master/skills/herdr/SKILL.md
+npx skills add herdrdev/herdr -y -g -s herdr
 
 # here-now
 # https://github.com/heredotnow/skill/blob/main/here-now/SKILL.md
@@ -329,10 +333,8 @@ npx skills add yamadashy/repomix -y -g -s repomix-explorer
 npx skills add resend/react-email -y -g -s react-email
 
 # sentry-cli
-#https://github.com/getsentry/cli/blob/main/plugins/sentry-cli/skills/sentry-cli/SKILL.md
-# https://github.com/getsentry/cli?tab=readme-ov-file#installation
-# sentry auth login
-npx skills add getsentry/cli -y -g -s sentry-cli
+# https://cli.sentry.dev/agentic-usage/
+npx skills add https://cli.sentry.dev
 
 # shadcn
 # https://github.com/shadcn-ui/ui/blob/main/skills/shadcn/SKILL.md
