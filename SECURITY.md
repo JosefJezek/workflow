@@ -3,10 +3,18 @@
 ## Tools
 
 - https://github.com/vercel-labs/deepsec
-- https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
-- https://code.claude.com/docs/en/security-guidance
 - https://github.com/trailofbits/skills/blob/main/plugins/static-analysis/README.md
 - https://www.superagent.sh
+- https://learn.chatgpt.com/docs/security
+- https://cloud.google.com/blog/products/identity-security/find-and-fix-software-vulnerabilities-with-codemender
+- https://github.blog/changelog/2026-07-10-agentic-autofix-for-code-scanning-alerts-in-public-preview/
+
+### Claude
+
+- https://code.claude.com/docs/en/commands#:~:text=/-,security%2Dreview,-Analyze%20the%20changes
+- https://code.claude.com/docs/en/security-guidance
+  - https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
+- https://code.claude.com/docs/en/claude-security
 
 ## Prompt to Verify AI Security
 
