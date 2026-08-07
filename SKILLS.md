@@ -181,9 +181,9 @@ npx skills add anthropics/claude-code -y -g -s claude-opus-4-5-migration
 # https://github.com/cloudflare/skills/blob/main/skills/workers-best-practices/SKILL.md
 npx skills add cloudflare/skills -y -g -s cloudflare -s workers-best-practices
 
-# code-reviewer
-# https://github.com/google-gemini/gemini-cli/blob/main/.gemini/skills/code-reviewer/SKILL.md
-npx skills add google-gemini/gemini-cli -y -g -s code-reviewer
+# code-review-and-quality
+# https://github.com/addyosmani/agent-skills/blob/main/skills/code-review-and-quality/SKILL.md
+npx skills add addyosmani/agent-skills -y -g -s code-review-and-quality
 
 # context7-mcp
 # Fallback for local docs skills from Repomix.
