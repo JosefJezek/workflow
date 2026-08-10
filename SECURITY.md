@@ -11,10 +11,12 @@
 
 ### Claude
 
-- https://code.claude.com/docs/en/commands#:~:text=/-,security%2Dreview,-Analyze%20the%20changes
-- https://code.claude.com/docs/en/security-guidance
+- security-review - https://code.claude.com/docs/en/commands#:~:text=/-,security%2Dreview,-Analyze%20the%20changes
+  - https://code.claude.com/docs/en/errors#security-review-fails-without-origin-head
+- security-guidance - https://code.claude.com/docs/en/security-guidance
   - https://github.com/anthropics/claude-code/tree/main/plugins/security-guidance
-- https://code.claude.com/docs/en/claude-security
+- claude-security - https://code.claude.com/docs/en/claude-security
+- comparison https://share.google/aimode/JVAzR5rC7PRC7ug81
 
 ## Prompt to Verify AI Security
 
