@@ -171,11 +171,6 @@ npx skills add better-auth/better-icons -y -g -s better-icons
 # https://github.com/vercel/components.build/blob/main/skills/building-components/SKILL.md
 npx skills add vercel/components.build -y -g -s building-components
 
-# claude-opus-4-5-migration
-# Migrate prompts and code to Opus 4.5.
-# https://github.com/anthropics/claude-code/blob/main/plugins/claude-opus-4-5-migration/skills/claude-opus-4-5-migration/SKILL.md
-npx skills add anthropics/claude-code -y -g -s claude-opus-4-5-migration
-
 # cloudflare, workers-best-practices
 # https://github.com/cloudflare/skills/blob/main/skills/cloudflare/SKILL.md
 # https://github.com/cloudflare/skills/blob/main/skills/workers-best-practices/SKILL.md
@@ -204,15 +199,10 @@ npx skills add kepano/obsidian-skills -y -g -s defuddle
 # https://github.com/anthropics/skills/blob/main/skills/doc-coauthoring/SKILL.md
 npx skills add anthropics/skills -y -g -s doc-coauthoring
 
-# fallow
+# fallow, fallow-review
 # Clean up AI-generated code slop.
 # https://github.com/fallow-rs/fallow-skills/blob/main/fallow/skills/fallow/SKILL.md
-npx skills add fallow-rs/fallow-skills -y -g -s fallow
-
-# find-bugs
-# Find bugs on current git branch.
-# https://github.com/getsentry/skills/blob/main/plugins/sentry-skills/skills/find-bugs/SKILL.md
-npx skills add getsentry/skills -y -g -s find-bugs
+npx skills add fallow-rs/fallow-skills -y -g -s fallow -s fallow-review
 
 # firebase
 # https://github.com/firebase/agent-skills
