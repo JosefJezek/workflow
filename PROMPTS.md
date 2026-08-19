@@ -12,6 +12,7 @@
 - /schedule every day at 5am: answer to "Say only "Hi"." - Claude Code - Limit warmup 5h
 -  can you describe and elaborate
 -  Summarize the work done in each file with functions.
+-  Read the issue body again, check for any gaps or inconsistencies, simplify the description.
 
 ## Loops
 
