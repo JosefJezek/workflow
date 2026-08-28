@@ -13,6 +13,8 @@
 -  can you describe and elaborate
 -  Summarize the work done in each file with functions.
 -  Read the issue body again, check for any gaps or inconsistencies, simplify the description.
+-  Add a comment in Czech to the gh issue, one sentence for a layman describing what the bug was.
+-  /skill-creator create a skill from this session and save it to the repo, focus on optimizing the number of tokens using skill scripts, SKILL.md under ~160 lines
 
 ## Loops
 
