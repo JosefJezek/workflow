@@ -38,6 +38,7 @@ I use a variety of tools and technologies to support my AI-assisted development 
 ### UI
 
 - https://github.com/shadcn-ui/lint
+- https://github.com/better-auth-ui/better-auth-ui
 
 ### Docs
 
