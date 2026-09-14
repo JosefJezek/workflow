@@ -37,8 +37,16 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ### UI
 
+- https://github.com/shadcn-ui/ui
+- https://github.com/mui/base-ui
 - https://github.com/shadcn-ui/lint
+- https://github.com/shadcn-ui/cn
+- https://github.com/heroui-inc/tailwind-variants
 - https://github.com/better-auth-ui/better-auth-ui
+- https://github.com/guillermo-rebolledo/materialcn
+- https://github.com/magicuidesign/magicui
+- https://github.com/ibelick/motion-primitives
+- https://github.com/ColorlibHQ/velora-ui
 
 ### Docs
 
