@@ -24,6 +24,21 @@ I use a variety of tools and technologies to support my AI-assisted development 
 ### Authentication
 
 - [Better-Auth](https://better-auth.com)
+- https://hono.dev/examples/better-auth-on-cloudflare
+- https://github.com/zpg6/better-auth-cloudflare
+
+### Payment
+
+- https://www.creem.io
+- https://better-auth.com/docs/plugins/creem
+- https://share.google/aimode/S0fLYsRBxC9gqKAQN
+
+### Limiter
+
+- Upstash Redis + Hono
+- Cloudflare Durable Objects
+- Cloudflare Rate Limiting
+- https://share.google/aimode/3YVvU9tz8q49VrpVZ
 
 ### CMS
 
