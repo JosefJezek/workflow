@@ -63,6 +63,10 @@ I use a variety of tools and technologies to support my AI-assisted development 
 - https://github.com/ibelick/motion-primitives
 - https://github.com/ColorlibHQ/velora-ui
 
+### Code Quality
+
+- https://github.com/dmmulroy/better-result
+
 ### Docs
 
 - [Blume](https://useblume.dev)
