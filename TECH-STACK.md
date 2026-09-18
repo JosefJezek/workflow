@@ -66,6 +66,8 @@ I use a variety of tools and technologies to support my AI-assisted development 
 ### Code Quality
 
 - https://github.com/dmmulroy/better-result
+- https://github.com/haydenbleasel/ultracite
+- 
 
 ### Docs
 
