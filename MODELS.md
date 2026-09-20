@@ -34,6 +34,10 @@
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
 - [SimpleQA](https://pricepertoken.com/leaderboards/benchmark/simpleqa)
 
+## Jev-class
+
+- [JevBench](https://benchmarkheaven.com/jev-models)
+
 ### Others
 
 - [AI IQ Test](https://trackingai.org)
