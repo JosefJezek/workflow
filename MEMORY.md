@@ -1,5 +1,14 @@
 # AI Memory
 
+## Self-improving
+
+### Google WikiSkill
+
+- https://github.com/ashutoshsinghpr7/wikiskill
+- https://www.youtube.com/watch?v=ewxQLr7IxzY
+
+## Soul
+
 - https://www.biocortexai.eu
 
 ## Brain is not memory
