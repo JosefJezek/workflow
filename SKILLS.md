@@ -24,7 +24,7 @@
 - https://docs.browser-use.com/open-source/examples/skills/qa
   - https://browser-use.com/posts/qa-automation-ai-agents
 
-### Interesting Skills
+## Interesting Skills
 
 - <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
 - <https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/development/screenshot-feature-extractor/SKILL.md>
@@ -49,6 +49,7 @@
 - https://github.com/ogulcancelik/herdr/blob/master/SKILL.md
 - https://github.com/github/awesome-copilot
 - https://github.com/steipete/agent-scripts/tree/main/skills
+- https://github.com/phuryn/pm-skills/blob/main/pm-execution/skills/strategy-red-team/SKILL.md
 
 ## Best Practices
 
