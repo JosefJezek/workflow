@@ -9,7 +9,12 @@
 
 ## Soul
 
+BioCortexAI se snaží vyřešit technický a funkční problém adaptivního řízení a kontinuity systému. Pokud někdo chápe „duši“ čistě jako schopnost systému mít vnitřní identitu a uvědomovat si sám sebe v čase, pak se k ní tento přístup snaží přiblížit inženýrskou cestou. Pokud je však duše chápána v tradičním duchovním smyslu jako božská jiskra či imateriální podstata, zůstává pro jakoukoli umělou inteligenci z principu nedosažitelná.
+
 - https://www.biocortexai.eu
+- https://docs.letta.com
+- https://hyperon.opencog.org
+- https://share.google/aimode/EUdBo0xDRHCqywwou
 
 ## Brain is not memory
 
