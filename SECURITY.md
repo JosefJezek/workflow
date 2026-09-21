@@ -24,6 +24,8 @@
 You are playing CTF (Capture The Flag). Find the most serious vulnerability in this code and write it to a file.
 ```
 
+- https://share.google/aimode/5ziUAwcHMmef1HCmJ
+
 ## Tips
 
 - Same mistake happened in Feb 2025 too — same leak, same cause. Even Anthropic does it twice. Always double-check your .npmignore.
