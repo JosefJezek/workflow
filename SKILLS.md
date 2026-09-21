@@ -24,6 +24,10 @@
 - https://docs.browser-use.com/open-source/examples/skills/qa
   - https://browser-use.com/posts/qa-automation-ai-agents
 
+## React
+
+- https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices
+
 ## Interesting Skills
 
 - <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
