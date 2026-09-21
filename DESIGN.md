@@ -41,3 +41,4 @@
 - https://github.com/Leonxlnx/taste-skill
 - https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
 - https://github.com/jakubkrehel/make-interfaces-feel-better
+- https://github.com/mblode/agent-skills/blob/main/skills/ui-design/SKILL.md
