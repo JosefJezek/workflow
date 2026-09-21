@@ -39,3 +39,5 @@
 
 - https://www.ui-skills.com
 - https://github.com/Leonxlnx/taste-skill
+- https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md
+- https://github.com/jakubkrehel/make-interfaces-feel-better
