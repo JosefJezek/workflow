@@ -56,6 +56,7 @@
 - https://github.com/steipete/agent-scripts/tree/main/skills
 - https://github.com/phuryn/pm-skills/blob/main/pm-execution/skills/strategy-red-team/SKILL.md
 - https://github.com/shadcn/improve
+- https://github.com/addyosmani/clarity
 
 ## Best Practices
 
