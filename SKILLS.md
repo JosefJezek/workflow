@@ -57,6 +57,7 @@
 - https://github.com/phuryn/pm-skills/blob/main/pm-execution/skills/strategy-red-team/SKILL.md
 - https://github.com/shadcn/improve
 - https://github.com/addyosmani/clarity
+- https://github.com/openclaw/openclaw/blob/main/.agents/skills/test-audit/SKILL.md
 
 ## Best Practices
 
