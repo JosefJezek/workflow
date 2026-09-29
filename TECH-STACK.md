@@ -21,6 +21,12 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ## Tech Stack Sections
 
+## Web Framework
+
+- https://astro.build
+
+## Web Components
+
 ### Authentication
 
 - [Better-Auth](https://better-auth.com)
@@ -58,10 +64,13 @@ I use a variety of tools and technologies to support my AI-assisted development 
 - https://github.com/shadcn-ui/cn
 - https://github.com/heroui-inc/tailwind-variants
 - https://github.com/better-auth-ui/better-auth-ui
-- https://github.com/guillermo-rebolledo/materialcn
 - https://github.com/magicuidesign/magicui
 - https://github.com/ibelick/motion-primitives
 - https://github.com/ColorlibHQ/velora-ui
+
+#### Material Design
+
+- https://github.com/guillermo-rebolledo/materialcn
 
 ### Code Quality
 
@@ -76,8 +85,8 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 ### Hosting
 
-- Vercel
 - Cloudflare Workers
+- Vercel
 
 ### Mail
 
