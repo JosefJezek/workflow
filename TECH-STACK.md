@@ -92,3 +92,15 @@ I use a variety of tools and technologies to support my AI-assisted development 
 
 - https://github.com/shadcn-labs/emailcn
 - https://inbound.new
+
+### Tools
+
+- https://github.com/webpro-nl/knip
+
+## Skills & MCP
+
+- https://github.com/googlechrome/modern-web-guidance
+- https://docs.astro.build/en/guides/build-with-ai/#astro-docs-mcp-server
+- https://github.com/PatternsDev/skills
+- https://www.ui-skills.com
+- https://github.com/vercel-labs/agent-skills
