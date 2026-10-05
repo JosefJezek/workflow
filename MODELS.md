@@ -34,6 +34,11 @@
 - [Knowledge and Hallucination Benchmark](https://artificialanalysis.ai/evaluations/omniscience)
 - [SimpleQA](https://pricepertoken.com/leaderboards/benchmark/simpleqa)
 
+## Gateway rankings
+
+- [Vercel AI Gateway](https://vercel.com/ai-gateway/leaderboards/models)
+- [OpenRouter AI Model Rankings](https://openrouter.ai/rankings)
+
 ## Jev-class
 
 - [JevBench](https://benchmarkheaven.com/jev-models)
