@@ -17,6 +17,8 @@
 -  /skill-creator create a skill from this session and save it to the repo, focus on optimizing the number of tokens using skill scripts, SKILL.md under ~160 lines
 -  Analyze the feature and UI parity gaps between app v1 and v2 in gh PR 1, close them, then re-run the analysis and create a table of the remaining gaps, one row per gap, with columns for the master behaviour, its status in the PR, whether a new mechanism replaces it, and severity.
 -  Use git bisect to find what broke.
+-  Analyze the provided code or system and detail: 1) all potential blocking points or sources of latency, 2) how to rigorously test these areas for concurrency and stress, and 3) the best architectural and asynchronous practices to implement them correctly.
+
 
 ## Loops
 
