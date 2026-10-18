@@ -43,6 +43,10 @@
 
 - [JevBench](https://benchmarkheaven.com/jev-models)
 
+## Vision
+
+- [Open Pictionary](https://www.openpictionary.com)
+
 ### Others
 
 - [AI IQ Test](https://trackingai.org)
