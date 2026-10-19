@@ -29,6 +29,10 @@
 
 - https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices
 
+## Astro
+
+- https://github.com/astrolicious/agent-skills/blob/main/skills/astro/SKILL.md
+
 ## Interesting Skills
 
 - <https://github.com/iannuttall/skills/blob/main/skills/chrome-webstore-release-blueprint/SKILL.md>
