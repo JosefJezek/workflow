@@ -20,6 +20,32 @@
 -  Analyze the provided code or system and detail: 1) all potential blocking points or sources of latency, 2) how to rigorously test these areas for concurrency and stress, and 3) the best architectural and asynchronous practices to implement them correctly.
 -  "Identify all wait states" > "Verify test coverage" > "Validate implementation"
 
+## Commit
+
+```
+Create a pre-commit hook that prevents files over 5,000 tokens. Tokens = bytes/4.
+Run only on staged files. Ignore files which are not authored by agents, like lockfiles or codegen.
+Provide explicit instructions on how to split files in the error message.
+```
+
+https://x.com/mattpocockuk/status/2111708560715292675
+
+## Issue
+
+```
+## TL;DR
+
+- First thing in the issue body: `## TL;DR` with 1-3 bullets, nothing else in that section.
+- ELI10, one sentence per bullet, max 20 words.
+- Order: what goes wrong, why it matters, what we do or ask. Skip empty ones, keep the order.
+- User's or tester's view, not the code's. Cause goes below.
+- Waiting on a decision: last bullet is the question, addressed to the decider by name.
+- No backticks, links or context-dependent numbers. One plain size number is fine.
+- Write it last, from the finished body.
+- Above the template sections, which stay complete. Plain-text body without a heading: add `## Report` above it.
+- Issue bodies only, not comments.
+- Update it when an edit changes the meaning. No emojis, no attribution.
+```
 
 ## Loops
 
