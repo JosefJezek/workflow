@@ -43,3 +43,6 @@
 - https://github.com/jakubkrehel/make-interfaces-feel-better
 - https://github.com/jakubkrehel/skills
 - https://github.com/mblode/agent-skills/blob/main/skills/ui-design/SKILL.md
+- https://github.com/Motionsites-AI/claude-skill
+- https://github.com/Nutlope/hallmark
+- https://github.com/pbakaus/impeccable
