@@ -18,6 +18,11 @@ Spec-Driven Development (SDD) is a development methodology that emphasizes creat
 - supports both greenfield and brownfield projects
 - can be used in combination with TDD for enhanced code quality
 
+## New Skills
+
+- https://github.com/google/elephant-goldfish-model
+  - https://notebook.google.com/notebook/ced749b7-5bf9-4ab1-b60b-c2e38cb72649
+
 ## Articles
 
 - https://blog.allegro.tech/2026/06/spec-driven-development-best-practices.html
