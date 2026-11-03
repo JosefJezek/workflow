@@ -46,3 +46,4 @@
 - https://github.com/Motionsites-AI/claude-skill
 - https://github.com/Nutlope/hallmark
 - https://github.com/pbakaus/impeccable
+- https://github.com/emilkowalski/skills
