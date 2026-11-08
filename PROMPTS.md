@@ -19,6 +19,8 @@
 -  Use git bisect to find what broke.
 -  Analyze the provided code or system and detail: 1) all potential blocking points or sources of latency, 2) how to rigorously test these areas for concurrency and stress, and 3) the best architectural and asynchronous practices to implement them correctly.
 -  "Identify all wait states" > "Verify test coverage" > "Validate implementation"
+-  What the skill delivered in tests.
+-  What has changed and what I need to know.  
 
 ## Commit
 
