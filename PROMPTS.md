@@ -22,6 +22,7 @@
 -  What the skill delivered in tests.
 -  What has changed and what I need to know.
 -  ADHD-friendly style.
+-  Style: Plain English + Globish
 
 ## Commit
 
